@@ -1,20 +1,44 @@
-/* Estilizando o cabeçalho */
+body {
+    background-color: white; 
+    margin: 0;
+    padding-top: 0; 
+}
+
 header {
     background-color: #D71920;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start; /* Alinha os itens à esquerda inicialmente */
     align-items: center;
-    padding: 20px;
+    padding: 20px 50px; /* Ajusta as bordas esquerda e direita para mover os itens */
     font-family: Arial, Helvetica, sans-serif;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
 }
 
 header img {
-    max-height: 50px; 
+    max-height: 50px;
+    margin-right: 20px;
+}
+
+.vertical-line {
+    width: 2px;
+    height: 50px;
+    background-color: white;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 nav {
     display: flex;
-    gap: 20px;
+    gap: 0px;
+    align-items: center;
 }
 
 nav a {
@@ -22,27 +46,62 @@ nav a {
     text-decoration: none;
     font-weight: bold;
     padding: 10px 20px;
-    transition: background-color 0.3s ease;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    margin-left: 8.5rem;
+    margin-right: 8.5rem;
 }
 
 nav a:hover {
     background-color: rgba(255, 255, 255, 0.2);
     border-radius: 5px;
+    color: white; 
 }
 
+.menu-icon {
+    font-size: 28px;
+    cursor: pointer;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 5px; 
+}
+
+@media (max-width: 768px) {
+    nav {
+        display: none;
+        flex-direction: column;
+        gap: 10px;
+        background-color: #D71920;
+        position: absolute;
+        top: 60px;
+        right: 0;
+        width: 100%;
+        text-align: center;
+    }
+    
+    nav.active {
+        display: flex;
+    }
+
+    .menu-icon {
+        display: block;
+    }
+}
 
 .image-home img {
     width: 100%;
-    max-height: 500px; 
-    object-fit: cover; 
+    max-height: 500px;
+    object-fit: cover;
+    display: block; 
+    margin: 0;
+    padding: 0;
 }
-
 
 .divider {
     border: 0;
-    height: 1px;
-    background: linear-gradient(to right, #ddd, #D71920, #ddd); 
-    margin: 20px 0;
+    height: 3px; 
+    background: #a11214; 
+    margin: 20px auto; 
+    width: 45rem; 
 }
 
 .barra-opcoes {
@@ -59,14 +118,13 @@ nav a:hover {
     color: rgb(0, 0, 0);
     text-decoration: none;
     font-weight: bold;
-    border-radius: 20px; /* Mais arredondado */
-    transition: background-color 0.3s ease;
+    border-radius: 20px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    width: 150px; 
+    text-align: center; 
 }
 
 .barra-opcoes a:hover {
     background-color: #a11214;
+    color: white; 
 }
-.linha-vertical {
-    border-left: 2px solid;/* Adiciona borda esquerda na div como ser fosse uma linha.*/
-    box-sizing: border-box;
-   }

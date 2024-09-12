@@ -8,24 +8,23 @@
 </head>
 <body>
     <header class="site-header">
-        <img src="img/logo sesi1.png" alt="SESI SENAI">
-        <img src="img/logo senai 2.png" alt="SESI SENAI">
-        <div class="linha-vertical"></div>
+        <div class="logo-container">
+            <img src="img/logo sesi1.png" alt="SESI SENAI">
+            <img src="img/logo senai 2.png" alt="SESI SENAI">
+        </div>
+        <div class="vertical-line"></div>
 
         <nav>
             <a href="#">HOME</a>
             <a href="#">SOBRE-NÓS</a>
             <a href="#">CADASTRE-SE</a>
+            <div class="menu-icon" onclick="toggleMenu()">☰</div>
         </nav>
-        <div class="menu-icon" onclick="toggleMenu()">☰</div>
     </header>
 
-
     <div class="image-home">
-        <img src="img header.png" alt="SESI SENAI">
+        <img src="img/img header.png" alt="Imagem de exemplo">
     </div>
-
-    <hr class="divider">
 
     <div class="barra-opcoes">
         <a href="#">SOBRE</a>
@@ -35,6 +34,8 @@
         <a href="#">SIMULADOS</a>
         <a href="#">ESTÁGIOS</a>
     </div>
+    
+    <hr class="divider">
 
     <script>
         function toggleMenu() {
