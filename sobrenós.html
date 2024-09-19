@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="css/global.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="logo-container">
+            <img src="img/logo sesi1.png" alt="SESI SENAI">
+            <img src="img/logo senai 2.png" alt="SESI SENAI">
+        </div>
+        <div class="vertical-line"></div>
+
+        <nav>
+            <a href="#">HOME</a>
+            <a href="#">SOBRE-NÓS</a>
+            <a href="#">CADASTRE-SE</a>
+            <div class="menu-icon" onclick="toggleMenu()">☰</div>
+        </nav>
+    </header>
+
+    <div class="image-home">
+        <img src="img/img header.png" alt="Imagem de exemplo">
+    </div>
+
+    <div class="barra-opcoes">
+        <a href="#">SOBRE</a>
+        <a href="#">CARREIRAS</a>
+        <a href="#">DICAS</a>
+        <a href="#" class="active">NOTÍCIAS</a>
+        <a href="#">SIMULADOS</a>
+        <a href="#">ESTÁGIOS</a>
+    </div>
+
+    <hr class="divider">
+
+    <script>
+        function toggleMenu() {
+            const nav = document.querySelector('nav');
+            nav.classList.toggle('active');
+        }
+    </script>
+
+<footer>
+    <div class="social-media-container">
+        <div class="social-media">
+            <a href="#" class="social-icon"><img src="img/facebook.png" alt="Facebook"></a>
+            <a href="#" class="social-icon"><img src="img/Instagram.png" alt="Instagram"></a>
+            <a href="#" class="social-icon"><img src="img/WhatsApp.png" alt="WhatsApp"></a>
+            <a href="#" class="social-icon"><img src="img/Youtube.png" alt="YouTube"></a>
+            <a href="#" class="social-icon"><img src="img/Linkedin.png" alt="LinkedIn"></a>
+        </div>
+    </div>
+    <div class="addresses">
+        <div class="address">
+            <h3>EDIFÍCIO REDE SENAI VALINHOS</h3>
+            <p>R. Artur Fernandes Querido, 55 - Vila Santo Antonio, Valinhos - SP, 13270-530</p>
+        </div>
+        <div class="divider"></div>
+        <div class="address">
+            <h3>EDIFÍCIO REDE SESI VALINHOS</h3>
+            <p>Rod. Flávio de Carvalho, 2787 - Jardim São Paulo, Valinhos - SP, 13273-450</p>
+        </div>
+    </div>
+</footer>
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Sobre Nós</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Sobre Nós</h1>
+        <hr class="linha">
+        <p>Somos uma equipe de seis alunos do SENAI, cursando Desenvolvimento de Sistemas. Nosso objetivo é ajudar jovens estudantes a se prepararem para o vestibular, com foco no aprendizado da língua inglesa. Criamos esta página para facilitar esse importante processo de estudos.
+</p>
+        <img src="./img/foto da equipe projetos .jpg" alt="foto da equipe" class="imagem-arredondada">
+    </div>
+</body>
+</html>
