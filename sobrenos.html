@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,6 +8,7 @@
     <link rel="stylesheet" href="css/global.css">
     <link rel="stylesheet" href="css/sobrenos.css">
 </head>
+
 <body>
     <header class="site-header">
         <div class="container-logos">
@@ -37,9 +39,9 @@
                     <li><a href="materias.html#historia">História</a></li>
 
                     <li class="dropdown">
-                        <a href="materias.html#ingles" class="dropdown-toggle" onclick="toggleSubmenu(event)">Inglês ▼</a>
+                        <a href="materias.html#ingles" class="dropdown-toggle" onclick="toggleSubmenu(event)">Inglês
+                            ▼</a>
                         <ul class="submenu">
-                            <li><a href="sobre.html">Sobre</a></li>
                             <li><a href="carreiras.html">Carreiras</a></li>
                             <li><a href="dicas.html">Dicas</a></li>
                             <li><a href="noticias.html">Notícias</a></li>
@@ -64,78 +66,110 @@
     </div>
 
     <div class="barra-opcoes">
-        <a href="sobre.html">SOBRE</a>
-        <a href="carreiras.html">CARREIRAS</a>
-        <a href="dicas.html">DICAS</a>
-        <a href="noticias.html">NOTÍCIAS</a>
-        <a href="video-aula.html">VÍDEO-AULA</a>
-        <a href="simulados.html">SIMULADOS</a>
-        <a href="estagios.html">ESTÁGIOS</a>
-        <a href="sobrenos.html">SOBRE NÓS</a>
+        <a href="#">SOBRE</a>
+        <a href="#">CARREIRAS</a>
+        <a href="#">DICAS</a>
+        <a href="#" class="active">NOTÍCIAS</a>
+        <a href="#" class="active">VÍDEO-AULA</a>
+        <a href="#">SIMULADOS</a>
+        <a href="#">ESTÁGIOS</a>
+        <a href="#">SOBRE NÓS</a>
     </div>
 
     <hr class="divider">
 
     <div class="container">
-      <div class="container_text">
-        <h1>Sobre Nós</h1>
-        <hr class="linha" />
-        <p>
-          Somos uma equipe de seis alunos do SENAI, cursando Desenvolvimento de
-          Sistemas.
-        </p>
-        <p>
-          Nosso objetivo é ajudar jovens estudantes a se prepararem para o
-          vestibular, com foco no aprendizado da língua inglesa.
-        </p>
-        <p>
-          Criamos esta página para facilitar esse importante processo de
-          estudos.
-        </p>
-      </div>
-      <div class="container_img">
-        <img
-          src="./img/foto da equipe projetos .jpg"
-          alt="foto da equipe"
-          class="imagem-arredondada"
-        />
-      </div>
+        <h1 class="containers-title">SOBRE NÓS</h1>
+        <div class="container_text">
+            <hr class="linha" />
+            <p>
+                Somos uma equipe de seis alunos do SENAI, cursando Desenvolvimento de
+                Sistemas.
+            </p>
+            <p>
+                Nosso objetivo é ajudar jovens estudantes a se prepararem para o
+                vestibular, com foco no aprendizado da língua inglesa.
+            </p>
+            <p>
+                Criamos esta página para facilitar esse importante processo de
+                estudos.
+            </p>
+        </div>
+        <div class="container_img">
+            <img src="./img/foto da equipe projetos .jpg" alt="foto da equipe" class="imagem-arredondada" />
+        </div>
     </div>
 
+    <section class="container-2">
+        <h1 class="containers-title">MEMBROS</h1>
+        <hr class="linha">
+        <div class="members">
+            <div class="members-description">
+                <img src="img/guarnieri.jpg" alt="Júlia Guarnieri">
+                <p class="members-name">Júlia Guarnieri</p>
+                <p>Product Owner</p>
+            </div>
+            <div class="members-description">
+                <img src="img/mendes.jpg" alt="Flavia Mendes">
+                <p class="members-name">Flavia Mendes</p>
+                <p>Scrum Master</p>
+            </div>
+            <div class="members-description">
+                <img src="img/barros.jpg" alt="Alejandra Barros">
+                <p class="members-name">Alejandra Barros</p>
+                <p>Desenvolvedora</p>
+            </div>
+            <div class="members-description">
+                <img src="img/alba.jpg" alt="Giovanna Alba">
+                <p class="members-name">Giovanna Alba</p>
+                <p>Desenvolvedora</p>
+            </div>
+            <div class="members-description">
+                <img src="img/luiz.jpg" alt="Luiz Gabriel">
+                <p class="members-name">Luiz Gabriel</p>
+                <p>Desenvolvedor</p>
+            </div>
+            <p class="about-members">Acreditamos na transparência, promovendo uma comunicação aberta que fortalece a confiança entre os membros e o trabalho em equipe. A inovação é central para nossa abordagem, buscando soluções criativas e eficazes para que possamos entregar um portal de alta qualidade que atenda às necessidades dos estudantes, sempre priorizando a experiência do aprendiz.</p>
+        </div>
+        <hr class="divider">
+    </section>
+
+
     <footer>
-      <div class="social-media-container">
-          <div class="social-media">
-              <a href="#" class="social-icon"><img src="img/facebook.png" alt="Facebook"></a>
-              <a href="#" class="social-icon"><img src="img/Instagram.png" alt="Instagram"></a>
-              <a href="#" class="social-icon"><img src="img/WhatsApp.png" alt="WhatsApp"></a>
-              <a href="#" class="social-icon"><img src="img/Youtube.png" alt="YouTube"></a>
-              <a href="#" class="social-icon"><img src="img/Linkedin.png" alt="LinkedIn"></a>
-          </div>
-      </div>
-      <div class="addresses">
-          <div class="address">
-              <h3>EDIFÍCIO REDE SENAI VALINHOS</h3>
-              <p>R. Artur Fernandes Querido, 55 - Vila Santo Antonio, Valinhos - SP, 13270-530</p>
-          </div>
-          <div class="divider"></div>
-          <div class="address">
-              <h3>EDIFÍCIO REDE SESI VALINHOS</h3>
-              <p>Rod. Flávio de Carvalho, 2787 - Jardim São Paulo, Valinhos - SP, 13273-450</p>
-          </div>
-      </div>
-  </footer>
+        <div class="social-media-container">
+            <div class="social-media">
+                <a href="#" class="social-icon"><img src="img/facebook.png" alt="Facebook"></a>
+                <a href="#" class="social-icon"><img src="img/Instagram.png" alt="Instagram"></a>
+                <a href="#" class="social-icon"><img src="img/WhatsApp.png" alt="WhatsApp"></a>
+                <a href="#" class="social-icon"><img src="img/Youtube.png" alt="YouTube"></a>
+                <a href="#" class="social-icon"><img src="img/Linkedin.png" alt="LinkedIn"></a>
+            </div>
+        </div>
+        <div class="addresses">
+            <div class="address">
+                <h3>EDIFÍCIO REDE SENAI VALINHOS</h3>
+                <p>R. Artur Fernandes Querido, 55 - Vila Santo Antonio, Valinhos - SP, 13270-530</p>
+            </div>
+            <div class="divider"></div>
+            <div class="address">
+                <h3>EDIFÍCIO REDE SESI VALINHOS</h3>
+                <p>Rod. Flávio de Carvalho, 2787 - Jardim São Paulo, Valinhos - SP, 13273-450</p>
+            </div>
+        </div>
+    </footer>
 
 </body>
+
 </html>
 
 
 <script>
-  function toggleMenu() {
-      var menu = document.getElementById("matérias-menu");
-      if (menu.style.display === "block") {
-          menu.style.display = "none";
-      } else {
-          menu.style.display = "block";
-      }
-  }
+    function toggleMenu() {
+        var menu = document.getElementById("matérias-menu");
+        if (menu.style.display === "block") {
+            menu.style.display = "none";
+        } else {
+            menu.style.display = "block";
+        }
+    }
 </script>
