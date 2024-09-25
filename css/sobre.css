@@ -25,7 +25,7 @@ h1 {
 }
 
 .linha{
-    border: 0;
+    border: none;
     height: 0.125rem;
     background-color: red;
     margin: 10px 0;

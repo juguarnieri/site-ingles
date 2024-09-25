@@ -19,18 +19,12 @@ body {
     align-items: center;
 }
 
-h1 {
-    font-size: 2em;
-    font-weight: 700; /* Negrito */
-    margin-bottom: 10px;
-}
-
 .linha{
     border: 0;
-    height: 0.125rem;
-    background-color: red;
-    margin: 10px 0;
-    width: 15rem;
+    height: 3px;
+    background-color: #9A1915;
+    margin: 20px 150px;
+    width: 450px;
 }
 
 p {
@@ -48,7 +42,7 @@ p {
     display: flex;
     flex-direction: column;
     align-content: center;
-    justify-content: center;
+    
     align-items: flex-start;
     gap: 0.2rem;
     padding: 0.5rem;
@@ -60,7 +54,47 @@ p {
     margin: 1rem;
 }
 
+.containers-title{
+    font-weight: 900;
+    font-size: 35px;
+    display: flex;
+    justify-content: flex-start;
+    margin: 15px 150px;
+}
 
+.container-2 {
+    text-align: center;
+    margin: 20px;
+}
 
+.members {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
 
+.members-description {
+    margin: 25px;
+    padding-top: 40px;
+    text-align: center;
+}
 
+.members-description img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.568);
+}
+
+.members-name {
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.about-members{
+    justify-content: center;
+    margin: 35px 200px;
+    flex-wrap: wrap;
+    
+}
