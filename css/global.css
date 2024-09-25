@@ -7,7 +7,7 @@ body {
 header {
     background-color: #D71920;
     display: flex;
-    justify-content: space-between;r;
+    justify-content: space-between;
     align-items: center;
     font-family: Arial, Helvetica, sans-serif;
     flex-direction: row;
