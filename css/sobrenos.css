@@ -42,13 +42,13 @@ p {
     justify-content: center;
     margin: 3% 20%;
     flex-wrap: wrap;
-    text-align: center;
+    text-align: justify;
 }
 
 .container-img {
     display: flex;
     justify-content: center;
-    margin: 80px 0;
+    margin: 50px 0;
 }
 
 .containers-title {
@@ -57,7 +57,7 @@ p {
     font-size: 35px;
     display: flex;
     justify-content: flex-start;
-    margin: 50px 0 0 150px;
+    margin: 20px 0 0 150px;
 }
 
 .members {

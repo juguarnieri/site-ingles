@@ -99,9 +99,9 @@ nav a:hover {
 .divider {
     border: 0;
     height: 3px;
-    background: #9A1915;
-    margin: 25px 0;
-    border-radius: 10px;
+    background-color: #9A1915;
+    margin: 45px auto;
+    width: 30rem;
 }
 
 .barra-opcoes {
