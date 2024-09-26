@@ -10,10 +10,10 @@ body {
     padding: 0px;
 }
 
-.container {
-    text-align: center;
-    margin: 20px;
-    align-items: center;
+.container, .container-2 {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 10px;
 }
 
 .line {
@@ -52,17 +52,12 @@ p {
 }
 
 .containers-title {
+    text-align: start;
     font-weight: 900;
     font-size: 35px;
     display: flex;
     justify-content: flex-start;
     margin: 50px 0 0 150px;
-}
-
-.container-2 {
-    text-align: center;
-    margin: 20px;
-    align-items: center;
 }
 
 .members {
@@ -83,6 +78,7 @@ p {
     object-fit: cover;
     border-radius: 50%;
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.568);
+    max-width: 100%;
 }
 
 .members-name {
