@@ -33,9 +33,12 @@ h1 {
     border-radius: 10px;
 }
 
-pre {
+p {
     font-size: 1.2em;
     font-weight: 400;
+    text-align: justify;
+    margin-bottom: 75px;
+   max-width: 700px;
 }
 
 .container_text{
@@ -46,6 +49,7 @@ pre {
     align-items: flex-start;
     gap: 0.2rem;
     padding: 0.5rem;
+    max-width: 1400px;
 }
 
 .content {
