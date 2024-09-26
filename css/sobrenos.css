@@ -10,61 +10,59 @@ body {
     padding: 0px;
 }
 
-
-.container{
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    justify-content: center;
+.container {
+    text-align: center;
+    margin: 20px;
     align-items: center;
 }
 
-.linha{
+.line {
     border: 0;
     height: 4px;
     background-color: #9A1915;
     margin: 20px 150px;
     width: 450px;
+    justify-content: flex-start;
+    border-radius: 10px;
 }
 
 p {
     font-size: 1.2em;
-    font-weight: 400; /* Normal */
+    font-weight: 400;
+    /* Normal */
 }
 
 .imagem-arredondada {
-    width: 500px; 
-    height: 350px; 
+    width: 500px;
+    height: 350px;
     border-radius: 10%;
 }
 
-.container_text{
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    
-    align-items: flex-start;
-    gap: 0.2rem;
-    padding: 0.5rem;
+.container-text {
+    justify-content: center;
+    margin: 3% 20%;
+    flex-wrap: wrap;
+    text-align: center;
 }
 
-.container_img{
+.container-img {
     display: flex;
-    padding: 1rem;
-    margin: 1rem;
+    justify-content: center;
+    margin: 80px 0;
 }
 
-.containers-title{
+.containers-title {
     font-weight: 900;
     font-size: 35px;
     display: flex;
     justify-content: flex-start;
-    margin: 15px 150px;
+    margin: 50px 0 0 150px;
 }
 
 .container-2 {
     text-align: center;
     margin: 20px;
+    align-items: center;
 }
 
 .members {
@@ -90,11 +88,4 @@ p {
 .members-name {
     font-weight: bold;
     margin-top: 15px;
-}
-
-.about-members{
-    justify-content: center;
-    margin: 35px 200px;
-    flex-wrap: wrap;
-    
 }

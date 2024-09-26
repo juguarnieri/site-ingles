@@ -20,7 +20,7 @@ body {
 
 h1 {
     font-size: 2em;
-    font-weight: 700;
+    font-weight: 900;
     margin-bottom: 10px;
 }
 
@@ -30,11 +30,12 @@ h1 {
     background-color: #9A1915;
     margin: 10px 0;
     width: 15rem;
+    border-radius: 10px;
 }
 
 pre {
     font-size: 1.2em;
-    font-weight: 400; 
+    font-weight: 400;
 }
 
 .container_text{
@@ -46,7 +47,6 @@ pre {
     gap: 0.2rem;
     padding: 0.5rem;
 }
-
 
 .content {
     display: flex;
