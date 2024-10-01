@@ -141,7 +141,21 @@ p{
     font-size: 1.2em; 
     line-height: 1.5; 
 }
+.title-container {
+    background-color: rgb(236, 226, 226); 
+    padding: 10px 15px; 
+    border-radius: 8px; 
+    text-align: center; 
+    margin-bottom: 20px; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+}
 
+.title-container h1 {
+    color: #333;   
+    font-size: 1.8em;     
+    margin: 0;            
+    font-weight: bold;      
+}
 .imagem-carreira {
     width: 100%; 
     height: auto;
