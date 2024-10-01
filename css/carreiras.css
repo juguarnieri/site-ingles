@@ -141,6 +141,7 @@ p{
     font-size: 1.2em; 
     line-height: 1.5; 
 }
+
 .title-container {
     background-color: rgb(236, 226, 226); 
     padding: 10px 15px; 
@@ -156,6 +157,7 @@ p{
     margin: 0;            
     font-weight: bold;      
 }
+
 .imagem-carreira {
     width: 100%; 
     height: auto;
