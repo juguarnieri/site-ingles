@@ -1,0 +1,172 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0px;
+}
+
+body {
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 2em;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+
+.linha{
+    border: none;
+    height: 4px;
+    background-color: #9A1915;
+    margin: 10px 0;
+    width: 15rem;
+    border-radius: 10px;
+}
+
+p {
+    font-size: 1.2em;
+    font-weight: 400;
+    text-align: justify;
+    margin-bottom: 75px;
+    max-width: 900px;
+}
+
+.content {
+    display: flex;
+    margin-bottom: 2rem; 
+}
+
+.container_text{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 0.5rem;
+    padding: 0.3rem;
+    max-width: 1400px;
+
+    
+}
+
+.image-container {
+    flex-shrink: 0; 
+    margin-left: 30px; 
+}
+
+.imagem-lado-a-lado {
+    max-width: 300px; 
+    height: 300px; 
+    border-radius: 50%; 
+}
+
+.text-block {
+    flex: 1; 
+    margin-right: 30px; 
+    height: 150px; 
+    overflow: hidden; 
+}
+p{
+    margin: 0;
+    margin-top: 20px;
+    margin-right: 80px;
+}
+
+/*blocos carreiras*/ 
+.career-block {
+    margin: 0;    
+    padding: 0; 
+    text-align: center; 
+}
+
+.career-block h1, 
+.career-block p {
+    margin: 0;          
+    padding: 0;         
+}
+
+.container_text {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 0.5rem;
+    padding: 0.3rem;
+    max-width: 1400px;
+}
+
+.text-career {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.career-block {
+    background-color: #f9f9f9; 
+    border: 1px solid #ddd;
+    border-radius: 8px; 
+    padding: 15px; 
+    margin: 10px; 
+    width: calc(30% - 20px); 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+    text-align: justify;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+}
+
+.career-block:hover {
+    transform: scale(1.05);   
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+}
+
+.career-block h2 {
+    color: #9A1915;
+    font-size: 1.5em; 
+    text-align: center;
+    background-color: rgb(236, 226, 226);
+}
+
+.career-block p {
+    font-size: 1.2em; 
+    line-height: 1.5; 
+}
+
+.title-container {
+    background-color: rgb(236, 226, 226); 
+    padding: 10px 15px; 
+    border-radius: 8px; 
+    text-align: center; 
+    margin-bottom: 20px; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+}
+
+.title-container h1 {
+    color: #333;   
+    font-size: 1.8em;     
+    margin: 0;            
+    font-weight: bold;      
+}
+
+.imagem-carreira {
+    width: 100%; 
+    height: auto;
+    border-radius: 4px; 
+    margin-bottom: 15px; 
+    margin-top: 1rem;
+    object-position: center; 
+}
+
+.banner-site{
+    background-image: linear-gradient(to Left, rgba(0, 0, 0, 0.848), rgba(0, 0, 0, 0.634)), url('../img/CARREIRAS.jpg');
+}

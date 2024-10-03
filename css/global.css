@@ -1,25 +1,48 @@
 body {
-    background-color: white; 
+    background-color: white;
     margin: 0;
-    padding-top: 0; 
+    padding-top: 0;
 }
 
 header {
     background-color: #D71920;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     font-family: Arial, Helvetica, sans-serif;
     flex-direction: row;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     align-content: center;
-    min-height: 4rem;
-    max-height: 4rem;
+    min-height: 5rem;
+    padding: 0 20px;
+    max-height: 5rem;
+    position: relative;
+    z-index: 1;
+    /* Garante que a navegação fique acima da imagem */
 }
 
-.logo-container {
+.container-logos {
     display: flex;
     align-items: center;
+    gap: 1rem;
+}
+
+.container-nav-left {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.container-nav-right {
+
+    justify-content: flex-end;
+}
+
+.logo-sesi img,
+.logo-senai img {
+    max-height: 50px;
+    margin-left: 0;
+    margin-top: 0;
 }
 
 header img {
@@ -29,18 +52,22 @@ header img {
 .vertical-line {
     width: 2px;
     height: 50px;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
+
 }
 
 nav {
     display: flex;
-    gap: 1rem;
+    gap: 2rem;
     flex-direction: row;
     flex-wrap: wrap;
     align-content: center;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     width: 100%;
+    justify-content: flex-end;
+    z-index: 2;
+    margin-top: 10px;
 }
 
 nav a {
@@ -48,23 +75,20 @@ nav a {
     text-decoration: none;
     font-weight: bold;
     transition: background-color 0.3s ease, color 0.3s ease;
+    padding: 5px 10px;
 }
 
 nav a:hover {
     background-color: rgba(255, 255, 255, 0.2);
     border-radius: 5px;
-    color: white; 
+    color: white;
 }
-
 
 .menu-icon {
     font-size: 28px;
     cursor: pointer;
     color: white;
-    font-family: Arial, Helvetica, sans-serif;
 }
-
-
 
 .image-home img {
     width: 100%;
@@ -74,8 +98,20 @@ nav a:hover {
 
 .divider {
     border: 0;
-    height: 3px; 
-    background: #D71920; 
+    height: 4px;
+    width: 450px;
+    background: #9A1915;
+    margin: 40px 0;
+    border-radius: 10px;
+    display: flex;
+}
+
+.divider_div {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
 }
 
 .barra-opcoes {
@@ -99,97 +135,104 @@ nav a:hover {
     font-weight: bold;
     border-radius: 20px;
     transition: background-color 0.3s ease, color 0.3s ease;
+    min-width: 150px;
+    max-width: 150px;
+    text-align: center;
 }
 
 .barra-opcoes a:hover {
     background-color: #a11214;
-    color: white; 
+    color: white;
 }
 
 footer {
-    background-color: #a12720; 
-    padding: 0; 
-    margin: 0; 
+    background-color: #a12720;
+    padding: 0;
+    margin: 0;
     text-align: center;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
-    position: relative; 
+    position: relative;
 
-.social-media-container {
-    background-color: #D71920; 
-    padding: 10px; 
-    border-radius: 5px;
-    margin-bottom: -5px; 
+    .social-media-container {
+        background-color: #D71920;
+        padding: 10px;
+        border-radius: 5px;
+        margin-bottom: -5px;
+    }
+
+    .social-media {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        background-color: #D71920;
+        padding: 10px;
+        border-radius: 5px;
+        width: calc(100% + 20px);
+        margin: 0 -10px;
+        box-sizing: border-box;
+    }
+
+    .social-icon {
+        width: 50px;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .social-icon img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+
+    .addresses {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 20px;
+        padding: 20px 0;
+    }
+
+    .address {
+        flex: 1;
+        max-width: 300px;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .divider {
+        width: 2px;
+        height: 60px;
+        background-color: white;
+        margin-left: 10px;
+        margin-right: 10px;
+        border: none;
+        align-items: center;
+    }
+
+    h3 {
+        font-size: 18px;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    .red-bar {
+        height: 5px;
+        background-color: #D71920;
+        margin: 0;
+        width: 100%;
+        box-sizing: border-box;
+    }
 }
 
-.social-media {
-    display: flex;
-    justify-content: center;
-    gap: 20px; 
-    background-color: #D71920;
-    padding: 10px;
-    border-radius: 5px;
-    width: calc(100% + 20px);
-    margin: 0 -10px;     box-sizing: border-box; 
-}
-
-.social-icon {
-    width: 50px; 
-    height: 50px; 
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.social-icon img {
-    width: 100%; 
-    height: 100%; 
-    object-fit: contain; 
-}
-.addresses {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 20px; 
-    padding: 20px 0; 
-}
-
-.address {
-    flex: 1;
-    max-width: 300px; 
-    text-align: center;
-    padding: 10px; 
-}
-
-.divider {
-    width: 2px;
-    height: 60px;
-    background-color: white;
-    margin-left: 10px;
-    margin-right: 10px;
-}
-
-h3 {
-    font-size: 18px;
-    font-weight: bold;
-    margin-bottom: 10px;
-}
-
-p {
-    font-size: 14px;
-}
-
-.red-bar {
-    height: 5px; 
-    background-color: #D71920; 
-    margin: 0; 
-    width: 100%; 
-    box-sizing: border-box; 
-}
-}
-
-.container-nav-left{
+.container-nav-left {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -202,7 +245,7 @@ p {
     
 }
 
-.container-nav-right{
+.container-nav-right {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -212,8 +255,7 @@ p {
     width: 15%;
 }
 
-
-.container-header-left{
+.container-header-left {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -222,7 +264,8 @@ p {
     align-items: center;
     width: 30%;
 }
-.container-header-right{
+
+.container-header-right {
     display: flex;
     width: 70%;
     flex-direction: row;
@@ -232,10 +275,100 @@ p {
     align-items: center;
 }
 
+.banner-site{
+    position: relative;
+    height: 40rem;
+    width: 100%;
+    background-image: linear-gradient(to Left, rgba(0, 0, 0, 0.848), rgba(0, 0, 0, 0.634)), url('../img/img\ header.png');
+    background-size:cover;
+    background-position: bottom center;
+    display: flex; 
+    align-items: center;
+    justify-content: flex-start; 
+  filter: brightness(100%);
+}
+
+.banner-site h1{
+    flex-direction: column;
+    font-size: 3rem;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 900;
+    line-height: 1.2;
+    color: #ffffff;
+    margin-bottom: 15px;  
+    margin-left: 80px; 
+}
+
+
 
 @media only screen and (max-width: 600px) {
     header {
         min-height: 10rem;
         max-height: 10rem;
     }
+}
+
+/* menu */
+.menu-items {
+    background-color: #990000;
+    color: white;
+    width: 250px;
+    margin-top: 25rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-items ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu-items ul li {
+    padding: 10px;
+    border-bottom: 1px solid #fff;
+}
+
+.menu-items ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.menu-items ul li a:hover {
+    background-color: #cc0000;
+}
+
+.dropdown {
+    position: relative;
+}
+
+.submenu {
+    display: none;
+    background-color: #D71920;
+    padding-left: 20px;
+    /* espaço em branco */
+    margin-top: 5px;
+    position: absolute;
+    /* impede que o submenu afete o layout do menu principal */
+    top: 0;
+}
+
+.dropdown:hover .submenu {
+    display: block;
+}
+
+.submenu li {
+    border-bottom: 1px solid white;
+}
+
+.submenu li a {
+    padding: 10px;
+    text-decoration: none;
+    display: block;
+    color: white;
+}
+
+.submenu li a:hover {
+    background-color: #cc0000;
 }

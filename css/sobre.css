@@ -1,0 +1,90 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0px;
+}
+
+body {
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 2em;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+
+.linha{
+    border: none;
+    height: 4px;
+    background-color: #9A1915;
+    margin: 10px 0;
+    width: 15rem;
+    border-radius: 10px;
+}
+
+p {
+    font-size: 1.2em;
+    font-weight: 400;
+    text-align: justify;
+    margin-bottom: 75px;
+   max-width: 700px;
+}
+
+.container_text{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 0.5rem;
+    padding: 0.3rem;
+    max-width: 1400px;
+
+    
+}
+
+.content {
+    display: flex;
+    margin-bottom: 2rem; 
+}
+
+.image-container {
+    flex-shrink: 0; 
+    margin-left: 30px; 
+}
+
+.imagem-lado-a-lado {
+    max-width: 200px; 
+    height: 200px; 
+    border-radius: 50%; 
+}
+
+.text-block {
+    flex: 1; 
+    margin-right: 30px; 
+    height: 150px; 
+    overflow: hidden; 
+}
+p{
+    margin: 0;
+    margin-top: 20px;
+    
+    margin-right: 80px;
+}
+
+.banner-site{
+    background-image: linear-gradient(to Left, rgba(0, 0, 0, 0.848), rgba(0, 0, 0, 0.634)), url('../img/nova-iorque.jpg');
+}
+
+

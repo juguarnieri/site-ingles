@@ -1,0 +1,91 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0px;
+}
+
+body {
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0px;
+}
+
+.container, .container-2 {
+    max-width: 1400px;
+    min-width: 1400px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.line {
+    border: 0;
+    height: 4px;
+    background-color: #9A1915;
+    margin: 20px 150px;
+    width: 450px;
+    justify-content: flex-start;
+    border-radius: 10px;
+}
+
+p {
+    font-size: 1.2em;
+    font-weight: 400;
+    /* Normal */
+}
+
+.imagem-arredondada {
+    width: 500px;
+    height: 350px;
+    border-radius: 10%;
+}
+
+.container-text {
+    justify-content: center;
+    margin: 3% 20%;
+    flex-wrap: wrap;
+    text-align: justify;
+}
+
+.container-img {
+    display: flex;
+    justify-content: center;
+    margin: 50px 0;
+}
+
+.containers-title {
+    text-align: start;
+    font-weight: 900;
+    font-size: 35px;
+    display: flex;
+    justify-content: flex-start;
+    margin: 20px 0 0 150px;
+}
+
+.members {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.members-description {
+    margin: 25px;
+    padding-top: 40px;
+    text-align: center;
+}
+
+.members-description img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.568);
+    max-width: 100%;
+}
+
+.members-name {
+    font-weight: bold;
+    margin-top: 15px;
+}
+.banner-site{
+    background-image: linear-gradient(to Left, rgba(0, 0, 0, 0.848), rgba(0, 0, 0, 0.634)), url('../img/sobreNos.jpg');
+}
