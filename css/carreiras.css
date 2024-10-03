@@ -166,3 +166,7 @@ p{
     margin-top: 1rem;
     object-position: center; 
 }
+
+.banner-site{
+    background-image: linear-gradient(to Left, rgba(0, 0, 0, 0.848), rgba(0, 0, 0, 0.634)), url('../img/CARREIRAS.jpg');
+}

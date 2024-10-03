@@ -265,6 +265,32 @@ footer {
 }
 
 
+.banner-site{
+    position: relative;
+    height: 40rem;
+    width: 100%;
+    background-image: linear-gradient(to Left, rgba(0, 0, 0, 0.848), rgba(0, 0, 0, 0.634)), url('../img/img\ header.png');
+    background-size:cover;
+    background-position: bottom center;
+    display: flex; 
+    align-items: center;
+    justify-content: flex-start; 
+  filter: brightness(100%);
+}
+
+.banner-site h1{
+    flex-direction: column;
+    font-size: 3rem;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 900;
+    line-height: 1.2;
+    color: #ffffff;
+    margin-bottom: 15px;  
+    margin-left: 80px; 
+}
+
+
+
 @media only screen and (max-width: 600px) {
     header {
         min-height: 10rem;

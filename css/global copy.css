@@ -22,10 +22,6 @@ header {
     align-items: center;
 }
 
-header img {
-    max-height: 50px;
-    margin-right: 20px;
-}
 
 .vertical-line {
     width: 2px;
@@ -64,6 +60,7 @@ nav a:hover {
     font-family: Arial, Helvetica, sans-serif;
     margin-left: 5px; 
 }
+
 
 @media (max-width: 768px) {
     nav {
