@@ -103,6 +103,15 @@ nav a:hover {
     background: #9A1915;
     margin: 40px 0;
     border-radius: 10px;
+    display: flex;
+}
+
+.divider_div {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
 }
 
 .barra-opcoes {
@@ -201,6 +210,7 @@ footer {
         margin-left: 10px;
         margin-right: 10px;
         border: none;
+        align-items: center;
     }
 
     h3 {
@@ -264,7 +274,6 @@ footer {
     align-items: center;
 }
 
-
 .banner-site{
     position: relative;
     height: 40rem;
@@ -303,8 +312,10 @@ footer {
     background-color: #990000;
     color: white;
     width: 250px;
-    margin-top: 400px;
+    margin-top: 25rem;
     position: relative;
+    display: flex;
+    flex-direction: column;
 }
 
 .menu-items ul {
@@ -321,7 +332,6 @@ footer {
 .menu-items ul li a {
     color: white;
     text-decoration: none;
-    display: block;
 }
 
 .menu-items ul li a:hover {
