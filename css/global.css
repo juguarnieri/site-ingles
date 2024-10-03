@@ -98,10 +98,11 @@ nav a:hover {
 
 .divider {
     border: 0;
-    height: 3px;
-    background-color: #9A1915;
-    margin: 45px auto;
-    width: 30rem;
+    height: 4px;
+    width: 450px;
+    background: #9A1915;
+    margin: 40px 0;
+    border-radius: 10px;
 }
 
 .barra-opcoes {
@@ -276,7 +277,7 @@ footer {
     background-color: #990000;
     color: white;
     width: 250px;
-    margin-top: 29.5rem;
+    margin-top: 400px;
     position: relative;
 }
 
