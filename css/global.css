@@ -106,7 +106,7 @@ nav a:hover {
     display: flex;
 }
 
-.divider_div {
+.divider_section{
     display: flex;
     flex-direction: row;
     align-content: center;
@@ -285,7 +285,7 @@ footer {
     display: flex; 
     align-items: center;
     justify-content: flex-start; 
-  filter: brightness(100%);
+    filter: brightness(100%);
 }
 
 .banner-site h1{
