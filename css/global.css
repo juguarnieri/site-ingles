@@ -106,7 +106,7 @@ nav a:hover {
     display: flex;
 }
 
-.divider_div {
+.divider_section {
     display: flex;
     flex-direction: row;
     align-content: center;
