@@ -57,7 +57,7 @@ body {
 }
 
 .dica-title {
-    font-weight: bold;
+    font-weight: 900;
     font-size: 25px;
     margin: 20px 0;
 }
@@ -87,13 +87,13 @@ body {
 
 .dica-text-text {
     display: flex;
-    max-width: 50%
-
+    max-width: 50%;
+    flex-direction: column;
 }
 
 .dica-text-text .text {
     font-size: 20px;
-    margin-left: 120px;
+    margin: 20px 0 0 120px;
     text-align: justify;
 }
 
@@ -125,6 +125,7 @@ body {
     padding: 20px;
     border-radius: 12.5px;
     height: 300px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .curso-block:hover {
@@ -147,4 +148,90 @@ body {
 .curso-text a {
     color: #0054A1;
     font-size: 20px;
+}
+
+.dica-title-divisor {
+    display: flex;
+    justify-content: start;
+}
+
+.divisor {
+    border: none;
+    width: 500px;
+    height: 4px;
+    background-color: #9A1915;
+    border-radius: 10px;
+}
+
+.dica-category {
+    display: flex;
+    justify-content: center;
+    font-weight: 900;
+    font-size: 35px;
+    margin: 150px 0 45px 0;
+    color: #9A1915;
+    text-align: center;
+    flex-direction: column;
+
+}
+
+.dica-category-title {
+    font-size: 35px;
+    font-weight: 900;
+    margin: -20px 0;
+}
+
+.dica-title-center {
+    font-size: 25px;
+    font-weight: 900;
+    margin: 20px 0 -10px 0;
+    text-align: center;
+}
+
+.graphic-img {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.graphic-img img {
+    width: 60%;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.graphic-caption {
+    display: flex;
+    justify-content: center;
+}
+
+.graphic-caption a {
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 10px;
+    color: rgba(87, 87, 87, 0.5);
+    text-decoration: none;
+}
+
+.graphic-caption a:hover {
+    color: #0054A1;
+    text-decoration: underline;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.dica-content-title {
+    font-size: 25px;
+    font-weight: 900;
+    color: #9A1915;
+    text-align: center;
+    margin: 0 0 30px 0;
+}
+
+.dica-text-content {
+    background-color: rgba(87, 87, 87, 0.25);
+    padding: 50px;
+    border-radius: 60px;
+    max-width: 1000px;
+    margin: 20px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.39);
 }
