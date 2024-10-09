@@ -192,12 +192,18 @@ body {
     display: flex;
     justify-content: center;
     margin: 20px 0;
+    
 }
 
 .graphic-img img {
     width: 60%;
     border-radius: 5px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.graphic-img img:hover {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
 .graphic-caption {
@@ -228,7 +234,7 @@ body {
 }
 
 .dica-text-content {
-    background-color: rgba(87, 87, 87, 0.25);
+    background-color: rgba(87, 87, 87, 0.1);
     padding: 50px;
     border-radius: 60px;
     max-width: 1000px;
