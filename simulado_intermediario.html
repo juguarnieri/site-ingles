@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/simulado_intermediario.css">
+    <script src="script_intermediario.js" defer></script> 
+</head>
+
+<body>
+    <header class="site-header">
+        <div class="container-logos">
+            <div class="logo-sesi">
+                <img src="img/logo sesi1.png" alt="SESI">
+            </div>
+            <div class="logo-senai">
+                <img src="img/logo senai 2.png" alt="SENAI">
+            </div>
+            <div class="vertical-line"></div>
+        </div>
+
+        <nav>
+            <a href="./index.html">HOME</a>
+            <a href="./sobrenos.html">SOBRE-NÓS</a>
+            <a href="#">CADASTRE-SE</a>
+
+            <div class="menu-icon" onclick="toggleMenu()">☰</div>
+
+            <div id="matérias-menu" class="menu-items">
+                <h3>MATÉRIAS</h3>
+                <ul>
+                    <li><a href="materias.html#biologia">Biologia</a></li>
+                    <li><a href="materias.html#efisica-artes">E. Física e Artes</a></li>
+                    <li><a href="materias.html#filosofia">Filosofia</a></li>
+                    <li><a href="materias.html#fisica">Física</a></li>
+                    <li><a href="materias.html#geografia">Geografia</a></li>
+                    <li><a href="materias.html#historia">História</a></li>
+
+                    <li class="dropdown">
+                        <a href="materias.html#ingles" class="dropdown-toggle" onclick="toggleSubmenu(event)">Inglês
+                            ▼</a>
+                        <ul class="submenu">
+                            <li><a href="sobre.html">Sobre</a></li>
+                            <li><a href="carreiras.html">Carreiras</a></li>
+                            <li><a href="dicas.html">Dicas</a></li>
+                            <li><a href="noticias.html">Notícias</a></li>
+                            <li><a href="video-aula.html">Vídeo-aula</a></li>
+                            <li><a href="simulado.html">Simulado</a></li>
+                            <li><a href="estagio.html">Estágios</a></li>
+                            <li><a href="simulado.html">Simulado</a></li>
+                            <li><a href="sobrenos.html">Sobre nós</a></li>
+                        </ul>
+                    </li>
+
+                    <li><a href="materias.html#matematica">Matemática</a></li>
+                    <li><a href="materias.html#portugues">Português</a></li>
+                    <li><a href="materias.html#quimica">Química</a></li>
+                    <li><a href="materias.html#sociologia">Sociologia</a></li>
+                </ul>
+            </div>
+    </header>
+
+    <section class="banner-site">
+
+        <div class="banner-text">
+            <h1> HOME- <br> <span> LÍNGUA </span> <br> INGLESA </h1>
+        </div>
+
+    </section>
+
+    <div class="barra-opcoes">
+        <a href="sobre.html">SOBRE</a>
+        <a href="carreiras.html">CARREIRAS</a>
+        <a href="dicas.html">DICAS</a>
+        <a href="noticias.html">NOTÍCIAS</a>
+        <a href="video-aula.html">VÍDEO-AULA</a>
+        <a href="simulados.html">SIMULADOS</a>
+        <a href="estagios.html">ESTÁGIOS</a>
+        <a href="sobrenos.html">SOBRE NÓS</a>
+    </div>
+
+    <section class="divider_section">
+        <hr class="divider">
+    </section>
+
+    <div class="container">
+        <h1>Nível Intermediário</h1>
+        <form id="quiz-form">
+            <div class="question" data-correct="1">
+                <h2>1. (Enem PPL 2014)</h2>
+                <div class="image-question">
+                <img src="img/simu1.webp" alt="simulado">
+                </div>
+                <h3>Implementar políticas adequadas de alimentação e nutrição é uma meta prioritária em vários países do mundo. A partir da campanha If you can’t read it, why eat it?, os leitores são alertados para o perigo de</h3>
+                <label class="option">
+                    <input type="radio" name="answer1" value="0"> a) acessarem informações equivocadas sobre a formulação química de alimentos empacotados.
+                </label>
+                <label class="option">
+                    <input type="radio" name="answer1" value="1"> b) consumirem alimentos industrializados sem o interesse em conhecer a sua composição.
+                </label>
+                <label class="option">
+                    <input type="radio" name="answer1" value="0"> c) desenvolverem problemas de saúde pela falta de conhecimento a respeito do teor dos alimentos.
+                </label>
+                <label class="option">
+                    <input type="radio" name="answer1" value="0"> d) incentivarem crianças a ingerirem grande quantidade de alimentos processados e com conservantes.
+                </label>
+                <label class="option">
+                    <input type="radio" name="answer1" value="0"> e) ignorarem o aumento constante da obesidade causada pela má alimentação na fase de desenvolvimento da crianças.
+                </label>
+            </div>
+            <div class="question" data-correct="1">
+                <h2>2. Qual é o maior planeta do sistema solar?</h2>
+                <label class="option">
+                    <input type="radio" name="answer2" value="0"> Terra
+                </label>
+                <label class="option">
+                    <input type="radio" name="answer2" value="1"> Júpiter
+                </label>
+                <label class="option">
+                    <input type="radio" name="answer2" value="0"> Marte
+                </label>
+                <label class="option">
+                    <input type="radio" name="answer2" value="0"> Saturno
+                </label>
+            </div>
+            <div class="question" data-correct="1">
+                <h2>3. Qual é o símbolo químico do Ouro?</h2>
+                <label class="option">
+                    <input type="radio" name="answer3" value="0"> Au
+                </label>
+                <label class="option">
+                    <input type="radio" name="answer3" value="0"> Ag
+                </label>
+                <label class="option">
+                    <input type="radio" name="answer3" value="0"> Pb
+                </label>
+                <label class="option">
+                    <input type="radio" name="answer3" value="1"> Pb
+                </label>
+            </div>
+            <div class="question" data-correct="1">
+                <h2>4. Qual é a língua mais falada do mundo?</h2>
+                <label class="option">
+                    <input type="radio" name="answer4" value="1"> Mandarim
+                </label>
+                <label class="option">
+                    <input type="radio" name="answer4" value="0"> Espanhol
+                </label>
+                <label class="option">
+                    <input type="radio" name="answer4" value="0"> Inglês
+                </label>
+                <label class="option">
+                    <input type="radio" name="answer4" value="0"> Hindi
+                </label>
+            </div>
+            <div class="question" data-correct="1">
+                <h2>5. Qual é o continente mais populoso?</h2>
+                <label class="option">
+                    <input type="radio" name="answer5" value="0"> África
+                </label>
+                <label class="option">
+                    <input type="radio" name="answer5" value="1"> Ásia
+                </label>
+                <label class="option">
+                    <input type="radio" name="answer5" value="0"> Europa
+                </label>
+                <label class="option">
+                    <input type="radio" name="answer5" value="0"> América do Norte
+                </label>
+            </div>
+            <div class="question" data-correct="1">
+                <h2>6. Quem escreveu 'Dom Casmurro'?</h2>
+                <label class="option">
+                    <input type="radio" name="answer6" value="0"> Manuel Bandeira
+                </label>
+                <label class="option">
+                    <input type="radio" name="answer6" value="1"> Machado de Assis
+                </label>
+                <label class="option">
+                    <input type="radio" name="answer6" value="0"> Clarice Lispector
+                </label>
+                <label class="option">
+                    <input type="radio" name="answer6" value="0"> Jorge Amado
+                </label>
+            </div>
+            <div class="question" data-correct="1">
+                <h2>7. Qual é o maior oceano do mundo?</h2>
+                <label class="option">
+                    <input type="radio" name="answer7" value="0"> Oceano Atlântico
+                </label>
+                <label class="option">
+                    <input type="radio" name="answer7" value="1"> Oceano Pacífico
+                </label>
+                <label class="option">
+                    <input type="radio" name="answer7" value="0"> Oceano Índico
+                </label>
+                <label class="option">
+                    <input type="radio" name="answer7" value="0"> Oceano Ártico
+                </label>
+            </div>
+            <div class="question" data-correct="1">
+                <h2>8. Em que ano o homem pisou na Lua pela primeira vez?</h2>
+                <label class="option">
+                    <input type="radio" name="answer8" value="0"> 1965
+                </label>
+                <label class="option">
+                    <input type="radio" name="answer8" value="1"> 1969
+                </label>
+                <label class="option">
+                    <input type="radio" name="answer8" value="0"> 1971
+                </label>
+            </div>
+            <div class="question" data-correct="1">
+                <h2>9. Qual é a fórmula da água?</h2>
+                <label class="option">
+                    <input type="radio" name="answer9" value="0"> H2O2
+                </label>
+                <label class="option">
+                    <input type="radio" name="answer9" value="1"> H2O
+                </label>
+                <label class="option">
+                    <input type="radio" name="answer9" value="0"> O2H
+                </label>
+            </div>
+            <div class="question" data-correct="1">
+                <h2>10. Quem pintou a Mona Lisa?</h2>
+                <label class="option">
+                    <input type="radio" name="answer10" value="0"> Vincent Van Gogh
+                </label>
+                <label class="option">
+                    <input type="radio" name="answer10" value="1"> Leonardo da Vinci
+                </label>
+                <label class="option">
+                    <input type="radio" name="answer10" value="0"> Pablo Picasso
+                </label>
+            </div>
+            <button type="button" id="submit">Enviar</button>
+        </form>
+        <p id="result"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+    <footer>
+        <div class="social-media-container">
+            <div class="social-media">
+                <a href="#" class="social-icon"><img src="img/facebook.png" alt="Facebook"></a>
+                <a href="#" class="social-icon"><img src="img/Instagram.png" alt="Instagram"></a>
+                <a href="#" class="social-icon"><img src="img/WhatsApp.png" alt="WhatsApp"></a>
+                <a href="#" class="social-icon"><img src="img/Youtube.png" alt="YouTube"></a>
+                <a href="#" class="social-icon"><img src="img/Linkedin.png" alt="LinkedIn"></a>
+            </div>
+        </div>
+        <div class="addresses">
+            <div class="address">
+                <h3>EDIFÍCIO REDE SENAI VALINHOS</h3>
+                <p>R. Artur Fernandes Querido, 55 - Vila Santo Antonio, Valinhos - SP, 13270-530</p>
+            </div>
+            <div class="divider"></div>
+            <div class="address">
+                <h3>EDIFÍCIO REDE SESI VALINHOS</h3>
+                <p>Rod. Flávio de Carvalho, 2787 - Jardim São Paulo, Valinhos - SP, 13273-450</p>
+            </div>
+        </div>
+
+    </div>
+    </footer>
+
+</body>
+
+</html>
+
+
+<script>
+    function toggleMenu() {
+        var menu = document.getElementById("matérias-menu");
+        if (menu.style.display === "block") {
+            menu.style.display = "none";
+        } else {
+            menu.style.display = "block";
+        }
+    }
+</script>
+
