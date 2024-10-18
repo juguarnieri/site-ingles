@@ -68,6 +68,10 @@ h2 {
 .h3-questions {
     font-size: 1rem;
 }
+
+.banner-site{
+    background-image: linear-gradient(to Left, rgba(0, 0, 0, 0.848), rgba(0, 0, 0, 0.634)), url('../img/banner-simulado.jpg');
+}
 /*responsividade*/
 @media (max-width: 768px) {
     .container {
