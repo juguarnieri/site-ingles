@@ -5,6 +5,7 @@
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .option {
@@ -73,7 +74,3 @@ h3 {
     font-size: 1.2rem;
     font-family: Arial, Helvetica, sans-serif;
 }
- h3 {
-    font-size: 1rem;
-    font-family: Arial, Helvetica, sans-serif;
- }
