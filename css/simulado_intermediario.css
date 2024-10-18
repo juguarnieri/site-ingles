@@ -68,5 +68,39 @@ h2 {
 .h3-questions {
     font-size: 1rem;
 }
+/*responsividade*/
+@media (max-width: 768px) {
+    .container {
+        padding: 15px;
+    }
 
+    .option {
+        padding: 8px;
+    }
 
+    button {
+        padding: 8px 16px;
+    }
+
+    .h3-questions {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        padding: 10px;
+    }
+
+    .option {
+        padding: 6px;
+    }
+
+    button {
+        padding: 6px 12px;
+    }
+
+    .h3-questions {
+        font-size: 0.8rem;
+    }
+}
