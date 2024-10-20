@@ -1,0 +1,138 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0px;
+}
+
+.banner-site{
+    background-image: linear-gradient(to Left, rgba(0, 0, 0, 0.848), rgba(0, 0, 0, 0.634)), url('../img/banner-simulado.jpg');
+}
+
+.container {
+    display: flex;
+    max-width: 75rem;
+    margin: auto;
+    flex-direction: column;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.container-title {
+    display: flex;
+    justify-content: center;
+    margin: 4rem 0;
+}
+
+.container-title h1 {
+    font-size: 2rem;
+    font-weight: 900;
+    color: #9a1915;
+}
+
+
+.question {
+    display: flex;
+    flex-direction: column;
+    margin: 2.5rem 2rem;
+}
+
+.question-title {
+    display: flex;
+    margin-bottom: 1rem; 
+}
+
+.question-title h2 {
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+
+.divisor-section {
+    display: flex;
+    justify-content: start;
+    margin-bottom: 2rem;
+}
+
+.divisor {
+    border: none;
+    width: 300px;
+    height: 4px;
+    background-color: #9A1915;
+    border-radius: 10px;
+}
+
+.subtitle {
+    font-size: 1.2rem;
+    color:#575757;
+}
+
+.question-img {
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0;
+}
+
+.question-img img {
+    width: 35%;
+}
+
+.img-caption {
+    display: flex;
+    justify-content: end;
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    color: #575757;
+}
+
+.question-text p {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.option {
+    display: block;
+    margin: 10px 0;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.1rem;
+}
+
+.option:hover {
+    background-color: #f9f9f9;
+}
+
+.question-text1 {
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0;
+}
+
+.question-text1 p {
+    font-size: 1.2rem;
+    line-height: 2rem;
+}
+
+.question-text2 {
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0;
+}
+
+.question-text2 p {
+    font-size: 1.2rem;
+    line-height: 2rem;
+    text-align: justify;
+}
+
+.question-img8 {
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0;
+}
+
+.question-img8 img {
+    width: 50%;
+}
