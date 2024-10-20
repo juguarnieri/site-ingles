@@ -21,8 +21,25 @@
 
 .container-title {
     display: flex;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: space-between;
     margin: 4rem 0;
+    align-items: center;
+}
+
+
+.hr-left {
+    background-color: #9a1915;
+    height: 4px;
+    width: 250px;
+    border-radius: 10px;
+}
+
+.hr-right {
+    background-color: #9a1915;
+    height: 4px;
+    width: 250px;
+    border-radius: 10px;
 }
 
 .container-title h1 {
