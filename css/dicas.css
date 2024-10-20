@@ -17,6 +17,12 @@ body {
     flex-direction: column;
 }
 
+.title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
 .container-title {
     display: flex;
     justify-content: center;
@@ -25,6 +31,22 @@ body {
     margin: 20px 0;
     color: #9A1915;
     text-align: center;
+}
+
+.hr-left {
+    background-color: #9a1915;
+    height: 4px;
+    width: 350px;
+    border-radius: 10px;
+    margin-top: 3%;
+}
+
+.hr-right {
+    background-color: #9a1915;
+    height: 4px;
+    width: 350px;
+    border-radius: 10px;
+    margin-top: 3%;
 }
 
 .intro-text {
