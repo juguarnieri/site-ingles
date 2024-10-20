@@ -1,3 +1,7 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 .container {
     max-width: 55rem;
     margin: auto;
@@ -60,21 +64,45 @@ button:hover {
 }
 
 h3 {
-    font-family: Arial, sans-serif; 
     color: #333; 
     margin-top: 10px; 
     font-size: 1rem;
 }
 
-h1 {
-    font-family: Arial, Helvetica, sans-serif;
-}
-
 h2 {
-    font-family: Arial, Helvetica, sans-serif;
     color: #9A1915;
 }
 
-p {
-    font-family: Arial, Helvetica, sans-serif;
+.banner-site{
+    background-image: linear-gradient(to Left, rgba(0, 0, 0, 0.848), rgba(0, 0, 0, 0.634)), url('../img/banner-simulado.jpg');
+}
+
+/*responsividade*/
+
+@media (max-width: 768px) {
+    .container {
+        padding: 15px;
+    }
+
+    .option {
+        padding: 8px;
+    }
+
+    button {
+        padding: 8px 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        padding: 10px;
+    }
+
+    .option {
+        padding: 6px;
+    }
+
+    button {
+        padding: 6px 12px;
+    }
 }
