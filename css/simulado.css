@@ -4,23 +4,17 @@
     padding: 0px;
 }
 
-
 body {
     background-color: #ffffff;
     margin: 0;
     padding: 0px;
 }
 
-
 .container-principal {
     display: flex;
     flex-direction: column;
     justify-content: center;
     padding: 4rem;
-}
-
-.title {
-
 }
 
 .title h1 {
@@ -57,7 +51,7 @@ body {
 .nivel-img img {
     width: 300px;
     height: 300px;
-    border-radius: 80px;
+    border-radius: 200px;
 }
 
 .nivel-text {
