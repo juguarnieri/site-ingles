@@ -12,112 +12,90 @@ body {
 }
 
 
-.container{
+.container-principal {
     display: flex;
     flex-direction: column;
-    align-content: center;
     justify-content: center;
-    align-items: center;
+    padding: 4rem;
 }
 
+.title {
 
-h1 {
-    font-size: 2em;
+}
+
+.title h1 {
+    font-size: 2rem;
     font-weight: 900;
-    margin-bottom: 10px;
 }
 
+.linha-section {
+    display: flex;
+    justify-content: start;
+    margin: 0.2rem 0 2rem 0;
+}
 
-.linha{
+.linha {
     border: none;
+    width: 800px;
     height: 4px;
     background-color: #9A1915;
-    margin: 10px 0;
-    width: 15rem;
     border-radius: 10px;
 }
 
-
-p {
-    font-size: 1.2em;
-    font-weight: 400;
-    text-align: justify;
-    margin-bottom: 75px;
-    max-width: 700px;
+.nivel {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 3rem 0;
 }
 
+.nivel-img {
+    display: flex;
+    align-items: center;
+}
 
-.container_text{
+.nivel-img img {
+    width: 300px;
+    height: 300px;
+    border-radius: 80px;
+}
+
+.nivel-text {
     display: flex;
     flex-direction: column;
-    align-content: center;
     justify-content: center;
-    align-items: flex-start;
-    gap: 0.5rem;
-    padding: 0.3rem;
-    max-width: 1400px;
-
-
-   
 }
 
-
-.content {
-    display: flex;
+.nivel-text h2 {
+    font-size: 1.5rem;
+    font-weight: 900;
     margin-bottom: 2rem;
 }
 
-
-.image-container {
-    flex-shrink: 0;
-    margin-left: 30px;
+.nivel-text p {
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin-bottom: 2rem;
 }
 
-
-.imagem-lado-a-lado {
-    max-width: 200px;
-    height: 200px;
-    border-radius: 50%;
-}
-
-
-.text-block {
-    flex: 1;
-    margin-right: 30px;
-    height: 150px;
-    overflow: hidden;
-}
-p{
-    margin: 0;
-    margin-top: 20px;
-   
-    margin-right: 80px;
-}
-
-.btn{
-    font-family:'Poppins', sans-serif;
-    display: inline-block;
-    padding: 15px 10px;
-    background:#D71920;
-    font-size: 15px;
-    font-weight: 600;
-    line-height: 30px;
-    color:#000000;
+.nivel-text button {
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #9A1915;
+    color: #ffffff;
+    font-weight: 700;
     transition: all .50s ease;
     cursor: pointer;
-    border-radius: 5px;
 }
 
-.btn:hover{
+.nivel-text button:hover {
     transform: translateX(5px);
     border: 2px solid;
     border-color:#D71920;
-    background-color: transparent;
-    color:var#D71920;
+    background-color: white;
+    color:black;
     border-radius: 5px;
-} 
-
-
+}
 
 .banner-site{
     background-image: linear-gradient(to Left, rgba(0, 0, 0, 0.848), rgba(0, 0, 0, 0.634)), url('../img/banner-simulado.jpg');
