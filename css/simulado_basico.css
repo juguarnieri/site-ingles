@@ -65,11 +65,7 @@ button:hover {
     border-radius: 8px; 
 }
 
-h3 {
-    color: #333; 
-    margin-top: 10px; 
-    font-size: 1rem;
-}
+
 .banner-site{
     background-image: linear-gradient(to Left, rgba(0, 0, 0, 0.848), rgba(0, 0, 0, 0.634)), url('../img/banner-simulado.jpg');
 }

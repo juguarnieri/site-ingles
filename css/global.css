@@ -303,12 +303,6 @@ footer {
 
 
 
-@media only screen and (max-width: 600px) {
-    header {
-        min-height: 10rem;
-        max-height: 10rem;
-    }
-}
 
 /* menu */
 .menu-items {
@@ -444,3 +438,6 @@ footer {
         padding: 5px;
     }
 }
+
+
+
