@@ -90,6 +90,8 @@ nav a:hover {
     color: white;
 }
 
+
+
 .image-home img {
     width: 100%;
     margin: 0;
@@ -310,7 +312,7 @@ footer {
 
 /* menu */
 .menu-items {
-    background-color: #990000;
+    background-color: #D71920;
     color: white;
     width: 250px;
     margin-top: 25rem;
@@ -368,4 +370,77 @@ footer {
 
 .submenu li a:hover {
     background-color: #cc0000;
+}
+
+@media screen and (max-width: 768px) {
+    /* Esconder o menu padrão em telas pequenas */
+    nav a {
+        display: none;
+    }
+
+    /* Mostrar o ícone de menu hamburguer */
+    .menu-icon {
+        display: block;
+    }
+
+    .menu-items {
+        display: none;
+        position: absolute;
+        top: 130px;
+        right: 0;
+        width: 100%;
+        height: auto;
+        background-color: #D71920;
+        margin-top: 0;
+        padding: 10px 0;
+    }
+
+    /* Exibir o menu quando ativado */
+    .menu-items.active {
+        display: block;
+    }
+
+    /* Exibir os links corretamente dentro do menu ativado */
+    .menu-items ul {
+        list-style: none;
+        padding-left: 0;
+        margin: 0;
+    }
+
+    .menu-items ul li {
+        text-align: left;
+        padding: 10px;
+        border-bottom: 1px solid white;
+    }
+
+    .menu-items ul li a {
+        color: white;
+        text-decoration: none;
+        display: block;
+        padding: 10px;
+        font-weight: bold;
+    }
+
+    .menu-items ul li a:hover {
+        background-color: #cc0000;
+    }
+
+    /* O submenu terá alinhamento diferente para telas pequenas */
+    .submenu {
+        position: relative;
+        padding-left: 0;
+        margin: 0;
+        display: none;
+    }
+
+    /* Exibir submenu ao ativar */
+    .dropdown:hover .submenu {
+        display: block;
+    }
+
+    /* Alinhamento do submenu para caber bem em telas pequenas */
+    .submenu li {
+        text-align: left;
+        padding: 5px;
+    }
 }
