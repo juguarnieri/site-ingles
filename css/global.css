@@ -90,8 +90,6 @@ nav a:hover {
     color: white;
 }
 
-
-
 .image-home img {
     width: 100%;
     margin: 0;
@@ -290,7 +288,7 @@ footer {
     filter: brightness(100%);
 }
 
-.banner-site h1{
+.banner-site p{
     flex-direction: column;
     font-size: 3rem;
     font-family: "Montserrat", sans-serif;
@@ -300,11 +298,29 @@ footer {
     margin-bottom: 15px;  
     margin-left: 80px; 
 }
+.menu-icon {
+    font-size: 28px;
+    cursor: pointer;
+    color: white;
+    display: block; 
+    margin-left: 10px;
+}
 
+.menu-items.active {
+    display: flex; 
+    flex-direction: column;
+}
 
+@media (max-width: 480px) {
+    header {
+        padding: 30px; 
+    }
 
+    .banner-text {
+        display: none;
+    }
+}
 
-/* menu */
 .menu-items {
     background-color: #D71920;
     color: white;
@@ -313,6 +329,7 @@ footer {
     position: relative;
     display: flex;
     flex-direction: column;
+    
 }
 
 .menu-items ul {
@@ -340,15 +357,19 @@ footer {
 }
 
 .submenu {
-    display: none;
+    display: none; 
     background-color: #D71920;
     padding-left: 20px;
     margin-top: 5px;
     position: absolute;
 }
 
-.dropdown:hover .submenu {
+.dropdown.active .submenu {
     display: block;
+}
+
+.dropdown:hover .submenu {
+    display: block; 
 }
 
 .submenu li {
@@ -367,20 +388,19 @@ footer {
 }
 
 @media screen and (max-width: 768px) {
-    /* Esconder o menu padrão em telas pequenas */
     nav a {
-        display: none;
+        display: none; 
     }
-
-    /* Mostrar o ícone de menu hamburguer */
+    
     .menu-icon {
-        display: block;
+        display: block; 
+        margin-left: 10px; 
     }
 
     .menu-items {
         display: none;
         position: absolute;
-        top: 130px;
+        margin-top: 200px; 
         right: 0;
         width: 100%;
         height: auto;
@@ -389,55 +409,161 @@ footer {
         padding: 10px 0;
     }
 
-    /* Exibir o menu quando ativado */
     .menu-items.active {
-        display: block;
-    }
-
-    /* Exibir os links corretamente dentro do menu ativado */
-    .menu-items ul {
-        list-style: none;
-        padding-left: 0;
-        margin: 0;
-    }
-
-    .menu-items ul li {
-        text-align: left;
-        padding: 10px;
-        border-bottom: 1px solid white;
-    }
-
-    .menu-items ul li a {
-        color: white;
-        text-decoration: none;
-        display: block;
-        padding: 10px;
-        font-weight: bold;
-    }
-
-    .menu-items ul li a:hover {
-        background-color: #cc0000;
-    }
-
-    /* O submenu terá alinhamento diferente para telas pequenas */
-    .submenu {
-        position: relative;
-        padding-left: 0;
-        margin: 0;
-        display: none;
-    }
-
-    /* Exibir submenu ao ativar */
-    .dropdown:hover .submenu {
-        display: block;
-    }
-
-    /* Alinhamento do submenu para caber bem em telas pequenas */
-    .submenu li {
-        text-align: left;
-        padding: 5px;
+        display: flex;
+        flex-direction: column; 
     }
 }
 
+@media (min-width: 481px) and (max-width: 768px) {
+    header {
+        padding: 40px; 
+    }
 
+    .menu-items {
+        display: flex; 
+        flex-direction: row; 
+        width: auto; 
+    }
 
+    .menu-items ul li {
+        padding: 8px; 
+    }
+
+    .menu-items ul li a {
+        font-size: 1rem; 
+    }
+}
+
+@media (max-width: 882px) {
+    nav a {
+        display: none; 
+    }
+
+    .menu-icon {
+        display: block; 
+        margin-left: 10px; 
+    }
+
+    nav {
+        display: block; 
+    }
+
+    header {
+        flex-direction: column; 
+        height: auto; 
+        padding: 30px; 
+    }
+
+    .container-logos {
+        flex-direction: column;
+        gap: 0.5rem; 
+    }
+
+    .container-nav-left,
+    .container-nav-right {
+        width: 100%; 
+        justify-content: center; 
+    }
+
+    .logo-sesi img,
+    .logo-senai img {
+        max-height: 40px; 
+    }
+
+    .vertical-line {
+        display: none;
+    }
+
+    .menu-items {
+        display: block; 
+        position: absolute; 
+        top: 160px; 
+        right: 0;
+        width: 100%;
+        background-color: #D71920; 
+        margin-top: 0; 
+        padding: 10px 0; 
+    }
+
+    .menu-items.active {
+        display: flex; 
+    }
+
+    .menu-items ul {
+        list-style: none; 
+        padding-left: 0; 
+        margin: 0; 
+    }
+
+    .menu-items ul li {
+        text-align: left; 
+        padding: 10px; 
+        border-bottom: 1px solid white; 
+    }
+
+    .menu-items ul li a {
+        color: white; 
+        text-decoration: none; 
+        display: block; 
+        padding: 10px; 
+        font-weight: bold; 
+    }
+
+    .menu-items ul li a:hover {
+        background-color: #cc0000; 
+    }
+
+    .submenu {
+        position: relative; 
+        padding-left: 0; 
+        margin: 0; 
+        display: block;
+    }
+
+    .dropdown:hover .submenu {
+        display: block; 
+    }
+
+    .submenu li {
+        text-align: left; 
+        padding: 5px; 
+    }
+}
+
+@media (max-width: 480px) {
+    header {
+        padding: 30px; 
+    }
+
+    .container-logos {
+        gap: 0.25rem;
+    }
+
+    nav a {
+        font-size: 0.9rem; 
+        display: none; 
+    }
+
+    .menu-icon {
+        display: block; 
+        margin-left: 10px; 
+    }
+}
+@media (min-width: 1150px) {
+    .menu-icon {
+        display: block; 
+    }
+
+    .menu-items {
+        display: block; 
+        flex-direction: row;
+        position: relative; 
+        width: auto; 
+
+    }
+
+    .menu-items.active {
+        display: flex; 
+    }
+}
