@@ -441,3 +441,24 @@ footer {
 
 
 
+@media (max-width: 768px) {
+    .container-logos {
+        flex-direction: column; /* Colocar os logos um abaixo do outro */
+        align-items: flex-start;
+    }
+
+    .logo-sesi img,
+    .logo-senai img {
+        max-height: 30px; /* Reduzir o tamanho dos logos em telas menores */
+    }
+
+    .banner-site {
+        height: 20rem; /* Reduzir a altura do banner em telas menores */
+        background-position: center; /* Ajustar o posicionamento do fundo */
+    }
+
+    .banner-site h1 {
+        margin-left: 20px; /* Ajustar a margem para evitar sobreposição com os logos */
+        font-size: 2rem; /* Reduzir o tamanho da fonte do título */
+    }
+}
