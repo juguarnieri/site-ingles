@@ -93,7 +93,7 @@
     width: 35%;
 }
 
-.img-caption {
+.question-caption {
     display: flex;
     justify-content: end;
     font-size: 1.2rem;
@@ -103,7 +103,7 @@
 
 .question-text p {
     font-size: 1.2rem;
-    margin-bottom: 1rem;
+    margin: 2rem 0 1rem 0;
 }
 
 .option {
