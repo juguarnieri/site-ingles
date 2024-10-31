@@ -16,6 +16,11 @@
     justify-items: end;
     margin: 40px;
 }
+h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
 
 .line-right {
     background-color: #9a1915;
