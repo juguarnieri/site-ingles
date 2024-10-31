@@ -26,7 +26,8 @@
             <a href="./sobrenos.html">SOBRE-NÓS</a>
             <a href="#">CADASTRE-SE</a>
 
-            <section class="menu-icon" onclick="toggleMenu()">☰</section <section id="matérias-menu" class="menu-items"
+            <section class="menu-icon" onclick="toggleMenu()">☰</section>
+             <section id="matérias-menu" class="menu-items"
                 style="display: none;">
             <h3>MATÉRIAS</h3>
             <ul>
@@ -111,3 +112,14 @@
     </section>
 </body>
 </html>
+
+<script>
+    function toggleMenu() {
+        var menu = document.getElementById("matérias-menu");
+        if (menu.style.display === "block") {
+            menu.style.display = "none";
+        } else {
+            menu.style.display = "block";
+        }
+    }
+</script>
