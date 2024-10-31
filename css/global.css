@@ -155,6 +155,7 @@ footer {
         margin-bottom: -5px;
     }
 
+    
     .social-media {
         display: flex;
         justify-content: center;
@@ -650,3 +651,32 @@ footer {
             padding: 5px;
         }
     }
+    .button-scroll {
+        display: flex;
+        justify-content: center;
+        position: fixed;
+        bottom: 40px;
+        width: 100%;
+        height: 100%;
+        z-index: 100;
+    }
+    
+    #scrollTopBtn {
+        display: none; /* Só aparece ao rolar */
+        background-color: #cc0000; /* Vermelho */
+        color: white; /* Cor da seta */
+        font-size: 24px;
+        border: none;
+        border-radius: 20%;
+        padding: 15px;
+        cursor: pointer;
+        opacity: 0.9;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+        transition: opacity 0.3s, transform 0.3s;
+    }
+    
+    #scrollTopBtn:hover {
+        opacity: 1;
+        transform: scale(1.1); /* Efeito de zoom ao passar o mouse */
+    }
+    
