@@ -24,6 +24,10 @@ h1 {
     margin-bottom: 10px;
 }
 
+.container_text {
+    padding: 20px; 
+}
+
 .linha{
     border: none;
     height: 4px;
@@ -40,6 +44,9 @@ p {
     text-align: justify;
     margin-bottom: 75px;
     max-width: 900px;
+    margin: 0;
+    margin-top: 20px;
+    margin-right: 80px;
 }
 
 .content {
@@ -63,13 +70,16 @@ p {
 .image-container {
     flex-shrink: 0;
     margin-left: 30px;
+    display: flex;
+    justify-content: center;
 }
 
 .imagem-lado-a-lado {
-    max-width: 100%; 
-    height: auto; 
-    max-width: 300px; 
+    width: 300px; 
+    height: 300px; 
     border-radius: 50%;
+    object-fit: cover; /* Garante que a imagem mantenha a proporção */
+    margin-top: -50px;
 }
 
 .text-block {
@@ -80,19 +90,7 @@ p {
 }
 
 
-p {
-    margin: 0;
-    margin-top: 20px;
-    margin-right: 80px;
-}
-
 /*blocos carreiras*/ 
-.career-block {
-    margin: 0;    
-    padding: 0; 
-    text-align: center; 
-}
-
 .career-block h1, 
 .career-block p {
     margin: 0;          
@@ -138,13 +136,19 @@ p {
     color: #9A1915;
     font-size: 1.5em; 
     text-align: center;
+
     background-color: rgb(236, 226, 226);
 }
 
 .career-block p {
     font-size: 1.2em; 
     line-height: 1.5; 
+    font-size: 1.2em; 
+    line-height: 1.5; 
+    margin: 0;         
+    padding: 10px 0; 
 }
+
 
 .title-container {
     background-color: rgb(236, 226, 226); 
@@ -163,13 +167,15 @@ p {
 }
 
 .imagem-carreira {
-    width: 100%; 
-    height: auto;
+    flex-shrink: 0;
+    max-width: 100%;
+    height: 300px; 
     border-radius: 4px; 
     margin-bottom: 15px; 
     margin-top: 1rem;
-    object-position: center; 
+    object-fit: cover; 
 }
+
 
 .banner-site{
     background-image: linear-gradient(to Left, rgba(0, 0, 0, 0.848), rgba(0, 0, 0, 0.634)), url('../img/CARREIRAS.jpg');
@@ -191,6 +197,12 @@ p {
     .career-block {
         width: 90%; 
         margin: 15px auto; 
+    }
+    .imagem-lado-a-lado {
+        margin-top: 0;
+        display: flex;
+        justify-content: center;
+}
 }
 
 @media (max-width: 480px) {
@@ -211,13 +223,17 @@ p {
     .title-container h1 {
         font-size: 1.5em; 
     }
+    .h1{
+        font-size: 1.5em;
+    }
     p {
-    font-size: 1em; 
-    margin-right: 0;
+        font-size: 1em; 
+        margin-right: 0;
     }
     .imagem-lado-a-lado {
-    max-width: 150px; 
-    }
-    }
+        max-width: 50%; 
+        height: auto;
+        align-items: center;
+        margin-top: 0;
 }
-    
+}

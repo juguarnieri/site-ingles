@@ -15,20 +15,21 @@ document.querySelectorAll('.menu-items ul li').forEach(item => {
     });
 });
 
+    // Mostrar o botão de voltar ao topo apenas quando chegar ao final da página
+    window.onscroll = function() {
+        const button = document.getElementById('scrollTopBtn');
+        const scrollPosition = document.documentElement.scrollTop + window.innerHeight;
+        const documentHeight = document.documentElement.scrollHeight;
 
+        // Verifica se a rolagem está próxima do final
+        if (scrollPosition >= documentHeight - 10) {
+            button.style.display = 'block'; // Mostra o botão
+        } else {
+            button.style.display = 'none'; // Oculta o botão
+        }
+    };
 
-
-window.onscroll = function() { toggleScrollTopBtn() };
-
-function toggleScrollTopBtn() {
-    const scrollTopBtn = document.getElementById("scrollTopBtn");
-    if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
-        scrollTopBtn.style.display = "block";
-    } else {
-        scrollTopBtn.style.display = "none";
+    // Função para rolar até o topo
+    function scrollToTop() {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
     }
-}
-
-function scrollToTop() {
-    window.scrollTo({ top: 0, behavior: 'smooth' });
-}
