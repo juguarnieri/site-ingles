@@ -7,7 +7,7 @@
     <title>Noticias</title>
     <link rel="stylesheet" href="/css/global.css">
     <link rel="stylesheet" href="/css/noticias.css">
-    <script src="../js/script_basico.js" defer></script>
+    <script src="../js/script.js"></script>
 </head>
 
 <body>
@@ -86,13 +86,17 @@
         <hr class="divider">
     </section>
 
-    <section class="container">
-        <article class="container-title">
-            <hr class="line-left"></hr>
-            <h1>QUER ENTRAR EM HARVARD? CONFIRA AS MELHORES DICAS PARA BRILHAR NA ENTREVISTA DE ADMISSÃO!</h1>
-            <hr class="line-right"></hr>
-        </article>
+    <section class="language-selector">
+        <img src="/img/bandeira-brasil.png" alt="Portuguese" onclick="showPortuguese()">
+        <img src="/img/bandeira-eua.png" alt="English" onclick="showEnglish()">
+    </section>
 
+        <section class="container portuguese-content">
+            <article class="container-title">
+                <hr class="line-left"></hr>
+                <h1>QUER ENTRAR EM HARVARD? CONFIRA AS MELHORES DICAS PARA BRILHAR NA ENTREVISTA DE ADMISSÃO!</h1>
+                <hr class="line-right"></hr>
+            </article>
         <article class="container-noticia">
             <h3>Notícia 1</h3>
         </article>
@@ -115,7 +119,6 @@
         <section class="noticias-img">
             <img src="/img/planejar01.png" alt="Notícia">
         </section>
-        
 
         <h2>3. POSTURA NA ENTREVISTA</h2>
         <hr class="line">
@@ -125,12 +128,52 @@
         <section class="noticias-img">
             <img src="/img/entrevistas postura.jpg" alt="Notícia">
         </section>
+        </section>
 
+        <section class="container english-content" style="display: none;">
+            <article class="container-title">
+                <hr class="line-left"></hr>
+                <h1>DO YOU WANT TO GET INTO HARVARD? CHECK OUT THE BEST TIPS FOR SHINING IN THE ADMISSIONS INTERVIEW!</h1>
+                <hr class="line-right"></hr>
+            </article>
+    
+        <article class="container-noticia">
+            <h3>News 1</h3>
+        </article>
 
-        <hr class="line-end">
+        <h2>1. TRAINING</h2>
+        <hr class="line">
+
+        <p class="estrategias-text">Applicants to Harvard should focus on practicing conversation, participating in groups in person or online. Interview simulations, known as “role-playing”, are recommended, allowing applicants to discuss their experiences and receive feedback on pronunciation. To overcome inhibition, recording the simulation in a private space and analyzing it afterwards is a useful alternative.
+        </p>
+
+        <section class="noticias-img">
+            <img src="/img/estrategias1.png" alt="Notícia">
+        </section>
+
+        <h2>2. VOCABULARY</h2>
+        <hr class="line">
+
+        <p class="estrategias-text">Expanding your vocabulary through reading articles and academic publications is equally important, because enriches your general knowledge. </p>
+
+        <section class="noticias-img">
+            <img src="/img/planejar01.png" alt="Notícia">
+        </section>
+        
+        <h2>3. POSTURE IN THE INTERVIEW</h2>
+        <hr class="line">
+
+        <p class="estrategias-text">During the interview, showing confidence and maintaining an appropriate posture are essential to making a good impression. These strategies prepare candidates to face the competitive selection process at Harvard. </p>
+        <section class="noticias-img">
+            <img src="/img/entrevistas postura.jpg" alt="Notícia">
+        </section>
     </section>
-</body>
-</html>
+
+    <section class="divider_section">
+        <hr class="divider">
+    </section>
+
+    <button onclick="scrollToTop()" id="scrollTopBtn" title="Voltar ao topo">↑</button>
 
 <footer>
     <div class="social-media-container">
@@ -157,6 +200,22 @@
 </div>
 </footer>
 
+<script>
+    function toggleMenu() {
+        var menu = document.getElementById("matérias-menu");
+        menu.style.display = menu.style.display === "block" ? "none" : "block";
+    }
+
+    function showEnglish() {
+        document.querySelector('.portuguese-content').style.display = 'none';
+        document.querySelector('.english-content').style.display = 'block';
+    }
+
+    function showPortuguese() {
+        document.querySelector('.english-content').style.display = 'none';
+        document.querySelector('.portuguese-content').style.display = 'block';
+    }
+</script>
 </body>
 
 </html>
