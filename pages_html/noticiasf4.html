@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="/css/global.css">
     <link rel="stylesheet" href="/css/noticias.css">
     <script src="../js/script_basico.js" defer></script>
+    <script src="../js/script.js" defer></script>
 </head>
 
 <body>
@@ -86,7 +87,12 @@
         <hr class="divider">
     </section>
 
-    <section class="container">
+    <section class="language-selector">
+        <img src="/img/bandeira-brasil.png" alt="Portuguese" onclick="showPortuguese()">
+        <img src="/img/bandeira-eua.png" alt="English" onclick="showEnglish()">
+    </section>
+
+    <section class="container portuguese-content">
         <article class="container-title">
             <hr class="line-left"></hr>
             <h1> INTERPRETAÇÃO DE CHARGES E GRÁFICOS EM INGLÊS: DICAS PARA ANÁLISES PRECISAS NO ENEM</h1>
@@ -94,10 +100,10 @@
         </article>
 
         <article class="container-noticia">
-            <h3>Notícia 1</h3>
+            <h3>Notícia 4</h3>
         </article>
 
-        <h2>INTERPRETAÇÃO</h2>
+        <h2>1. INTERPRETAÇÃO</h2>
         <hr class="line"> 
 
         <p class="estrategias-text">Interpretar charges, imagens e gráficos em inglês é crucial para o ENEM. Comece entendendo o contexto, lendo o texto e estando informado sobre temas atuais. Observe os personagens e as cores, que podem ter significados específicos. Identifique humor e ironia nas charges, e reconheça exageros que enfatizam críticas.</p>
@@ -106,14 +112,45 @@
             <img src = "/img/interpretação ingles.jpg" alt="Notícia">
         </section>
 
-        <p class="estrategias-text">Para gráficos, leia títulos e legendas, analise os eixos e compare dados para identificar tendências. Faça perguntas básicas para estruturar sua análise e descubra a mensagem principal. Pratique regularmente com diferentes elementos visuais e participe de discussões em grupo para enriquecer sua interpretação. Com atenção aos detalhes e prática, você estará mais preparado para lidar com esse tipo de conteúdo no ENEM.
-        </p>
+        <p class="estrategias-text">Para gráficos, leia títulos e legendas, analise os eixos e compare dados para identificar tendências. Faça perguntas básicas para estruturar sua análise e descubra a mensagem principal. Pratique regularmente com diferentes elementos visuais e participe de discussões em grupo para enriquecer sua interpretação. Com atenção aos detalhes e prática, você estará mais preparado para lidar com esse tipo de conteúdo no ENEM. </p>
 
         <section class="img-noticia">
             <img src = "/img/graficos.jpg" alt="Notícia">
         </section>
+    </section>
+        
+        <section class="container english-content" style="display: none;">
+            <article class="container-title">
+                <hr class="line-left"></hr>
+                <h1>INTERPRETATION OF CARTOONS AND GRAPHICS IN ENGLISH: TIPS FOR ACCURATE ANALYSIS IN ENEM</h1>
+                <hr class="line-right"></hr>
+            </article>
+    
+            <article class="container-noticia">
+                <h3>News 4</h3>
+            </article>
+    
+            <h2>1. INTERPRETATION</h2>
+            <hr class="line"> 
+    
+            <p class="estrategias-text">Interpreting cartoons, images and graphics in English is crucial for the ENEM. Start by understanding the context, reading the text and being informed about current themes. Observe the characters and colors, which can have specific meanings. Identify humour and irony in cartoons and recognize exaggerations that emphasize criticism.</p>
+            
+            <section class="img-noticia">
+                <img src = "/img/interpretação ingles.jpg" alt="Notícia">
+            </section>
+    
+            <p class="estrategias-text">For graphs, read titles and captions, analyze the axes and compare data to identify trends. Ask basic questions to structure your analysis and discover the main message. Practice regularly with different visual elements and participate in group discussions to enrich your interpretation. With attention to detail and practice, you will be better prepared to deal with this type of content on the ENEM.</p>
+    
+            <section class="img-noticia">
+                <img src = "/img/graficos.jpg" alt="Notícia">
+            </section>
+        </section>    
 
-    <hr class="line-end">
+        <section class="divider_section">
+            <hr class="divider">
+        </section>
+    
+    <button onclick="scrollToTop()" id="scrollTopBtn" title="Voltar ao topo">↑</button>
 </section>
 </body>
 </html>
@@ -142,7 +179,22 @@
 
 </div>
 </footer>
+<script>
+    function toggleMenu() {
+        var menu = document.getElementById("matérias-menu");
+        menu.style.display = menu.style.display === "block" ? "none" : "block";
+    }
 
+    function showEnglish() {
+        document.querySelector('.portuguese-content').style.display = 'none';
+        document.querySelector('.english-content').style.display = 'block';
+    }
+
+    function showPortuguese() {
+        document.querySelector('.english-content').style.display = 'none';
+        document.querySelector('.portuguese-content').style.display = 'block';
+    }
+</script>
 </body>
 </html>
 
