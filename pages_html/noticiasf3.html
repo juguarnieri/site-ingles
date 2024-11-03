@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="/css/global.css">
     <link rel="stylesheet" href="/css/noticias.css">
     <script src="../js/script_basico.js" defer></script>
+    <script src="../js/script.js"></script>
 </head>
 
 <body>
@@ -140,10 +141,11 @@
                 </div>
             </section>
         </div>
+    </section>
         <section class="container english-content" style="display: none;">
                 <article class="container-title">
                     <hr class="line-left"></hr>
-                    <h1>ENGLISH DIALECTS IN ENEM: THE VARIATIONS YOU NEED TO KNOW!</h1>
+                    <h1> ENGLISH DIALECTS IN ENEM: THE VARIATIONS YOU NEED TO KNOW!</h1>
                     <hr class="line-right"></hr>
                 </article>
         
@@ -178,20 +180,27 @@
                 </div>
                 <h2>2. APPLICATION</h2>
                 <hr class="line">
-                <p class="estrategias-text">See how English is applied in ENEM::</p>
+                <p class="estrategias-text">See how English is applied in ENEM:</p>
                 <div class="container-noticias">
                     <section class="noticia-text-content">
                         <h2 class="noticia-content-title">THESE DIALECTS IN ENEM</h2>
                         <div class="div-noticia-text">
-                        <p class="noticia-text"><b>Interpretação de Textos:</b> Questões podem apresentar textos com características de um determinado dialeto, exigindo que o aluno identifique elementos linguísticos.</p>
-                        <p class="noticia-text"><b>Vocabulário e Gírias:</b> Palavras e expressões típicas podem ser usadas em questões de múltipla escolha, pedindo que o estudante reconheça seu significado.</p>
-                        <p class="noticia-text"><b>Cultura e Sociedade:</b> O ENEM pode explorar temas culturais associados a diferentes dialetos, pedindo análise de contextos sociais.</p>
+                        <p class="noticia-text"><b>Text Interpretation:</b> Questões podem apresentar textos com características de um determinado dialeto, exigindo que o aluno identifique elementos linguísticos.</p>
+                        <p class="noticia-text"><b>Vocabulary and Slang:</b> Typical words and expressions can be used in multiple choice questions, asking the student to recognize their meaning.</p>
+                        <p class="noticia-text"><b>Culture and Society:</b> ENEM can explore cultural themes associated with different dialects, asking for analysis of social contexts.</p>
                         </div>
                     </section>
                 </div>
+        </section>
+    
+        
+        <section class="divider_section">
+            <hr class="divider">
+        </section>
+    
+        <button onclick="scrollToTop()" id="scrollTopBtn" title="Voltar ao topo">↑</button>
+        
 
-        <hr class="line-end">
-    </section>
 </body>
 </html>
 
@@ -220,10 +229,25 @@
 </div>
 </footer>
 
+<script>
+    function toggleMenu() {
+        var menu = document.getElementById("matérias-menu");
+        menu.style.display = menu.style.display === "block" ? "none" : "block";
+    }
+
+    function showEnglish() {
+        document.querySelector('.portuguese-content').style.display = 'none';
+        document.querySelector('.english-content').style.display = 'block';
+    }
+
+    function showPortuguese() {
+        document.querySelector('.english-content').style.display = 'none';
+        document.querySelector('.portuguese-content').style.display = 'block';
+    }
+</script>
+
 </body>
-
 </html>
-
 
 <script>
 function toggleMenu() {
