@@ -170,4 +170,19 @@ b {
     color:#9a1915
 }
 
+.obras{
+    color: #9A1915;
+    margin:20px 150px;
+    padding: 40px;
+    font-size: 25px;
+}
 
+.obras-text{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+    font-size: 20px;
+    margin: 20px 250px;
+   
+}
