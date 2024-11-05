@@ -28,7 +28,7 @@
             <a href="#">CADASTRE-SE</a>
 
             <section class="menu-icon" onclick="toggleMenu()">☰</section>
-            
+
             <section id="matérias-menu" class="menu-items" style="display: none;">
                 <h3>MATÉRIAS</h3>
                 <ul>
@@ -38,7 +38,7 @@
                     <li><a href="materias.html#fisica">Física</a></li>
                     <li><a href="materias.html#geografia">Geografia</a></li>
                     <li><a href="materias.html#historia">História</a></li>
-            
+
                     <li class="dropdown">
                         <a href="materias.html#ingles" class="dropdown-toggle" onclick="toggleSubmenu(event)">Inglês
                             ▼</a>
@@ -54,7 +54,7 @@
                             <li><a href="sobrenos.html">Sobre nós</a></li>
                         </ul>
                     </li>
-            
+
                     <li><a href="materias.html#matematica">Matemática</a></li>
                     <li><a href="materias.html#portugues">Português</a></li>
                     <li><a href="materias.html#quimica">Química</a></li>
@@ -234,10 +234,49 @@
     <a href="noticiasa13.html">Protótipo Alê 13</a>
     <a href="noticiasa14.html">Protótipo Alê 14</a>
     <a href="noticiasa15.html">Protótipo Alê 15</a>
-    
+
     <section class="divider_section">
         <hr class="divider">
     </section>
 
     <button onclick="scrollToTop()" id="scrollTopBtn" title="Voltar ao topo">↑</button>
+
+    <footer>
+        <section class="social-media-container">
+            <section class="social-media">
+                <a href="#" class="social-icon"><img src="/img/facebook.png" alt="Facebook"></a>
+                <a href="#" class="social-icon"><img src="/img/Instagram.png" alt="Instagram"></a>
+                <a href="#" class="social-icon"><img src="/img/WhatsApp.png" alt="WhatsApp"></a>
+                <a href="#" class="social-icon"><img src="/img/Youtube.png" alt="YouTube"></a>
+                <a href="#" class="social-icon"><img src="/img/Linkedin.png" alt="LinkedIn"></a>
+            </section>
+        </section>
+        <section class="addresses">
+            <section class="address">
+                <h3>EDIFÍCIO REDE SENAI VALINHOS</h3>
+                <p>R. Artur Fernandes Querido, 55 - Vila Santo Antonio, Valinhos - SP, 13270-530</p>
+            </section>
+            <section class="divider"></section>
+            <section class="address">
+                <h3>EDIFÍCIO REDE SESI VALINHOS</h3>
+                <p>Rod. Flávio de Carvalho, 2787 - Jardim São Paulo, Valinhos - SP, 13273-450</p>
+            </section>
+        </section>
+        </section>
+    </footer>
+
 </body>
+
+</html>
+
+
+<script>
+    function toggleMenu() {
+        var menu = document.getElementById("matérias-menu");
+        if (menu.style.display === "block") {
+            menu.style.display = "none";
+        } else {
+            menu.style.display = "block";
+        }
+    }
+</script>
