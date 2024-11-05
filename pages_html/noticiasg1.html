@@ -7,6 +7,7 @@
     <title>Notícias</title>
     <link rel="stylesheet" href="/css/global.css">
     <link rel="stylesheet" href="/css/noticias.css">
+    <script src="../js/script.js"></script>
 </head>
 
 <body>
@@ -65,6 +66,7 @@
     <section class="banner-site">
         <section class="banner-text">
             <p> NOTÍCIAS </p>
+            <p> NEWS </p>
         </section>
     </section>
 
@@ -83,15 +85,20 @@
         <hr class="divider">
     </section>
 
-    <section class="container">
+    <section class="language-selector">
+        <img src="/img/bandeira-brasil.png" alt="Portuguese" onclick="showPortuguese()">
+        <img src="/img/bandeira-eua.png" alt="English" onclick="showEnglish()">
+    </section>
+
+    <section class="container portuguese-content">
         <article class="container-title">
-            <hr class="line-left"></hr>
-            <h1> Expressões Idiomáticas em Inglês </h1>
-            <hr class="line-right"></hr>
+        <hr class="line-left"></hr>
+        <h1> Expressões Idiomáticas em Inglês</h1>
+        <hr class="line-right"></hr>
         </article>
 
         <article class="container-noticia">
-            <h3>Notícia 1</h3>
+            <h3>Notícia 7</h3>
         </article>
 
         <h2>1. Oque são expressões idiomáticas em inglês</h2>
@@ -107,7 +114,7 @@
         <p class="estrategias-text">Para te ajudar, nós listamos 13 idioms mais comuns e que caem frequentemente nos vestibulares e no Enem. Confira:</p>
 
         <div class="container-noticias">
-            <section class="noticia-text-content">
+            <div class="noticia-text-content">
                 <h2 class="noticia-content-title">13 idioms mais comuns e que caem no vestibular</h2>
                 <div class="div-noticia-text">
                     <p class="noticia-text"><strong class="noticia-text-example">1. Once in a blue moon:</strong>A expressão “Uma vez na vida, outra na morte”, para representar que algo é feito raramente ou quase nunca. Em Inglês, é uma das mais diferentes de todas: “once in a blue moon”, que traduzida, seria “uma vez na lua azul”. Isso porque, o efeito “lua azul” é raro de se observar e só ocorre uma vez a cada dois anos e meio.</p>
@@ -125,12 +132,60 @@
                     <p class="noticia-text"><strong class="noticia-text-example">13.  It’s a catch 22!:</strong>A expressão “Beco sem saída” – It’s a catch 22, teve origem baseada no famoso livro “Catch-22” (1961), de Joseph Heller, em que escreveu sobre a Segunda Guerra, relatando que os pilotos enfrentaram um dilema: Alegar insanidade ou não para recusar as missões de bombardeio, de acordo com o regulamento 22:</p>
                     <p class="noticia-text">Eis o impasse: Um piloto considerado louco, insano, estava inapto para voar nas missões de bombardeio, mas, se recusasse as missões com sanidade, teria que, obrigatoriamente, realizá-las.</p>
                 </div>
+            </div>
             </section>
-        </div>
+
+            <section class="container english-content" style="display: none;">
+                <article class="container-title">
+                <hr class="line-left"></hr>
+                <h1> Idiomatic Expressions in English</h1>
+                <hr class="line-right"></hr>
+                </article>
+        
+                <article class="container-noticia">
+                    <h3>News 7</h3>
+                </article>
+        
+                <h2>1.What are idiomatic expressions in English</h2>
+                <hr class="line">
+        
+                <p class="estrategias-text">An idiom occurs when a phrase or term takes on a meaning different from the one its individual words have. In other words, it's when an expression takes on a meaning completely different from its literal definition.</p>
+                <p class="estrategias-text">These expressions are not limited to the Portuguese language, as each language and culture has its own unique phrases and meanings. In English, for example, these expressions are known as “idioms” and are very common in both spoken and written language. For those preparing for university entrance exams, knowing the most common idioms is essential to avoid pitfalls during the exam.</p>
+                <p class="estrategias-text">“Learning to use idioms is important, but it's even more important to learn them and identify them in the texts of the test, because you'll be guaranteeing that you get certain questions right, which few people would get right when it involves terms of this nature. For example, if you want to wish someone good luck before a presentation, as well as saying 'Good luck', you can also say 'break a leg', the idiom that has this meaning,” says the teacher from Estratégia Vestibulares.</p>
+                <p class="estrategias-text">As an idiom is a cultural expression, i.e. you need to understand the context in which the phrase is inserted, the easiest way to learn and memorize idioms in English is through contact with the language.</p>
+        
+                <h2>2. Examples</h2>
+                <hr class="line">
+        
+                <p class="estrategias-text">To help you, we have listed 13 most common languages that frequently appear in entrance exams and Enem. Check it out:</p>
+        
+                <div class="container-noticias">
+                    <section class="noticia-text-content">
+                        <h2 class="noticia-content-title">13 most common languages ​​that appear on the entrance exam</h2>
+                        <div class="div-noticia-text">
+                            <p class="noticia-text"><strong class="noticia-text-example">1. Once in a blue moon:</strong>The expression “Once in a lifetime, once in death”, to represent that something is done rarely or almost never. In English, it is one of the most different of all: “once in a blue moon”, which translates as “uma vez na lua azul”. This is because the “blue moon” effect is rare to observe and only occurs once every two and a half years.</p>
+                            <p class="noticia-text"><strong class="noticia-text-example">2. Get up on the wrong side of the bed:</strong>The expression “Get up on the wrong side of the bed” has the verb “to wake up” in it, but it's not with the left foot but “on the wrong side of the bed”, meaning that the person slept on the side they're not used to and may have woken up in a bad mood because of it. Hence, it's equivalent to waking up with your left foot.</p>
+                            <p class="noticia-text"><strong class="noticia-text-example">3. It’s just water under the bridge:</strong>To say “That's water under the bridge”, to express something that has been left in the past, that isn't worth talking about, that is best forgotten, in English, it is said “just water under the bridge”, meaning something that has been carried away by the current, that should have been left behind.</p>
+                            <p class="noticia-text"><strong class="noticia-text-example">4. Easy: peace of cake:</strong>The expression “papaya with sugar”, in English, is a “piece of cake”, representing something very easy to do, a very easy task to accomplish.</p>
+                            <p class="noticia-text"><strong class="noticia-text-example">5. We are even:</strong>To understand the expression “We are even”, you need to know how to say “even or odd” in English. Thus, the expression is formed by the word “even” from the even or odd, as if it were “We're even”.</p>
+                            <p class="noticia-text"><strong class="noticia-text-example">6. Better late than never:</strong>The expression “Better late than never” uses the words “late” and “never”, which makes it easier for you to remember. The English word “before” is not used at the beginning of the sentence, but the translation of “Better late than never” gives the equivalent deduction: “Better late than never”.</p>
+                            <p class="noticia-text"><strong class="noticia-text-example">7. Once for all:</strong>The expression “Once for all” uses the term “for all”, which also makes it easier for you to make the connection. “Once” is one time, but by connecting the ideas, ‘Once for all’ leads us to understand that it is ‘Once for all’.</p>
+                            <p class="noticia-text"><strong class="noticia-text-example">8. Between a rock and a hard place:</strong>The expression “Entre a cruz e a espada” (Between the cross and the sword) uses the preposition “between”, since “among” would be the preposition between many things. However, in Portuguese, we have the words cruz and espada. In English, the expression is made up of the words “rock” and “hard place”. </p>
+                            <p class="noticia-text"><strong class="noticia-text-example">9. Nothing ventured, nothing gained:</strong>In English, the expression “No risk, no gain” means “Nothing ventured, nothing gained”. And so, although the translation is strange, it represents that if you don't take a risk, you won't get what you want.</p>
+                            <p class="noticia-text"><strong class="noticia-text-example">10. When hell freezes over:</strong>The expression “No dia de São Nunca”, meaning a day that won't happen, something that won't happen, in English, is when hell freezes over. Hell is believed to be a hot place with a lot of fire, so it would be difficult to freeze where there is fire, or to do something on St. Never's Day, which doesn't exist.</p>
+                            <p class="noticia-text"><strong class="noticia-text-example">11. Every Jack to his trade:</strong>The expression “Cada macaco no seu galho”, in English, “Every Jack to his trade”, in other words, each person in their role, each one fitting into what they know how to do. It's interesting to know that in Portuguese we use a monkey and in English we use a person's name: Jack.</p>
+                            <p class="noticia-text"><strong class="noticia-text-example">12. Every other day:</strong>The expression “Every other day” is also expressed quite differently, as “Every other day” literally means “cada outro dia”. This is because, in English, to say, for example, de 15 em 15 dias, you say “every 15 days” - so the “every” is used in these expressions of time.</p>
+                            <p class="noticia-text"><strong class="noticia-text-example">13.  It’s a catch 22!:</strong>The expression “Beco sem saída” - It's a catch 22, originated from the famous book “Catch-22” (1961), by Joseph Heller, in which he wrote about the Second World War, reporting that pilots faced a dilemma: to claim insanity or not to refuse bombing missions, according to regulation 22:</p>
+                            <p class="noticia-text">“THERE IS A CATCH: “An airman would have to be crazy to fly more missions, and if he was crazy he would be unfit to fly. Yet, if an airman would refuse to fly more missions, this would indicate that he is sane, which would mean that he would be fit to fly the missions”.</p>
+                        </div>
+                    </section>
+                </div>
 
     <section class="divider_section">
         <hr class="divider">
     </section>
+
+    <button onclick="scrollToTop()" id="scrollTopBtn" title="Voltar ao topo">↑</button>
 
     <footer>
         <section class="social-media-container">
@@ -157,16 +212,32 @@
         </section>
     </footer>
     
-</body>
-</html>
+    <script>
+        function toggleMenu() {
+            var menu = document.getElementById("matérias-menu");
+            menu.style.display = menu.style.display === "block" ? "none" : "block";
+        }
+    
+        function showEnglish() {
+            document.querySelector('.portuguese-content').style.display = 'none';
+            document.querySelector('.english-content').style.display = 'block';
+        }
+    
+        function showPortuguese() {
+            document.querySelector('.english-content').style.display = 'none';
+            document.querySelector('.portuguese-content').style.display = 'block';
+        }
+    </script>
+    </body>
+    </html>
 
 <script>
     function toggleMenu() {
-        var menu = document.getElementById("matérias-menu");
-        if (menu.style.display === "block") {
-            menu.style.display = "none";
-        } else {
-            menu.style.display = "block";
-        }
+    var menu = document.getElementById("matérias-menu");
+    if (menu.style.display === "block") {
+        menu.style.display = "none";
+    } else {
+        menu.style.display = "block";
     }
-</script>
+    }
+    </script>
