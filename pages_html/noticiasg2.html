@@ -6,6 +6,7 @@
     <title>Notícias</title>
     <link rel="stylesheet" href="/css/global.css">
     <link rel="stylesheet" href="/css/noticias.css">
+    <script src="../js/script.js"></script>
 </head>
 <body>
     <header class="site-header">
@@ -81,16 +82,20 @@
         <hr class="divider">
     </section>
 
-    <section class="container">
+    <section class="language-selector">
+        <img src="/img/bandeira-brasil.png" alt="Portuguese" onclick="showPortuguese()">
+        <img src="/img/bandeira-eua.png" alt="English" onclick="showEnglish()">
+    </section>
 
-        <article class="container-title">
-            <hr class="line-left"></hr>
-            <h1> Literatura Inglesa no ENEM: Obras e Autores que Você Precisa Conhecer </h1>
-            <hr class="line-right"></hr>
-        </article>
+        <section class="container portuguese-content">
+            <article class="container-title">
+                <hr class="line-left"></hr>
+                <h1> Literatura Inglesa no ENEM: Obras e Autores que Você Precisa Conhece</h1>
+                <hr class="line-right"></hr>
+            </article>
 
         <article class="container-noticia">
-            <h3>Notícia 2</h3>
+            <h3>Notícia 8</h3>
         </article>
 
         <h2>1. William Shakespeare</h2>
@@ -136,6 +141,78 @@
         <p class="obras-text">Frankenstein narra a história de Victor Frankenstein, um cientista obcecado que cria uma criatura a partir de partes de cadáveres. Ao ser rejeitada devido à sua aparência, a criatura busca vingança, causando tragédias na vida de Victor, incluindo a morte de seus entes queridos. A perseguição de Victor à criatura culmina no Ártico, onde ele morre consumido pelo ódio e arrependimento. O romance aborda temas como ambição, ética científica, responsabilidade e isolamento, questionando a condição humana e as consequências da busca pelo conhecimento.</p>
     </section>
 
+    <section class="container english-content" style="display: none;">
+        <article class="container-title">
+            <hr class="line-left"></hr>
+            <h1>English Literature at ENEM: Works and Authors You Need to Know</h1>
+            <hr class="line-right"></hr>
+        </article>
+
+        <article class="container-noticia">
+            <h3>News 8</h3>
+        </article>
+
+        <h2>1. William Shakespeare</h2>
+        <hr class="line">
+
+        <h3 class="obras">Hamlet</h3>
+        <p class="obras-text">“Hamlet” is a tragedy written by William Shakespeare, and is one of his best-known plays. The story follows Prince Hamlet of Denmark, who discovers that his father has been murdered by his uncle Claudius. After the king's ghost appears and reveals the truth to Hamlet, the prince decides to avenge his father's death. However, Hamlet struggles with doubts and hesitations throughout the play, which leads to a series of tragic events.</p>
+        <p class="obras-text">The play deals with themes such as revenge, corruption, madness and mortality. It is famous for its monologue “To be or not to be, that is the question”, where Hamlet ponders life and death. In the end, most of the main characters die, including Hamlet, Claudius, and Gertrude, Hamlet's mother, leading to a dark and dramatic outcome.</p>
+        
+        <h3 class="obras">Romeo and Juliet</h3>
+        <p class="obras-text">The young people fall in love at first sight, but because of the enmity between their families, their love is forbidden. They decide to marry in secret. However, a series of misunderstandings and misadventures culminates in tragedy. Romeo, mistakenly believing that Juliet is dead, takes poison. When Juliet wakes up to find Romeo dead, she commits suicide with a dagger.</p>
+        <p class="obras-text">The play deals with themes of love, hate, fate and the intensity of youthful emotions. The tragic end of the lovers finally leads the families to recognize the futility of their rivalry and seek reconciliation.</p>
+
+        <h3 class="obras">Macbeth</h3>
+        <p class="obras-text">The play begins with Macbeth, a Scottish nobleman, meeting three witches who prophesy that he will become king of Scotland. Driven by his ambition and the influence of his wife, Lady Macbeth, he murders King Duncan to seize the throne. However, the act of usurpation plunges Macbeth and Lady Macbeth into guilt and paranoia.</p>
+        <p class="obras-text">Macbeth becomes a tyrant, committing more murders to maintain his power, including the murder of Banquo, his friend, and Macduff's family. Guilt drives Lady Macbeth to madness and, eventually, suicide. Macbeth, increasingly isolated and desperate, faces a rebellion led by Macduff and other nobles.</p>
+        <p class="obras-text">At the climax, Macduff kills Macbeth, and Malcolm, King Duncan's son, is restored to the throne, bringing an end to Macbeth's tyranny. The play explores themes such as ambition, power, guilt and the corrosive impact of violence and betrayal.</p>
+
+        <h2>2. Charles Dickens</h2>
+        <hr class="line">
+
+        <h3 class="obras">Oliver Twist</h3>
+        <p class="obras-text">Oliver Twist: Oliver is born in an orphanage and sent to a poorhouse, where he lives in deplorable conditions. After asking for more food and being punished, he runs away to London. There, he is taken in by a gang of pickpocket boys led by Fagin, a cunning criminal. Oliver is forced to take part in criminal activities, but he is rescued by a kind gentleman called Mr. Brownlow. Throughout the plot, Oliver discovers his true origins and heritage.</p>
+        <p class="obras-text">The story deals with themes such as poverty, child exploitation and crime, and is a social critique of the living conditions of the poor in Victorian England. Oliver Twist is an innocent figure who maintains his goodness and purity despite the adversities he faces.</p>
+
+
+        <h3 class="obras">Great Expectations</h3>
+        <p class="obras-text">Pip is brought up by his stern sister and her kind husband, Joe Gargery. As a young man, he helps an escaped convict called Magwitch, unaware that this encounter would change his life. Pip falls in love with the beautiful but cold Estella, raised by the eccentric Miss Havisham. One day, Pip receives a large sum of money from an anonymous benefactor and is sent to London to become a gentleman.</p>
+        <p class="obras-text">In the city, Pip discovers that the real benefactor is Magwitch, the convict he helped years before. Ashamed, Pip initially rejects Magwitch, but eventually learns to value loyalty and kindness over wealth and social position. The novel deals with themes such as ambition, love, social class, redemption and identity.</p>
+
+        <h2>3. Jane Austen</h2>
+        <hr class="line">
+
+        <h3 class="obras">Pride and Prejudice</h3>
+        <p class="obras-text">Elizabeth Bennet lives with her four sisters and her parents on a small country estate. Her mother is desperate to marry off her daughters, especially to rich men. When Mr. Bingley, a wealthy bachelor, moves into the neighborhood, he quickly falls in love with Elizabeth's older sister, Jane. However, Bingley's best friend, Mr. Darcy, initially seems cold and dismissive. </p>
+        <p class="obras-text">Over the course of the story, Elizabeth and Darcy clash and fall out several times. Elizabeth discovers that Darcy was partly responsible for separating Jane and Bingley, which reinforces her antipathy towards him. However, over time, Elizabeth begins to realize that Darcy is not as proud as he seems and that his actions were motivated by a desire to protect his friend.</p>
+        <p class="obras-text">Likewise, Darcy begins to admire Elizabeth for her intelligence and courage. In the end, both overcome their prejudices and understand each other's true character, resulting in a marriage based on love and mutual respect.</p>
+        <p class="obras-text">“Pride and Prejudice” explores themes of social class, pride, prejudice, love and the importance of overcoming hasty judgments in order to truly understand people. It's a delightful and profound read, revealing Jane Austen's humor and deft social criticism.</p>
+
+        <h2>4. George Orwell</h2>
+        <hr class="line">
+
+        <h3 class="obras">1984</h3>
+        <p class="obras-text">1984: The protagonist, Winston Smith, works at the Ministry of Truth, where his job is to alter historical records to match the Party's propaganda. He begins to question the oppressive regime and starts a forbidden romance with Julia. Together, they try to resist Party control.</p>
+        <p class="obras-text">Eventually, Winston and Julia are betrayed, captured and subjected to brutal torture to force them to betray their own feelings and each other. Winston is “re-educated” until he loves Big Brother unconditionally.</p>
+        <p class="obras-text">The book deals with themes such as surveillance, freedom, the manipulation of information, and the destructive power of totalitarian regimes. “1984” remains a relevant and impactful work, serving as a warning about the dangers of tyranny.</p>
+
+        <h3 class="obras">The Animal Revolution</h3>
+        <p class="obras-text">The plot takes place on a farm where the animals, dissatisfied with their exploitation by Mr. Jones, the farmer, revolt and take control. Initially, the pigs, led by Napoleon and Snowball, promise equality and better living conditions for all the animals. They create the Seven Commandments of Animalism, which establish the basis of their ideal society.</p>
+        <p class="obras-text">Over time, Napoleon exiles Snowball and begins to consolidate his power. He manipulates the situation to his advantage, gradually changing the commandments to justify his actions and personal advantages. The animals find themselves in as bad a condition as before, realizing that the promise of equality was a sham.</p>
+        <p class="obras-text">The famous phrase “All animals are equal, but some animals are more equal than others” illustrates the hypocrisy and corruption of the new regime. The book is a fierce critique of totalitarian regimes and the distortions of revolutionary ideals.</p>
+        <p class="obras-text">“The Animal Revolution” remains relevant as it tackles themes of power, corruption and betrayal, showing how even the best ideals can be corrupted.</p>
+
+        <h2>5. Mary Shelley</h2>
+        <hr class="line">
+
+        <h3 class="obras">Frankenstein</h3>
+        <p class="obras-text">Victor Frankenstein is a young Swiss scientist who, obsessed by the desire to unravel the secrets of life, creates a human being from parts of corpses. He ends up creating a horrible creature, which he immediately abandons. The creature, which longs for acceptance and affection, ends up being rejected by everyone because of its frightening appearance.</p>
+        <p class="obras-text">Feeling lonely and despised, the creature seeks revenge against its creator, causing a series of tragedies in Victor's life, including the death of his loved ones. The story culminates in the Arctic, where Victor, consumed by hatred and regret, pursues the creature until the end of his life.</p>
+        <p class="obras-text">The novel explores themes of ambition, scientific ethics, responsibility, isolation and the search for the meaning of life. “Frankenstein” is a seminal work that continues to influence literature and popular culture, raising profound questions about the human condition and the consequences of the quest for knowledge.</p>
+    </section>
+</section>
+
     <section class="divider_section">
         <hr class="divider">
     </section>
@@ -164,6 +241,32 @@
     
         </section>
     </footer>
+    <script>
+        function toggleMenu() {
+            var menu = document.getElementById("matérias-menu");
+            menu.style.display = menu.style.display === "block" ? "none" : "block";
+        }
     
-</body>
-</html>
+        function showEnglish() {
+            document.querySelector('.portuguese-content').style.display = 'none';
+            document.querySelector('.english-content').style.display = 'block';
+        }
+    
+        function showPortuguese() {
+            document.querySelector('.english-content').style.display = 'none';
+            document.querySelector('.portuguese-content').style.display = 'block';
+        }
+    </script>
+    </body>
+    </html>
+
+<script>
+    function toggleMenu() {
+    var menu = document.getElementById("matérias-menu");
+    if (menu.style.display === "block") {
+        menu.style.display = "none";
+    } else {
+        menu.style.display = "block";
+    }
+    }
+    </script>
