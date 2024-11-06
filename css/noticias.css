@@ -13,7 +13,7 @@
     width: 600px;
     border-radius: 10px;
     justify-items: end;
-
+    border: none;
 }
 
 .line-right {
@@ -22,12 +22,18 @@
     width: 600px;
     border-radius: 10px;
     justify-items: end;
-
+    border: none;
 }
+
+.container-noticia {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
 h3 {
-    font-size: 18px;
-    font-weight: bold;
-    margin-bottom: 10px;
+    font-size: 1.2rem;
+    font-weight: 900;
 }
 
 .language-selector {
@@ -87,6 +93,7 @@ h3 {
     justify-content: center;
     align-items: center;
 }
+
 .line {
     border: 0;
     height: 4px;
@@ -170,4 +177,29 @@ b {
     color:#9a1915
 }
 
+.obras{
+    color: #9A1915;
+    margin:20px 150px;
+    padding: 40px;
+    font-size: 25px;
+}
 
+.obras-text{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+    font-size: 20px;
+    margin: 20px 250px;
+   
+}
+
+.noticia-content-title-modal{
+    font-size: 25px;
+    color: #9A1915;
+    text-align: start;
+    font-weight: 900;
+    display: flex;
+    justify-content: flex-start;
+    margin: 50px 120px;
+}
