@@ -193,3 +193,13 @@ b {
     margin: 20px 250px;
    
 }
+
+.noticia-content-title-modal{
+    font-size: 25px;
+    color: #9A1915;
+    text-align: start;
+    font-weight: 900;
+    display: flex;
+    justify-content: flex-start;
+    margin: 50px 120px;
+}
