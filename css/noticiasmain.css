@@ -34,99 +34,67 @@
     border-radius: 10px;
 }
 
+.news-intro {
+    display: flex;
+    justify-content: center;
+    padding: 0 4rem 2rem 4rem;
+}
+
+.intro-text {
+    text-align: justify;
+    text-align-last: center;
+    word-spacing: 0.4rem;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
 .news-block {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin: 3rem;
-    gap: 4rem;
+    margin: 2rem;
+    gap: 2rem;
 }
 
 .news {
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-    background-size: cover;
-    padding: 1.5rem;
     width: 30rem;
     height: 35rem;
     border-radius: 20px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .pad1 {
-    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.575), rgba(255, 255, 255, 0.5)), url('../img/noticias-block-img.jpg');
+    background-color: rgba(255, 0, 0, 0.877);
+    border: 4px solid rgba(179, 0, 0, 0.877);
 }
 
 .pad2 {
-    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.575), rgba(255, 255, 255, 0.5)), url('../img/noticias-block-img2.jpg');
+    background-color: rgba(255, 217, 0, 0.897);
+    border: 4px solid rgba(207, 176, 0, 0.897);
 }
 
 .pad3 {
-    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.575), rgba(255, 255, 255, 0.5)), url('../img/noticias-block-img.jpg');
-}
-
-.pad4 {
-    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.575), rgba(255, 255, 255, 0.5)), url('../img/noticias-block-img.jpg');
-}
-
-.pad5 {
-    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.575), rgba(255, 255, 255, 0.5)), url('../img/noticias-block-img.jpg');
-}
-
-.pad6 {
-    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.575), rgba(255, 255, 255, 0.5)), url('../img/noticias-block-img.jpg');
-}
-
-.pad7 {
-    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.575), rgba(255, 255, 255, 0.5)), url('../img/noticias-block-img.jpg');
-}
-
-.pad8 {
-    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.575), rgba(255, 255, 255, 0.5)), url('../img/noticias-block-img.jpg');
-}
-
-.pad9 {
-    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.575), rgba(255, 255, 255, 0.5)), url('../img/noticias-block-img.jpg');
-}
-
-.pad10 {
-    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.575), rgba(255, 255, 255, 0.5)), url('../img/noticias-block-img.jpg');
-}
-
-.pad11 {
-    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.575), rgba(255, 255, 255, 0.5)), url('../img/noticias-block-img.jpg');
-}
-
-.pad12 {
-    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.575), rgba(255, 255, 255, 0.5)), url('../img/noticias-block-img.jpg');
-}
-
-.pad13 {
-    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.575), rgba(255, 255, 255, 0.5)), url('../img/noticias-block-img.jpg');
-}
-
-.pad14 {
-    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.575), rgba(255, 255, 255, 0.5)), url('../img/noticias-block-img.jpg');
-}
-
-.pad15 {
-    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.575), rgba(255, 255, 255, 0.5)), url('../img/noticias-block-img.jpg');
+    background-color: rgb(4, 194, 4);
+    border: 4px solid rgb(0, 143, 0);
 }
 
 .news:hover {
     transform: scale(1.05);   
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.233), rgba(29, 27, 27, 0.192)), url('../img/noticias-block-img.jpg');
-    color: white;
     cursor: pointer;
 }
 
-a {
-    text-decoration: none;
-    color: black;
+.news-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    gap: 0.9rem;
 }
 
 .news-img {
@@ -136,19 +104,26 @@ a {
 }
 
 .news-img img {
-    width: 90%;
-    border-radius: 20px;
+    width: 100%;
+    height: auto;
+    border-radius: 20px 20px 0 0;
 }
 
 h2 {
-    font-size: 2rem;
-    font-weight: 900;
-    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 800;
+    text-align: justify;
+    text-align-last: center;
 }
 
 p {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-weight: 600;
-    text-align: center;
+    text-align: justify;
+    text-align-last: center;
 }
 
+a {
+    text-decoration: none;
+    color: black;
+}
