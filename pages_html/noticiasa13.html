@@ -156,7 +156,69 @@
         <p class="estrategias-text">Para se preparar, é útil familiarizar-se com ambos os estilos de humor assistindo programas de TV e comediantes mencionados, bem como praticar a leitura de textos variados que contenham humor, ironia e sarcasmo. Compreender essas nuances culturais amplia a habilidade de interpretar textos complexos e contribui para um desempenho melhor na prova de inglês do ENEM.</p>
             
     </section>
+    
+    <section class="container english-content" style="display: none;">
+        <article class="container-title">
+            <hr class="line-left">
+            </hr>
+            <h1>HOW TO UNDERSTAND IRONIES AND SARCASM IN ENGLISH TEXTS ON ENEM?</h1>
+            <hr class="line-right">
+            </hr>
+        </article>
+        <article class="container-noticia">
+            <h3>NEWS 13</h3>
+        </article>
+        <article class="icon">
+            <img src="" alt="">
+        </article>
 
+        <p class="estrategias-text">British and American humor are distinct, reflecting their cultures and traditions. Understanding these styles of humor can be essential for ENEM students, as the English test often uses texts full of irony, sarcasm and humor.</p>
+
+        <h2>BRITISH HUMOR</h2>
+        <hr class="line">
+
+        <p class="estrategias-text">
+            British humour is characterized by its self-deprecation, discreet sarcasm and dry humour. The British love to laugh at themselves, highlighting their own flaws in order to appear more humble and approachable. Embarrassing moments and awkwar embarrassing encounters are common material for jokes.
+        </p>
+
+        <p class="estrategias-text">
+            Example of self-deprecation:
+        </p>
+
+        <p class="estrategias-text"><b>• “I’m so bad at cooking, I could burn water.”</b></p>
+        <p class="estrategias-text">"Sou péssimo em cozinhar, poderia queimar água."</p>
+
+        <p class="estrategias-text">Comediantes britânicos famosos por esse estilo incluem Jon Richardson e Sarah Millican. Programas de TV como "Would I Lie to You?" e "The IT Crowd" exemplificam bem esse humor.</p>
+
+        <p class="estrategias-text">British comedians famous for this style include Jon Richardson and Sarah Millican. TV shows such as “Would I Lie to You?” and “The IT Crowd” exemplify this humor well. Sarcasm and irony are central elements of British humor. They are often used with perfect timing, leaving the listener wondering whether it was a joke or not.</p>
+
+        <p class="estrategias-text">Example of sarcasm:</p>
+
+        <p class="estrategias-text"><b>• “Oh, so you know how to answer the phone?”</b></p>
+        <p class="estrategias-text">"Ah, então você sabe como atender o telefone?"</p>
+
+        <p class="estrategias-text">To identify sarcasm, it's important to pay attention to tone, context and non-verbal clues, such as proud smiles.</p>
+        <p class="estrategias-text">Another trait of British humor is the ability to use humor in adverse situations. They find humor in almost everything, using laughter as a form of medicine when life gets them down.</p>
+
+        <h2>NORTH AMERICAN HUMOR</h2>
+        <hr class="line">
+
+        <p class="estrategias-text">North American humor is more open and easy to spot. It is generally more direct, often accompanied by an expression like “just kidding!” to make sure the listener understands. North Americans are not afraid to express their emotions openly and declaratively.</p>
+
+        <p class="estrategias-text">Example of North American humor:</p>
+
+        <p class="estrategias-text"><b>• "Did you put a pineapple on your head this morning? I’m kidding!"</b></p>
+        <p class="estrategias-text">“Você colocou um abacaxi na cabeça esta manhã? Estou brincando!”</p>
+
+        <p class="estrategias-text">American irony, exemplified by comedians like Woody Allen, is many sometimes more gentle and friendly, used to affectionately tease friends. Unlike British humor, which can be crueler and more insightful, American humor is easier to perceive and less exposed to the offender.</p>
+
+        <h2>CONTEXT IN ENEM</h2>
+        <hr class="line">
+
+        <p class="estrategias-text">In the ENEM English exam, understanding these subtleties can be crucial. Texts can be full of irony and sarcasm, and identifying these elements can help you interpret the questions correctly.</p>
+        <p class="estrategias-text">To prepare, it's useful to familiarize yourself with both styles of humour by watching TV shows and comedians mentioned, as well as practicing reading a variety of texts containing humor, irony and sarcasm. Understanding these cultural nuances broadens your ability to interpret complex texts and contributes to a better performance in the ENEM English exam.</p>
+            
+    </section>
     <section class="divider_section">
         <hr class="divider">
     </section>
@@ -187,12 +249,27 @@
         </section>
     </footer>
 
-</body>
-
-</html>
-
-
-<script>
+    <script>
+        function toggleMenu() {
+            var menu = document.getElementById("matérias-menu");
+            menu.style.display = menu.style.display === "block" ? "none" : "block";
+        }
+    
+        function showEnglish() {
+            document.querySelector('.portuguese-content').style.display = 'none';
+            document.querySelector('.english-content').style.display = 'block';
+        }
+    
+        function showPortuguese() {
+            document.querySelector('.english-content').style.display = 'none';
+            document.querySelector('.portuguese-content').style.display = 'block';
+        }
+    </script>
+    
+    </body>
+    </html>
+    
+    <script>
     function toggleMenu() {
         var menu = document.getElementById("matérias-menu");
         if (menu.style.display === "block") {
@@ -201,4 +278,4 @@
             menu.style.display = "block";
         }
     }
-</script>
+    </script>
