@@ -203,3 +203,22 @@ b {
     justify-content: flex-start;
     margin: 50px 120px;
 }
+
+.p-e-t {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 0 0 0 10rem;
+}
+
+.estrategias-text-topic {
+    font-size: 20px;
+    text-align: justify;
+    line-height: 3rem;
+}
+
+.container-topics {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
