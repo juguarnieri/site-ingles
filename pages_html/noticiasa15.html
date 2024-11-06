@@ -176,6 +176,73 @@
         <p class="estrategias-text">Adote essas estratégias e boa sorte na sua preparação!</p>
     </section>
 
+
+    <section class="container english-content" style="display: none;">
+        <article class="container-title">
+            <hr class="line-left">
+            </hr>
+            <h1>HOW TO MAKE A GOOD ENGLISH LANGUAGE REVIEW FOR THE ENEM IN A SHORT TIME?</h1>
+            <hr class="line-right">
+            </hr>
+        </article>
+        <article class="container-noticia">
+            <h3>NEWS 15</h3>
+        </article>
+
+        <h2>TEXT INTERPRETATION</h2>
+        <hr class="line">
+
+        <p class="estrategias-text">The main focus of ENEM's English tests is the interpretation of texts. The aim is not to assess specific knowledge of the English language, but rather the ability to understanding of the language. Practice reading English texts and remember to understand the general sentences, without having to translate them word for word. Use sources such as cartoons, news and institutional websites to diversify your practice.</p>
+
+        <h2>READING TECHNIQUES</h2>
+        <hr class="line">
+
+        <p class="estrategias-text">Even if you're not fluent in English, adopt some reading techniques:</p>
+
+        <article class="p-e-t">
+            <p class="estrategias-text-topic"><b>•</b>Read the title and subtitle of the text to put the topic into context.
+            <p class="estrategias-text-topic"><b>•</b> Check the font of the text to identify the type of text (poems, articles, advertisements,  etc.).</p>
+            <p class="estrategias-text-topic"><b>•</b> Look carefully at the images associated with the text.</p>
+            <p class="estrategias-text-topic"><b>•</b> Read the question-and-answer options before reading the text, to make it easier to understand.</p>
+        </article>
+
+        <h2>CULTURAL AND CURRENT EVENTS</h2>
+        <hr class="line">
+
+        <p class="estrategias-text">It's important to keep up to date with current affairs in Brazil and around the world. Read news from international sources such as the BBC, The New York Times and CNN. Make a habit of reading at least one news item in English a day to stay informed and expand your vocabulary.</p>
+
+        <h2>GRAMMAR REVIEW</h2>
+        <hr class="line">
+
+        <p class="estrategias-text">Although the test focuses on interpretation, having a basic grasp of grammar is crucial. Revise verb conjugations, prepositions, adjectives, adverbs and connectors. This will help you understand the context of sentences and solve more complex questions.</p>
+
+        <h2>GLOSSARY CREATION</h2>
+        <hr class="line">
+
+        <p class="estrategias-text">Create your own glossary to expand your English vocabulary. Write down unfamiliar words and phrasal verbs in a notebook with their meanings. Refer to this glossary regularly to strengthen your learning.</p>
+
+        <h2>PRACTICE WITH APPLICATIONS AND PREVIOUS EXAMS</h2>
+        <hr class="line">
+
+        <p class="estrategias-text">Use language apps to practice in a fun way. Retaking past exams is one of the best ways to understand the structure of the questions and improve your reading and interpretation. The INEP website offers access to tests and answer sheets for the years previous ones.</p>
+
+        <h2>FOCUS ON THE MOST FREQUENT THEMES</h2>
+        <hr class="line">
+
+        <p class="estrategias-text">Focus your studies on the topics that are most frequently apper in ENEM: </p>
+
+        <article class="p-e-t">
+            <p class="estrategias-text-topic"><b>•</b> Reading and text interpretation.</p>
+            <p class="estrategias-text-topic"><b>•</b> Cartoons, comic strips and cartoons.</p>
+            <p class="estrategias-text-topic"><b>•</b> Lexical mastery.</p>
+            <p class="estrategias-text-topic"><b>•</b> Grammar (verb tenses, connectives).</p>
+            <p class="estrategias-text-topic"><b>•</b> Vocabulary.</p>
+            <p class="estrategias-text-topic"><b>•</b> Synthesis.</p>
+            <p class="estrategias-text-topic"><b>•</b> Passive voice.</p>
+        </article>
+
+        <p class="estrategias-text">Adopt these strategies and good luck with your preparation!</p>
+    </section>
     <section class="divider_section">
         <hr class="divider">
     </section>
@@ -205,13 +272,27 @@
         </section>
         </section>
     </footer>
-
-</body>
-
-</html>
-
-
-<script>
+    <script>
+        function toggleMenu() {
+            var menu = document.getElementById("matérias-menu");
+            menu.style.display = menu.style.display === "block" ? "none" : "block";
+        }
+    
+        function showEnglish() {
+            document.querySelector('.portuguese-content').style.display = 'none';
+            document.querySelector('.english-content').style.display = 'block';
+        }
+    
+        function showPortuguese() {
+            document.querySelector('.english-content').style.display = 'none';
+            document.querySelector('.portuguese-content').style.display = 'block';
+        }
+    </script>
+    
+    </body>
+    </html>
+    
+    <script>
     function toggleMenu() {
         var menu = document.getElementById("matérias-menu");
         if (menu.style.display === "block") {
@@ -220,4 +301,4 @@
             menu.style.display = "block";
         }
     }
-</script>
+    </script>
