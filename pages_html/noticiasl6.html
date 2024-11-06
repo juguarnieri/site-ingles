@@ -99,13 +99,14 @@
             <hr class="line-right">
         </article>
 
-        <p class="estrategias-text">As técnicas de skimming e scanning são ferramentas de leitura valiosas que podem
-            ajudar os estudantes a responder questões de forma mais rápida e assertiva. Leia abaixo as definições dessas
-            técnicas :</p>
-
         <article class="container-noticia">
             <h3>NOTÍCIA 6</h3>
         </article>
+
+                
+        <p class="estrategias-text">As técnicas de skimming e scanning são ferramentas de leitura valiosas que podem
+            ajudar os estudantes a responder questões de forma mais rápida e assertiva. Leia abaixo as definições dessas
+            técnicas :</p>
 
         <h2>1. Skimming</h2>
         <hr class="line">
@@ -130,13 +131,45 @@
             <section class="noticias-img">
                 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-YmrjD4vMqYBxaF1M0QTxwA_jaU2FAVzyBQ&s" alt="Notícia">
                 </section>
+            </section>
 
+    <section class="container english-content" style="display: none;">
+        <article class="container-title">
+            <hr class="line-left">
+            <h1>HOW TO USE SKIMMING AND SCANNING TECHNIQUES FOR ENTRANCE EXAMS</h1>
+            <hr class="line-right">
+        </article>
+
+        <article class="container-noticia">
+            <h3>NEWS 6</h3>
+        </article>
+
+        <p class="estrategias-text">Skimming and scanning techniques are valuable tools that can help candidates answer questions faster and more assertively:</p>
+
+        <h2>1. Skimming</h2>
+        <hr class="line">
+
+        <p class="estrategias-text">Skimming is a reading technique that consists of quickly skimming through texts in order to grasp the main idea and the most important concepts. The aim is to get an overview of the content, identifying information such as the central theme, the structure of the text and the main arguments, without going into detail. </p>
+
+            <section class="noticias-img">
+            <img src="https://vestibulares.estrategia.com/portal/wp-content/uploads/2020/02/scanning-e-skimming-1200x675.webp" alt="Notícia">
+            </section>
+
+        <h2>2. Scanning</h2>
+        <hr class="line">
+
+        <p class="estrategias-text">Scanning is a reading technique that involves looking for specific information in a text without the need to read all the content. The reader looks for keywords, numbers or relevant data, allowing you to quickly find what you need, such as what they need, such as answers to questions or specific information, without worrying about without worrying about fully understanding the text.</p>
+
+            <section class="noticias-img">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-YmrjD4vMqYBxaF1M0QTxwA_jaU2FAVzyBQ&s" alt="Notícia">
+                </section>
         <section class="divider_section">
             <hr class="divider">
         </section>
+    </section>
 
         <button onclick="scrollToTop()" id="scrollTopBtn" title="Voltar ao topo">↑</button>
-    </section>
+
 
     <footer>
         <section class="social-media-container">
@@ -161,3 +194,34 @@
         </section>
         </section>
     </footer>
+
+    <script>
+        function toggleMenu() {
+            var menu = document.getElementById("matérias-menu");
+            menu.style.display = menu.style.display === "block" ? "none" : "block";
+        }
+    
+        function showEnglish() {
+            document.querySelector('.portuguese-content').style.display = 'none';
+            document.querySelector('.english-content').style.display = 'block';
+        }
+    
+        function showPortuguese() {
+            document.querySelector('.english-content').style.display = 'none';
+            document.querySelector('.portuguese-content').style.display = 'block';
+        }
+    </script>
+    </body>
+    </html>
+    
+    
+    <script>
+    function toggleMenu() {
+    var menu = document.getElementById("matérias-menu");
+    if (menu.style.display === "block") {
+        menu.style.display = "none";
+    } else {
+        menu.style.display = "block";
+    }
+    }
+    </script>
