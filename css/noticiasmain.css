@@ -78,7 +78,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 0.5rem;
+    padding: 1rem;
     gap: 0.9rem;
 }
 
@@ -97,13 +97,15 @@
 h2 {
     font-size: 1.5rem;
     font-weight: 800;
-    text-align: start;
+    text-align: justify;
+    text-align-last: center;
 }
 
 p {
     font-size: 1.2rem;
     font-weight: 600;
-    text-align: center;
+    text-align: justify;
+    text-align-last: center;
 }
 
 a {
