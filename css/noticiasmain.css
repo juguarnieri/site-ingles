@@ -34,6 +34,20 @@
     border-radius: 10px;
 }
 
+.news-intro {
+    display: flex;
+    justify-content: center;
+    padding: 0 4rem 2rem 4rem;
+}
+
+.intro-text {
+    text-align: justify;
+    text-align-last: center;
+    word-spacing: 0.4rem;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
 .news-block {
     display: flex;
     flex-direction: row;
