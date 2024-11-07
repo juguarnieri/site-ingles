@@ -1,4 +1,72 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+
+
 .banner-site {
     background-image: linear-gradient(to Left, rgba(0, 0, 0, 0.848), rgba(0, 0, 0, 0.634)),
     url(https://blog.hexag.online/wp-content/uploads/2022/10/americana-britanica.jpeg);
+}
+
+h2 {
+    text-align: start;
+    font-weight: 900;
+    font-size: 2rem;
+    display: flex;
+    justify-content: flex-start;
+    margin: 1rem 0 0 9rem;
+    }
+
+h1 {
+    color: #9A1915;
+}
+
+.line {
+    border: 0;
+    height: 0.25rem;
+    background-color: #9A1915;
+    margin: 1rem 9rem;
+    width: 28rem;
+    justify-content: flex-start;
+    border-radius: 1rem;
+    }
+
+.title {
+    margin: 4rem;
+}
+
+.description-text {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: justify;
+    margin: 3rem 15rem;
+    font-size: 20px;
+    gap: 1rem;
+}
+
+.video-container {
+    width: 50%;
+    height: 35rem;
+    background-color: rgb(161, 158, 158);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 1rem;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.title-aula {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
 }
