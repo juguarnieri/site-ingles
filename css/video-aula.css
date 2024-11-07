@@ -50,12 +50,12 @@ h1 {
 .video-container {
     width: 50%;
     height: 35rem;
-    background-color: rgb(161, 158, 158);
     display: flex;
     align-items: center;
     flex-direction: column;
     justify-content: center;
     border-radius: 1rem;
+    gap: 2rem;
 }
 
 .container {
@@ -69,4 +69,33 @@ h1 {
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
+}
+
+.video-image {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2rem;
+    height: 35rem;
+    width: 50%;
+}
+
+.teacher-image {
+    border-radius: 2rem;
+}
+
+.video-text {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: justify;
+    font-size: 20px;
+    gap: 1rem;
+}
+
+.container-content {
+    display: flex;
+    gap: 5rem;
+    flex-direction: column;
 }
