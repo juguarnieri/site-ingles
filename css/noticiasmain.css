@@ -55,6 +55,7 @@
     align-items: center;
     margin: 2rem;
     gap: 2rem;
+
 }
 
 .news {
@@ -65,21 +66,6 @@
     border-radius: 20px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-}
-
-.pad1 {
-    background-color: rgba(255, 0, 0, 0.877);
-    border: 4px solid rgba(179, 0, 0, 0.877);
-}
-
-.pad2 {
-    background-color: rgba(255, 217, 0, 0.897);
-    border: 4px solid rgba(207, 176, 0, 0.897);
-}
-
-.pad3 {
-    background-color: rgb(4, 194, 4);
-    border: 4px solid rgb(0, 143, 0);
 }
 
 .news:hover {
@@ -114,6 +100,7 @@ h2 {
     font-weight: 800;
     text-align: justify;
     text-align-last: center;
+    color: #9A1915;
 }
 
 p {
