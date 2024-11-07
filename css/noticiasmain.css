@@ -127,3 +127,18 @@ a {
     text-decoration: none;
     color: black;
 }
+
+.language-selector {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    gap: 10px; /* Espaço entre as bandeiras */
+    margin: 20px 0; /* Espaço acima e abaixo da seção */
+}
+.language-selector img {
+    width: 70px; 
+    height: 50px; 
+    object-fit: cover; /* Garante que a imagem se ajuste ao espaço sem distorção */
+    cursor: pointer;
+    border-radius: 3px; 
+}
