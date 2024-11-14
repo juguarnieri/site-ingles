@@ -407,6 +407,10 @@ footer {
     background-color: darkred; /* Muda o fundo no hover */
   }
 
+  .div-button-scroll{
+    display : flex;
+    justify-content: flex-end
+  }
 @media (max-width: 490px) {
     nav a {
         display: none; 
