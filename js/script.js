@@ -14,22 +14,3 @@ document.querySelectorAll('.menu-items ul li').forEach(item => {
         }
     });
 });
-
-    // Mostrar o botão de voltar ao topo apenas quando chegar ao final da página
-    window.onscroll = function() {
-        const button = document.getElementById('scrollTopBtn');
-        const scrollPosition = document.documentElement.scrollTop + window.innerHeight;
-        const documentHeight = document.documentElement.scrollHeight;
-
-        // Verifica se a rolagem está próxima do final
-        if (scrollPosition >= documentHeight - 10) {
-            button.style.display = 'block'; // Mostra o botão
-        } else {
-            button.style.display = 'none'; // Oculta o botão
-        }
-    };
-
-    // Função para rolar até o topo
-    function scrollToTop() {
-        window.scrollTo({ top: 0, behavior: 'smooth' });
-    }

@@ -375,36 +375,37 @@ footer {
     background-color: #cc0000;
 }
 
-.button-scroll {
+.botao-vermelho {
     display: flex;
-    justify-content: center;
-    position: fixed;
-    bottom: 40px;
-    width: 100%;
-    height: 100%;
-    z-index: 100;
-    }
-    
-#scrollTopBtn {
-    display: none; 
-    background-color: #cc0000; 
-    color: white; 
-    font-size: 24px;
-    border: none;
-    border-radius: 20%;
-    padding: 15px;
-    margin-left: 15px;
-    margin-bottom: 15px;
+    align-items: center;
+    background-color: red;
+    color: white;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
     cursor: pointer;
-    opacity: 0.9;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
-    transition: opacity 0.3s, transform 0.3s;
-    }
-    
-#scrollTopBtn:hover {
-    opacity: 1;
-    transform: scale(1.1); 
-    }
+    transition: background-color 0.3s;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 30%;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    margin: 2rem;
+  }
+
+  /* Ajuste da imagem de seta */
+  .botao-vermelho img {
+    width: 20px;
+    height: 20px;
+  }
+
+  /* Efeito hover */
+  .botao-vermelho:hover {
+    background-color: darkred; /* Muda o fundo no hover */
+  }
 
 @media (max-width: 490px) {
     nav a {
