@@ -14,10 +14,14 @@
     <header class="site-header">
         <section class="container-logos">
             <section class="logo-sesi">
-                <img src="/img/logo sesi1.png" alt="SESI">
+                <a href="sobre.html">
+                    <img src="/img/logo sesi1.png" alt="SESI">
+                </a>
             </section>
             <section class="logo-senai">
-                <img src="/img/logo senai 2.png" alt="SENAI">
+                <a href="sobre.html">
+                    <img src="/img/logo senai 2.png" alt="SENAI">
+                </a>
             </section>
             <section class="vertical-line"></section>
         </section>
@@ -27,9 +31,9 @@
             <a href="./sobrenos.html">SOBRE-NÓS</a>
             <a href="#">CADASTRE-SE</a>
 
-            <section class="menu-icon" onclick="toggleMenu()">☰</section>
+            <div class="menu-icon" onclick="toggleMenu()">☰</div>
 
-            <section id="matérias-menu" class="menu-items" style="display: none;">
+            <div id="matérias-menu" class="menu-items" style="display: none;">
                 <h3>MATÉRIAS</h3>
                 <ul>
                     <li><a href="materias.html#biologia">Biologia</a></li>
@@ -40,9 +44,8 @@
                     <li><a href="materias.html#historia">História</a></li>
 
                     <li class="dropdown">
-                        <a href="materias.html#ingles" class="dropdown-toggle" onclick="toggleSubmenu(event)">Inglês
-                            ▼</a>
-                        <ul class="submenu">
+                        <a href="materias.html#ingles" class="dropdown-toggle" onclick="toggleSubmenu(event)">Inglês ▼</a>
+                        <ul class="submenu" style="display: none;">
                             <li><a href="/index.html">Home</a></li>
                             <li><a href="carreiras.html">Carreiras</a></li>
                             <li><a href="dicas.html">Dicas</a></li>
@@ -57,14 +60,16 @@
                     <li><a href="materias.html#quimica">Química</a></li>
                     <li><a href="materias.html#sociologia">Sociologia</a></li>
                 </ul>
-            </section>
+            </div>
+        </nav>
     </header>
 
     <section class="banner-site">
 
         <section class="banner-text">
-            <p> NOTÍCIA - </p>
-            <p> LÍNGUA INGLESA </p>
+            <p> NOTÍCIA</p>
+            <p> LÍNGUA </p>
+            <p>INGLESA </p>
         </section>
 
     </section>
@@ -80,6 +85,7 @@
     <section class="divider_section">
         <hr class="divider">
     </section>
+
 
     <section class="language-selector">
         <img src="/img/bandeira-brasil.png" alt="Portuguese" onclick="showPortuguese()">
