@@ -10,72 +10,73 @@ body {
     padding: 0px;
 }
 
+.banner-site{
+    background-image: linear-gradient(to Left, rgba(0, 0, 0, 0.848), rgba(0, 0, 0, 0.634)), url('../img/dicasIngles.jpg');
+}
+
 .container-principal {
     display: flex;
-    margin: 0 auto;
-    max-width: 1550px;
     flex-direction: column;
+    padding: 0 1.5rem;
 }
 
 .title {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
+    align-items: center;
+    padding: 4rem 0;
 }
 
 .container-title {
     display: flex;
     justify-content: center;
     font-weight: 900;
-    font-size: 35px;
-    margin: 20px 0;
+    font-size: 2rem;
     color: #9A1915;
     text-align: center;
 }
 
 .hr-left {
     background-color: #9a1915;
-    height: 4px;
-    width: 350px;
+    height: 4.5px;
+    width: 28rem;
     border-radius: 10px;
-    margin-top: 3%;
 }
 
 .hr-right {
     background-color: #9a1915;
-    height: 4px;
-    width: 350px;
+    height: 4.5px;
+    width: 28rem;
     border-radius: 10px;
-    margin-top: 3%;
 }
 
 .intro-text {
     display: flex;
-    font-size: 20px;
     justify-content: center;
+    font-size: 1.2rem;
     text-align: justify;
-    margin: 50px 250px;
+    text-align-last: center;
+    padding: 0 4rem 2rem 4rem;
 }
 
 .intro-img {
     display: flex;
     justify-content: center;
+    padding: 4rem 0;
 }
 
 .intro-img img {
-    width: 50%;
+    width: 35%;
     border-radius: 5px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-}
-
-.banner-site{
-    background-image: linear-gradient(to Left, rgba(0, 0, 0, 0.848), rgba(0, 0, 0, 0.634)), url('../img/dicasIngles.jpg');
 }
 
 .dica {
     display: flex;
     flex-direction: column;
-    margin: 50px 0;
+    justify-content: center;
+    margin: 4rem 6rem;
 }
 
 .dica-title {
@@ -85,8 +86,9 @@ body {
 }
 
 .dica-text {
-    font-size: 20px;
+    font-size: 1.2rem;
     text-align: justify;
+    text-align-last: center;
     margin: 50px 120px;
 }
 
@@ -96,7 +98,7 @@ body {
 }
 
 .img img {
-    width: 40%;
+    width: 35%;
     border-radius: 5px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
@@ -105,48 +107,45 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    padding: 0 8rem;
+    gap: 2rem;
 }
 
 .dica-text-text {
     display: flex;
-    max-width: 50%;
     flex-direction: column;
+    max-width: 50%;
 }
 
 .dica-text-text .text {
-    font-size: 20px;
-    margin: 20px 0 0 120px;
+    font-size: 1.2rem;
     text-align: justify;
-}
-
-.dica-text-img .img {
-    width: 50%;
+    -webkit-margin-before: 0.5rem;
+    -webkit-margin-after: 0.5em;
 }
 
 .dica-text-img .img img {
-    width: 70%;
+    width: 100%;
 }
 
 .dica-cursos {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    margin: 10px 0;
-    background-color: rgba(87, 87, 87, 0.25);
-    padding: 50px;
+    justify-content: center;
+    padding: 4rem;
     border-radius: 25px;
-    gap: 20px;
-}
-
-.curso {
-    text-align: center;
+    gap: 1.2rem;
 }
 
 .curso-block {
-    background-color: #ffffffbe;
-    padding: 20px;
-    border-radius: 12.5px;
-    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20rem;
+    width: 20rem;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 12px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
@@ -157,19 +156,6 @@ body {
 
 .curso-img img {
     width: 300px;
-    border-radius: 5px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-    margin-bottom: 20px;
-}
-
-.curso-text h2 {
-    font-size: 25px;
-    margin: 20px 0;
-}
-
-.curso-text a {
-    color: #0054A1;
-    font-size: 20px;
 }
 
 .dica-title-divisor {
@@ -180,7 +166,7 @@ body {
 .divisor {
     border: none;
     width: 500px;
-    height: 4px;
+    height: 4.2px;
     background-color: #9A1915;
     border-radius: 10px;
 }
@@ -190,17 +176,15 @@ body {
     justify-content: center;
     font-weight: 900;
     font-size: 35px;
-    margin: 150px 0 45px 0;
+    padding: 4rem 0;
     color: #9A1915;
     text-align: center;
     flex-direction: column;
-
 }
 
 .dica-category-title {
-    font-size: 35px;
+    font-size: 2.2rem;
     font-weight: 900;
-    margin: -20px 0;
 }
 
 .dica-title-center {
