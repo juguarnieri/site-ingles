@@ -13,15 +13,19 @@
 
 <body>
     <header class="site-header">
-        <div class="container-logos">
-            <div class="logo-sesi">
-                <img src="/img/logo sesi1.png" alt="SESI">
-            </div>
-            <div class="logo-senai">
-                <img src="/img/logo senai 2.png" alt="SENAI">
-            </div>
-            <div class="vertical-line"></div>
-        </div>
+        <section class="container-logos">
+            <section class="logo-sesi">
+                <a href="sobre.html">
+                    <img src="/img/logo sesi1.png" alt="SESI">
+                </a>
+            </section>
+            <section class="logo-senai">
+                <a href="sobre.html">
+                    <img src="/img/logo senai 2.png" alt="SENAI">
+                </a>
+            </section>
+            <section class="vertical-line"></section>
+        </section>
 
         <nav>
             <a href="/index.html">HOME</a>
@@ -41,9 +45,8 @@
                     <li><a href="materias.html#historia">História</a></li>
 
                     <li class="dropdown">
-                        <a href="materias.html#ingles" class="dropdown-toggle" onclick="toggleSubmenu(event)">Inglês
-                            ▼</a>
-                        <ul class="submenu">
+                        <a href="materias.html#ingles" class="dropdown-toggle" onclick="toggleSubmenu(event)">Inglês ▼</a>
+                        <ul class="submenu" style="display: none;">
                             <li><a href="/index.html">Home</a></li>
                             <li><a href="carreiras.html">Carreiras</a></li>
                             <li><a href="dicas.html">Dicas</a></li>
@@ -59,24 +62,26 @@
                     <li><a href="materias.html#sociologia">Sociologia</a></li>
                 </ul>
             </div>
+        </nav>
     </header>
 
     <section class="banner-site">
 
         <section class="banner-text">
-            <p> SIMULADO - </p>
-            <p> NÍVEL AVANÇADO </p>
+            <p> NOTÍCIA</p>
+            <p> LÍNGUA </p>
+            <p>INGLESA </p>
         </section>
 
     </section>
 
-    <div class="barra-opcoes">
+    <section class="barra-opcoes">
         <a href="/pages_html/carreiras.html">CARREIRAS</a>
         <a href="/pages_html/dicas.html">DICAS</a>
         <a href="/pages_html/noticias.html">NOTÍCIAS</a>
         <a href="/pages_html/video-aula.html">VÍDEO-AULA</a>
-        <a href="simulado.html">SIMULADOS</a>
-    </div>
+        <a href="/pages_html/simulado.html">SIMULADOS</a>
+    </section>
 
     <section class="divider_section">
         <hr class="divider">
