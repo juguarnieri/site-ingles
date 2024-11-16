@@ -383,9 +383,8 @@ footer {
 .botao-vermelho {
     display: flex;
     align-items: center;
-    background-color: red;
+    background-color: #D71920;
     color: white;
-    border: 2px solid black;
     border-radius: 5px;
     font-size: 16px;
     font-weight: bold;
@@ -399,23 +398,27 @@ footer {
     align-content: center;
     justify-content: center;
     margin: 2rem;
-  }
+}
 
   /* Ajuste da imagem de seta */
-  .botao-vermelho img {
+.botao-vermelho img {
     width: 20px;
     height: 20px;
-  }
+}
 
-  /* Efeito hover */
-  .botao-vermelho:hover {
-    background-color: darkred; /* Muda o fundo no hover */
-  }
+.botao-vermelho:hover {
+    background-color: #a11214;
+}
 
-  .div-button-scroll{
+.div-button-scroll{
     display : flex;
     justify-content: flex-end
-  }
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
 @media (max-width: 490px) {
     nav a {
         display: none; 
