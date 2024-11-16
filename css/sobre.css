@@ -33,7 +33,25 @@ h1 {
     height: 4px;
     background-color: #9A1915;
     margin: 10px 0;
-    width: 15rem;
+    width: 30rem;
+    border-radius: 10px;
+}
+
+.linha-2{
+    border: none;
+    height: 4px;
+    background-color: #9A1915;
+    margin: 10px 0;
+    width: 45rem;
+    border-radius: 10px;
+}
+
+.linha-3{
+    border: none;
+    height: 4px;
+    background-color: #9A1915;
+    margin: 10px 0;
+    width: 57rem;
     border-radius: 10px;
 }
 
@@ -88,7 +106,7 @@ p{
 }
 
 .banner-site{
-    background-image: linear-gradient(to Left, rgba(0, 0, 0, 0.848), rgba(0, 0, 0, 0.634)), url('../img/nova-iorque.jpg');
+    background-image: linear-gradient(to Left, rgba(0, 0, 0, 0.848), rgba(0, 0, 0, 0.634)), url('/img/banner\ home-1.jpg');
 }
 
 
