@@ -9,7 +9,7 @@
     <script src="../js/script.js"></script>
 </head>
 <body>
-    <header class="site-header">
+    <header class="site-header" id="sessao-destino">
         <section class="container-logos">
             <section class="logo-sesi">
                 <img src="/img/logo sesi1.png" alt="SESI">
@@ -59,10 +59,11 @@
     </header>
 
     <section class="banner-site">
+
         <section class="banner-text">
-            <p> NOTÍCIAS 9 </p>
-            <p> NEWS </p>
+            <p> NOTÍCIAS </p> <p> LÍNGUA </p> <p> INGLESA </p>
         </section>
+
     </section>
 
     <section class="barra-opcoes">
@@ -249,7 +250,9 @@
             <hr class="divider">
         </section>
     
-        <button onclick="scrollToTop()" id="scrollTopBtn" title="Voltar ao topo">↑</button>
+        <div class="div-button-scroll">
+            <a href="#sessao-destino" class="botao-vermelho"><img src="../img/seta1.png" alt="Seta"></a>
+        </div>
     
         <footer>
             <section class="social-media-container">
