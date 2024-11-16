@@ -59,7 +59,6 @@ p {
     font-size: 1.2em;
     font-weight: 400;
     text-align: justify;
-    margin-bottom: 75px;
     max-width: 700px;
 }
 
@@ -97,12 +96,6 @@ p {
     margin-right: 30px; 
     height: 150px; 
     overflow: hidden; 
-}
-p{
-    margin: 0;
-    margin-top: 20px;
-    
-    margin-right: 80px;
 }
 
 .banner-site{
