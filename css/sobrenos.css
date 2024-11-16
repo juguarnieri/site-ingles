@@ -2,6 +2,7 @@
     font-family: 'Montserrat', sans-serif;
     margin: 0;
     padding: 0px;
+    box-sizing: border-box;
 }
 
 body {
@@ -11,8 +12,7 @@ body {
 }
 
 .container, .container-2 {
-    max-width: 1400px;
-    min-width: 1400px;
+    max-width: 90%; 
     margin: 0 auto;
     padding: 10px;
 }
@@ -34,15 +34,15 @@ p {
 }
 
 .imagem-arredondada {
-    width: 500px;
-    height: 350px;
+    width: 100%;
+    max-width: 500px; 
+    height: auto;
     border-radius: 10%;
 }
 
 .container-text {
     justify-content: center;
-    margin: 3% 20%;
-    flex-wrap: wrap;
+    margin: 3% 20% auto;
     text-align: justify;
 }
 
@@ -92,72 +92,33 @@ p {
 
 /*responsividade*/
 
-@media (max-width: 1024px){
-    .container, .container-2 {
-        width: 95%;
+@media (max-width: 1024px) { 
+    .containers-title {
+        font-size: 1.8em;
     }
-    .line {
-    max-width: 300%;
+    .members-description {
+        max-width: 150px;
+    }
+}
+
+@media (max-width: 768px) {
+    .banner-site {
+        height: 200px;
     }
     .containers-title {
-        font-size: 30px;
-        margin: 10px auto;
+        font-size: 1.5em;
     }
-    .imagem-arredondada {
-        max-width: 400px;
+    .line {
+    width: 80%;
+    }
+    .container-text {
+        margin: 3% 5%;
+    }
+    .members-description {
+        max-width: 10px;
     }
     .members-description img {
-        width: 100px;
+        width: 120px;
         height: 100px;
-    }
-}
-
-@media (max-width: 768px){
-    .containers-title {
-        font-size: 25px;
-        text-align: center;
-    }
-    .container-text {
-        margin: 5%;
-    }
-    .imagem-arredondada {
-        max-width: 300px;
-    }
-    .members-description img {
-        width: 90px;
-        height: 90px;
-    }
-    nav a {
-        display: block;
-        margin: 5px 0;
-    }
-    .menu-icon {
-        display: block;
-    }
-    .menu-items {
-        display: none;
-        flex-direction: column;
-    }
-}
-
-@media (max-width: 480px) {
-    .containers-title {
-        font-size: 20px;
-    }
-    .container, .container-2 {
-        width: 90%;
-    }
-    .container-text {
-        margin: 5% 2%;
-    }
-    .members-description img {
-        width: 80px;
-        height: 80px;
-    }
-    .imagem-arredondada {
-        width: 90%;
-    }
-    .line {
-        width: 200px;
     }
 }
