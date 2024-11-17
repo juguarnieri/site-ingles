@@ -93,3 +93,72 @@ button {
 button:hover {
     background-color: #9A1915;
 }
+
+/*responsive*/
+
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+        margin-bottom: 2rem;
+    }
+
+    .container-title {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin: 2rem 0;
+    }
+
+    .container-title h1 {
+        font-size: 1.5rem;
+    }
+
+    .hr-left {
+        width: 150px;
+    }
+
+    .hr-right {
+        width: 150px;
+    }
+
+    .option {
+        font-size: 1rem;
+        padding: 8px;
+    }
+
+    button {
+        font-size: 1rem;
+        padding: 8px 16px;
+    }
+
+    hr.divisor {
+        width: 100%;
+    }
+}
+
+@media (max-width: 1024px) {
+    .container {
+        padding: 15px;
+    }
+
+    .container-title h1 {
+        font-size: 1.8rem;
+    }
+
+    .hr-left {
+        width: 200px;
+    }
+
+    .hr-right {
+        width: 200px;
+    }
+
+    .option {
+        font-size: 1rem;
+    }
+
+    button {
+        font-size: 1.1rem;
+        padding: 9px 18px;
+    }
+}

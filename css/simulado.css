@@ -94,3 +94,60 @@ body {
 .banner-site{
     background-image: linear-gradient(to Left, rgba(0, 0, 0, 0.848), rgba(0, 0, 0, 0.634)), url('../img/banner-simulado.jpg');
 }
+
+/*responsive*/
+
+@media (max-width: 768px) {
+    .container-principal {
+        padding: 2rem;
+    }
+
+    .title h1 {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    .linha {
+        width: 100%;
+    }
+
+    .nivel {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .nivel-img img {
+        width: 200px;
+        height: 200px;
+    }
+
+    .nivel-text h2 {
+        font-size: 1.2rem;
+    }
+
+    .nivel-text p {
+        font-size: 1rem;
+    }
+
+    .nivel-text button {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 1024px) {
+    .container-principal {
+        padding: 3rem;
+    }
+
+    .nivel {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .nivel-img img {
+        width: 250px;
+        height: 250px;
+    }
+}
