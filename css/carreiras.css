@@ -77,7 +77,7 @@ p {
     height: 300px; 
     border-radius: 50%;
     object-fit: cover; /* Garante que a imagem mantenha a proporção */
-    margin-top: -50px;
+    margin-top: -90px;
 }
 
 .text-block {
@@ -110,7 +110,6 @@ p {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    margin: 20px;
 }
 
 .career-block {
@@ -118,7 +117,6 @@ p {
     border: 1px solid #ddd;
     border-radius: 8px; 
     padding: 15px; 
-    margin: 10px; 
     width: calc(30% - 20px); 
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
     text-align: justify;
@@ -179,7 +177,7 @@ p {
     background-image: linear-gradient(to Left, rgba(0, 0, 0, 0.848), rgba(0, 0, 0, 0.634)), url('../img/CARREIRAS.jpg');
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1254px) {
     .content {
         flex-direction: column; 
         align-items: center;
@@ -201,6 +199,14 @@ p {
         display: flex;
         justify-content: center;
 }
+.imagem-carreira {
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+}
 }
 
 @media (max-width: 480px) {
@@ -208,22 +214,33 @@ p {
         max-width: 100%; 
     }
     .career-block {
-        width: 95%; 
         padding: 10px; 
         margin: 10px auto; 
     }
     .career-block h2 {
         font-size: 1.2em; 
     }
+    .image-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: auto;
+    }
+    .image-container img {
+        width: 100%;
+        max-width: auto; 
+        height: auto;
+        border-radius: 50%; 
+        object-fit: cover; 
+    }
     .career-block p {
         font-size: 0.9em; 
     }
-    .title-container h1 {
+    .container_text h1 {
         font-size: 1.5em; 
-    }
-    .h1{
-        font-size: 1.5em;
-    }
+        word-break: normal;
+    }                              
     p {
         font-size: 1em; 
         margin-right: 0;
