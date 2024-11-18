@@ -178,7 +178,7 @@ p {
     background-image: linear-gradient(to Left, rgba(0, 0, 0, 0.848), rgba(0, 0, 0, 0.634)), url('../img/CARREIRAS.jpg');
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1254px) {
     .content {
         flex-direction: column; 
         align-items: center;
@@ -200,7 +200,16 @@ p {
         display: flex;
         justify-content: center;
 }
+.imagem-carreira {
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
 }
+}
+
 
 @media (max-width: 480px) {
     .container_text {
