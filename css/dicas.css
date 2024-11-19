@@ -68,7 +68,7 @@ body {
 }
 
 .intro-img img {
-    width: 35%;
+    width: 50%;
     border-radius: 5px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
@@ -90,7 +90,7 @@ body {
     font-size: 1.2rem;
     text-align: justify;
     text-align-last: center;
-    margin: 50px 120px;
+    margin: 2rem;
 }
 
 .img {
@@ -99,7 +99,7 @@ body {
 }
 
 .img img {
-    width: 35%;
+    width: 45%;
     border-radius: 5px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
@@ -107,8 +107,8 @@ body {
 .dica-text-img {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    padding: 0 8rem;
+    justify-content: center;
+    padding: 0 2rem;
     gap: 2rem;
 }
 
@@ -142,8 +142,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 20rem;
-    width: 20rem;
+    height: 15rem;
+    width: 15rem;
     background-color: #ffffff;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     border-radius: 12px;
@@ -156,7 +156,7 @@ body {
 }
 
 .curso-img img {
-    width: 300px;
+    width: 100%;
 }
 
 .dica-title-divisor {
@@ -243,14 +243,17 @@ body {
 }
 
 .dica-text-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     background-color: rgba(87, 87, 87, 0.1);
-    padding: 50px;
     border-radius: 60px;
-    max-width: 1000px;
-    margin: 20px auto;
+    width: 50rem;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.39);
     text-align: justify;
     text-align-last: center;
+    padding: 2rem;
+    margin: 2rem auto;
 }
 
 .example{
@@ -380,6 +383,11 @@ body {
     }
 
     .dica-text-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 20rem;
+        margin: 0;
         padding: 4rem 1.5rem;
     }
 
