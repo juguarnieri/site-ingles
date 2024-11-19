@@ -60,8 +60,9 @@
 .intro-text {
     text-align: justify;
     text-align-last: center;
+    line-height: 1.5rem;
     word-spacing: 0.4rem;
-    font-size: 1.2rem;
+    font-size: 1.2em;
     font-weight: 400;
 }
 
@@ -174,12 +175,12 @@ a {
     }
 
     .intro-text {
-        font-size: 1.3rem;
+        font-size: 1.2em;
         word-spacing: 0.5rem;
     }
 
     .news-block-container{
-        margin: 0 4rem;
+        margin: 0 8rem;
     }
 
     .news-block {
@@ -188,7 +189,7 @@ a {
 
     .news {
         width: 18rem;
-        height: 23rem;
+        height: 25rem;
     }
 
     .news-text {
@@ -230,12 +231,12 @@ a {
     }
 
     .intro-text {
-        font-size: 1.15rem;
+        font-size: 1.2em;
         word-spacing: 0.2rem;
     }
 
     .news-block-container{
-        margin: 0 2rem;
+        margin: 0 4rem;
     }
 
     .news-block {
@@ -244,8 +245,8 @@ a {
     }
 
     .news {
-        width: 25rem;
-        height: 30rem;
+        width: 20rem;
+        height: 28rem;
     }
 
     .news-text {

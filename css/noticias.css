@@ -266,3 +266,328 @@ b {
     font-size: 1rem;
     font-weight: 400;
 }
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .container-title {
+        gap: 2rem;
+    }
+
+    .container-title h1 {
+        font-size: 1.6rem;
+        text-align: center;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+        margin: 4rem 0 0 3rem;
+    }
+
+    .line {
+        width: 24rem;
+        margin: 1.5rem 3rem;
+    }
+
+    .estrategias-text {
+        font-size: 1.2em;
+        line-height: 1.5rem;
+        padding: 2rem 3rem 2rem 3rem;
+    }
+
+    .noticias-img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 0 2rem 0;
+    }
+
+    .noticias-img img {
+        width: 60%;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    }
+
+    .noticia-text-content {
+        margin: 0;
+    }
+
+    .noticia-content-title {
+        font-size: 1.6em;
+        margin: 2rem 0 0 5rem;
+    }
+
+    .div-noticia-text {
+        margin: 0;
+    }
+
+    .noticia-text {
+        font-size: 1.2em;
+        margin: 2rem 6rem;
+        text-align: justify;
+        text-align-last: start;
+        word-spacing: 0.2rem;
+    }
+
+    .noticia-title {
+        font-size: 2rem;
+        margin: 20px 0; 
+    }
+
+    .img-noticia {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .img-noticia img {
+        width: 75%;
+    }
+
+    .obras {
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .obras-text{
+        margin: 1rem 4rem;
+        text-align: justify;
+        text-align-last: center;
+    }
+
+    .noticia-content-title-modal{
+        font-size: 1.6rem;
+        margin: 1rem 6rem;
+    }
+
+    .p-e-t {
+        padding: 0 3rem;
+    }
+
+    .p-e-t2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 1rem 6rem 2rem 6rem;
+        padding: 0;
+    }
+
+    .p-e-t3 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    .estrategias-text-topic {
+        font-size: 1.2em;
+        word-spacing: -0.1em;
+        text-align: flex-start;
+        text-align-last: start;
+    }
+
+    .news-bibliographic-references {
+        display: flex;
+        justify-content: flex-end;
+        margin: 4rem 3rem 2rem 0;
+    }
+
+    .news-bibliographic-references h3 {
+        font-size: 0.9rem;
+    }
+
+    .news-bibliographic-references a {
+        font-size: 0.9rem;
+    }
+
+    .container-topics {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding: 0 3rem;
+    }
+
+    .block h2 {
+        font-size: 1.3rem;
+    }
+
+    .block .line {
+        width: 18rem;
+        margin: 1rem 3rem;
+    }
+
+    .container-topics2 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 0 3rem;
+    }
+}
+
+@media (max-width: 767px) {
+    .container-title {
+        gap: 1rem;
+    }
+
+    .container-title h1 {
+        font-size: 1.4rem;
+        text-align: center;
+    }
+
+    h2 {
+        font-size: 1.2rem;
+        margin: 4rem 0 0 2rem;
+    }
+
+    .line {
+        width: 18rem;
+        margin: 1rem 2rem;
+    }
+
+    .estrategias-text {
+        font-size: 1.1em;
+        line-height: 1.5rem;
+        padding: 2rem;
+    }
+
+    .noticias-img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 0 2rem 0;
+    }
+
+    .noticias-img img {
+        width: 65%;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    }
+
+    .noticia-text-content {
+        margin: 0;
+    }
+
+    .noticia-content-title {
+        font-size: 1.4em;
+        margin: 2rem 0 2rem 2rem;
+    }
+
+    .div-noticia-text {
+        margin: 0;
+    }
+
+    .noticia-text {
+        font-size: 1.1em;
+        margin: 2rem 2rem;
+        text-align: justify;
+        text-align-last: start;
+        word-spacing: 0.2rem;
+    }
+
+    .noticia-title {
+        font-size: 1.8rem;
+        margin: 20px 0; 
+    }
+
+    .img-noticia {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .img-noticia img {
+        width: 75%;
+    }
+
+    .obras {
+        font-size: 1.3rem;
+        text-align: center;
+    }
+
+    .obras-text{
+        margin: 1rem 2rem;
+        text-align: justify;
+        text-align-last: center;
+    }
+
+    .noticia-content-title-modal{
+        font-size: 1.4rem;
+        margin: 1rem 2rem;
+    }
+
+    .p-e-t2 {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        margin: 0 3.5rem 2rem 3.5rem;
+        padding: 0;
+    }
+
+    .p-e-t3 {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        margin: 0 10rem;
+        padding: 0;
+    }
+
+    .estrategias-text-topic {
+        font-size: 1.1em;
+        word-spacing: -0.1em;
+        text-align: flex-start;
+        text-align-last: center;
+    }
+
+    .news-bibliographic-references {
+        display: flex;
+        justify-content: flex-end;
+        margin: 4rem 2rem 2rem 0;
+    }
+
+    .news-bibliographic-references h3 {
+        font-size: 0.8rem;
+    }
+
+    .news-bibliographic-references a {
+        font-size: 0.8rem;
+    }
+
+    .container-topics {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: center;
+        padding: 0;
+        margin: 0 2rem;
+    }
+
+    .block {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: center;
+    }
+
+    .p-e-t {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        padding: 0 4rem;
+    }
+
+    .block h2 {
+        font-size: 1.2em;
+    }
+
+    .block .line {
+        width: 20rem;
+        margin: 1rem 2rem;
+    }
+
+    .container-topics2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+        margin: 0;
+    }
+}
