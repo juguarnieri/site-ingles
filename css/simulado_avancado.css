@@ -162,3 +162,67 @@ button:hover {
         padding: 9px 18px;
     }
 }
+
+@media (max-width: 480px) {
+    .container {
+        padding: 10px;
+    }
+
+    .container-title {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+
+    .hr-left, .hr-right, hr.divisor {
+        display: none; 
+    }
+
+    .container-title h1 {
+        font-size: 1.2rem;
+        text-align: center; 
+    }
+
+    .option {
+        font-size: 0.9rem;
+        padding: 10px;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .question-title h2, h3 {
+        font-size: 1rem;
+    }
+
+    .question-title {
+        margin-bottom: 0.5rem;
+        flex-direction: column; 
+        text-align: center; 
+    }
+    .question-text1 p {
+        font-size: 1rem;
+        line-height: 2rem;
+    }
+    .question-text2 p {
+        font-size: 1rem;
+    }
+    .question-text b {
+        font-size: 1rem;
+    }
+    p {
+        font-size: 0.7rem;
+        text-align: justify;
+    }
+
+    .image-question img {
+        width: 100%; 
+        height: auto;
+    }
+
+    button {
+        font-size: 1rem;
+        padding: 8px 16px;
+        width: 50%; 
+        text-align: center;
+    }
+}

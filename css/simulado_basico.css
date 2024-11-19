@@ -191,9 +191,18 @@ hr.divisor {
         flex-direction: column; 
         text-align: center; 
     }
-    
+    .question-text1 p {
+        font-size: 1rem;
+        line-height: 2rem;
+    }
+    .question-text2 p {
+        font-size: 1rem;
+    }
+    .question-text b {
+        font-size: 1rem;
+    }
     p {
-        font-size: 0.9rem;
+        font-size: 0.7rem;
         text-align: justify;
     }
 
@@ -205,7 +214,7 @@ hr.divisor {
     button {
         font-size: 1rem;
         padding: 8px 16px;
-        width: 100%; 
+        width: 50%; 
         text-align: center;
     }
 }
