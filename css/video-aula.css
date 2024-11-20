@@ -20,6 +20,7 @@ h2 {
 
 h1 {
     color: #9A1915;
+    font-size: 1.7rem;
 }
 
 .line {
@@ -35,7 +36,28 @@ h1 {
 .title {
     margin: 4rem;
 }
-
+.container {
+    display: flex;             
+    justify-content: center;   
+    gap: 4rem;                 
+    align-items: center;       
+    margin: 2rem 0;            
+}
+.video {
+    max-width: 500px; 
+    border-radius: 20%;        
+}
+.image-container {
+    display: flex;
+    flex-direction: column;    
+    align-items: center;      
+} 
+.teacher-text {
+    text-align: center;       
+    margin-top: 1rem;          
+    font-size: 16px;           
+    color: #800000;        
+}   
 .description-text {
     display: flex;
     text-align: center;
@@ -58,12 +80,6 @@ h1 {
     gap: 2rem;
 }
 
-.container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    
-}
 
 .title-aula {
     display: flex;
@@ -75,9 +91,11 @@ h1 {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap: 2rem;
+    gap:190px;
     height: 35rem;
     width: 50%;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .teacher-image {
