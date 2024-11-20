@@ -82,14 +82,17 @@ h1 {
 
 .teacher-image {
     border-radius: 2rem;
+    height: 350px;
+    width: 350px;
+    border-radius: 65%;
+    flex-shrink: 0; 
 }
 
 .video-text {
     display: flex;
     text-align: center;
-    justify-content: center;
+    justify-content: space-between;
     flex-direction: column;
-    text-align: justify;
     font-size: 20px;
     gap: 1rem;
 }
