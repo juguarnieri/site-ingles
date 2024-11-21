@@ -185,6 +185,10 @@ h1 {
         width: 100px;
         height: 100px;
     }
+
+    .line {
+        width: 83%;
+    }
 }
 
 @media (min-width: 769px) and (max-width: 1024px){
