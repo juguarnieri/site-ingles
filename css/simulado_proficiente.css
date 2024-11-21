@@ -326,9 +326,39 @@ button:hover {
         text-align: justify;
     }
 
-    .image-question img {
+    .question8-img img {
+        width: 120%; 
+        height: 120%;
+    }
+    .question-img img{
+        width: 120%; 
+        height: 120%;
+    }
+    .question-caption{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0.4rem;
+        padding: 0.4rem;
+    }
+
+    .caption {
+        text-align: justify;
+        text-align-last: center;
+        font-size: 0.5em;
+    }
+
+    .question15-img img {
         width: 100%; 
-        height: auto;
+        height: 100%;
+    }
+    .question14-img img {
+        width: 120%;
+        height: 120%;
+    }
+
+    .subtitle {
+        font-size: 0.8rem;
     }
 
     button {
