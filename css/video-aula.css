@@ -33,38 +33,13 @@ h1 {
     border-radius: 1rem;
     }
 
-.title {
-    margin: 4rem;
-}
-.container {
-    display: flex;             
-    justify-content: center;   
-    gap: 4rem;                 
-    align-items: center;       
-    margin: 2rem 0;            
-}
-.video {
-    max-width: 500px; 
-    border-radius: 20%;        
-}
-.image-container {
-    display: flex;
-    flex-direction: column;    
-    align-items: center;      
-} 
-.teacher-text {
-    text-align: center;       
-    margin-top: 1rem;          
-    font-size: 16px;           
-    color: #800000;        
-}   
 .description-text {
     display: flex;
     text-align: center;
     justify-content: center;
-    flex-direction: column;
+    flex-direction: row;
     text-align: justify;
-    margin: 3rem 15rem;
+    margin: 3rem;
     font-size: 20px;
     gap: 1rem;
 }
@@ -80,24 +55,6 @@ h1 {
     gap: 2rem;
 }
 
-
-.title-aula {
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
-}
-
-.video-image {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap:190px;
-    height: 35rem;
-    width: 50%;
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-
 .teacher-image {
     border-radius: 2rem;
     height: 350px;
@@ -106,17 +63,42 @@ h1 {
     flex-shrink: 0; 
 }
 
-.video-text {
+.text-container {
     display: flex;
-    text-align: center;
-    justify-content: space-between;
+    font-size: 1rem;
+    text-align: justify;
+    max-width: 40rem;
+    hyphens: auto;
+    align-items: center;
+    word-spacing: 0.1em;
+    text-align-last: left;
     flex-direction: column;
-    font-size: 20px;
-    gap: 1rem;
+    gap: 2rem;
+    line-height: 1.75rem;
+}
+.video-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
-.container-content {
+.video-content1 {
     display: flex;
-    gap: 5rem;
-    flex-direction: column;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left: 4rem;
+}
+
+.text-container h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;   
+}
+
+.video-container {
+    display: flex;
+    width: 40rem;
 }
