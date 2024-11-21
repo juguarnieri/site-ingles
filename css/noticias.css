@@ -432,13 +432,20 @@ b {
         text-align: center;
     }
 
+    .container-noticia {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 65%;
+    }
+
     h2 {
         font-size: 1.2rem;
         margin: 4rem 0 0 2rem;
     }
 
     .line {
-        width: 18rem;
+        width: 13rem;
         margin: 1rem 2rem;
     }
 
@@ -529,24 +536,26 @@ b {
     }
 
     .estrategias-text-topic {
-        font-size: 1.1em;
+        font-size: 1em;
         word-spacing: -0.1em;
-        text-align: flex-start;
-        text-align-last: center;
+        text-align: start;
+        text-align-last: start;
     }
 
     .news-bibliographic-references {
         display: flex;
         justify-content: flex-end;
-        margin: 4rem 2rem 2rem 0;
+        margin: 4rem 2rem 2rem 2rem;
     }
 
     .news-bibliographic-references h3 {
         font-size: 0.8rem;
+        text-align: end;
     }
 
     .news-bibliographic-references a {
-        font-size: 0.8rem;
+        font-size: 0.7rem;
+        text-align: end;
     }
 
     .container-topics {
@@ -555,14 +564,13 @@ b {
         align-items: start;
         justify-content: center;
         padding: 0;
-        margin: 0 2rem;
     }
 
     .block {
         display: flex;
         flex-direction: column;
-        align-items: start;
         justify-content: center;
+        width: 100%;
     }
 
     .p-e-t {
@@ -570,7 +578,7 @@ b {
         flex-direction: column;
         align-items: flex-start;
         justify-content: center;
-        padding: 0 4rem;
+        padding: 0 2rem;
     }
 
     .block h2 {
@@ -585,9 +593,10 @@ b {
     .container-topics2 {
         display: flex;
         flex-direction: column;
-        align-items: center;
+        align-items: start;
         justify-content: center;
         padding: 0;
-        margin: 0;
+        margin: 0 2rem;
+
     }
 }
