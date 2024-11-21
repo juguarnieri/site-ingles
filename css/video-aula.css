@@ -38,8 +38,8 @@ h1 {
     text-align: center;
     justify-content: center;
     flex-direction: row;
-    text-align: justify;
-    margin: 3rem;
+    text-align: center;
+    margin: 5rem 8rem;
     font-size: 20px;
     gap: 1rem;
 }
@@ -65,7 +65,7 @@ h1 {
 
 .text-container {
     display: flex;
-    font-size: 1rem;
+    font-size: 1.3rem;
     text-align: justify;
     max-width: 40rem;
     hyphens: auto;
@@ -88,7 +88,6 @@ h1 {
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
-    margin-left: 4rem;
 }
 
 .text-container h1 {
@@ -133,6 +132,22 @@ h1 {
     .text-container h1 {
         font-size: 1.5rem;
     }
+
+    h2{
+        margin: 2.5rem;
+    }
+
+    .line{
+        margin: 2.5rem;
+    }
+
+    .title-video{
+        margin: 1.5rem
+    }
+
+    p{
+        margin: 1.5rem;
+    }
 }
 
 @media (max-width: 480px) {
@@ -161,5 +176,11 @@ h1 {
 
     .text-container h1 {
         font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 1024px) {
+    .text-container {
+        margin-left: 3rem;
     }
 }
