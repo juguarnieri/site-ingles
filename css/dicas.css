@@ -386,13 +386,13 @@ body {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        width: 20rem;
-        margin: 0;
+        margin: 2rem auto;
         padding: 4rem 1.5rem;
+        width: 40rem;
     }
 
     .dica-text-content img {
-        margin: 0 0 0 -40rem;
+        margin: 0 0 0 0;
     }
 
     .example{
@@ -525,12 +525,13 @@ body {
     }
 
     .dica-text-content {
+        width: 24rem;
         padding: 2rem;
     }
 
     .dica-text-content img {
         width: 8%;
-        margin: 0 0 0 -29rem;
+        margin: 1rem;
     }
 
     .example{
