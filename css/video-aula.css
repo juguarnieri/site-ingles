@@ -102,3 +102,64 @@ h1 {
     display: flex;
     width: 40rem;
 }
+
+@media (max-width: 768px) {
+    .description-text {
+        flex-direction: column;
+        font-size: 18px;
+        margin: 2rem;
+    }
+
+    .video-container {
+        width: 80%;
+        height: auto;
+    }
+
+    .teacher-image {
+        height: 300px;
+        width: 300px;
+    }
+
+    .text-container {
+        max-width: 100%;
+        font-size: 0.9rem;
+    }
+
+    .video-content, .video-content1 {
+        flex-direction: column;
+        margin-left: 0;
+    }
+
+    .text-container h1 {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .description-text {
+        font-size: 1rem;
+        margin: 1rem;
+    }
+
+    .line {
+        width: 50%;
+    }
+
+    .video-container {
+        width: 80%;
+    }
+
+    .teacher-image {
+        height: 250px;
+        width: 250px;
+    }
+
+    .text-container {
+        font-size: 0.8rem;
+        gap: 1rem;
+    }
+
+    .text-container h1 {
+        font-size: 1.2rem;
+    }
+}
