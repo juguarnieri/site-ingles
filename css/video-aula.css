@@ -67,7 +67,7 @@ h1 {
     display: flex;
     font-size: 1.3rem;
     text-align: justify;
-    max-width: 40rem;
+    max-width: 20rem;
     hyphens: auto;
     align-items: center;
     word-spacing: 0.1em;
@@ -150,9 +150,9 @@ h1 {
     }
 }
 
-@media (max-width: 480px) {
+@media (min-width: 319px) and (max-width: 769px) {
     .description-text {
-        font-size: 1rem;
+        font-size: 20px;
         margin: 1rem;
     }
 
@@ -165,12 +165,12 @@ h1 {
     }
 
     .teacher-image {
-        height: 250px;
-        width: 250px;
+        height: 175px;
+        width: 175px;
     }
 
     .text-container {
-        font-size: 0.8rem;
+        font-size: 20px;
         gap: 1rem;
     }
 
@@ -179,8 +179,35 @@ h1 {
     }
 }
 
-@media (max-width: 1024px) {
+
+@media (max-width: 319px){
+    .teacher-image {
+        width: 100px;
+        height: 100px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px){
+    .video-content, .video-content1 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .video-container {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
     .text-container {
-        margin-left: 3rem;
+        text-align: center;
+        font-size: 1.2rem;
+    }
+
+    .teacher-image {
+        width: 100%;
+    }
+
+    .video-container video {
+        width: 100%;
     }
 }
