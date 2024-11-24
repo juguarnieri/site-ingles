@@ -98,6 +98,9 @@ body {
 /*responsive*/
 
 @media (max-width: 768px) {
+    .banner-site {
+        height: 200px;
+    }
     .container-principal {
         padding: 2rem;
     }

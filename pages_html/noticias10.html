@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notícia - Língua Inglesa</title>
+    <link rel="icon" href="../img/image.png" type="image/png">
+    <title>Potal Matérias</title>
+    <link rel="stylesheet" href="../css/global.css">
+    <link rel="stylesheet" href="/css/noticias.css">
+    <script src="../js/script.js" defer></script>
+</head>
+
+<body>
+    <header class="site-header" id="sessao-destino">
+        <section class="container-logos">
+            <section class="logo-sesi">
+                <a href="sobre.html">
+                    <img src="/img/logo sesi1.png" alt="SESI">
+                </a>
+            </section>
+            <section class="logo-senai">
+                <a href="sobre.html">
+                    <img src="/img/logo senai 2.png" alt="SENAI">
+                </a>
+            </section>
+            <section class="vertical-line"></section>
+        </section>
+
+        <nav>
+            <a href="/index.html">HOME</a>
+            <a href="../pages_html/sobrenos.html">SOBRE-NÓS</a>
+            <a href="#">CADASTRE-SE</a>
+
+            <div class="menu-icon" onclick="toggleMenu()">☰</div>
+
+            <div id="matérias-menu" class="menu-items" style="display: none;">
+                <h3>MATÉRIAS</h3>
+                <ul>
+                    <li><a href="materias.html#biologia">Biologia</a></li>
+                    <li><a href="materias.html#efisica-artes">E. Física e Artes</a></li>
+                    <li><a href="materias.html#filosofia">Filosofia</a></li>
+                    <li><a href="materias.html#fisica">Física</a></li>
+                    <li><a href="materias.html#geografia">Geografia</a></li>
+                    <li><a href="materias.html#historia">História</a></li>
+
+                    <li class="dropdown">
+                        <a href="materias.html#ingles" class="dropdown-toggle" onclick="toggleSubmenu(event)">Inglês ▼</a>
+                        <ul class="submenu" style="display: none;">
+                            <li><a href="/index.html">Home</a></li>
+                            <li><a href="sobrenos.html">Sobre Nós</a></li>
+                            <li><a href="carreiras.html">Carreiras</a></li>
+                            <li><a href="dicas.html">Dicas</a></li>
+                            <li><a href="noticias.html">Notícias</a></li>
+                            <li><a href="video-aula.html">Entrevistas</a></li>
+                            <li><a href="simulado.html">Simulado</a></li>
+                        </ul>
+                    </li>
+
+                    <li><a href="materias.html#matematica">Matemática</a></li>
+                    <li><a href="materias.html#portugues">Português</a></li>
+                    <li><a href="materias.html#quimica">Química</a></li>
+                    <li><a href="materias.html#sociologia">Sociologia</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <section class="banner-site">
+
+        <section class="banner-text">
+            <p> NOTÍCIAS </p> <p> LÍNGUA </p> <p> INGLESA </p>
+        </section>
+
+    </section>
+
+    <section class="barra-opcoes">
+        <a href="/pages_html/carreiras.html">CARREIRAS</a>
+        <a href="/pages_html/dicas.html">DICAS</a>
+        <a href="/pages_html/noticias.html">NOTÍCIAS</a>
+        <a href="/pages_html/video-aula.html">ENTREVISTAS</a>
+        <a href="/pages_html/simulado.html">SIMULADOS</a>
+    </section>
+
+    <section class="divider_section">
+        <hr class="divider">
+    </section>
+
+    <section class="language-selector">
+        <img src="/img/bandeira-brasil.png" alt="Portuguese" onclick="showPortuguese()">
+        <img src="/img/bandeira-eua.png" alt="English" onclick="showEnglish()">
+    </section>
+
+    <section class="container portuguese-content">
+        <article class="container-title">
+            <hr class="line-left">
+            <h1>GÊNEROS TEXTUAIS EM INGLÊS: QUAIS SÃO OS MAIS POPULARES NO ENEM</h1>
+            <hr class="line-right">
+        </article>
+
+        <article class="container-noticia">
+            <h3>NOTÍCIA 10</h3>
+        </article>
+
+        <p class="estrategias-text">Os gêneros textuais em inglês podem variar bastante e incluem desde narrativas e
+            diálogos até artigos, e-mails, anúncios e ensaios. Cada gênero possui
+            características específicas que influenciam a forma como os alunos devem
+            abordá-lo.
+        </p>
+
+        <h2>Gêneros textuais mais populares do ENEM :</h2>
+        <hr class="line">
+
+        <p class="estrategias-text">1. Narrativa: Contos e histórias que contam eventos. Os alunos devem focar na
+            sequência dos acontecimentos e na construção de personagens.</p>
+        <p class="estrategias-text">2. Diálogo: Conversas entre personagens, frequentemente apresentadas em
+            peças ou roteiros. A atenção deve estar nas interações e no contexto.</p>
+        <p class="estrategias-text">3. Artigo: Textos expositivos que discutem um tema específico. Os alunos
+            precisam identificar a tese e os argumentos apresentados.</p>
+        <p class="estrategias-text">4. E-mail: Comunicações escritas em formato informal ou formal. Os estudantes
+            devem entender a estrutura típica e o tom adequado.</p>
+        <p class="estrategias-text">5. Anúncios: Textos curtos que visam promover produtos ou serviços. Aqui, a
+            análise do vocabulário persuasivo e da intenção do texto é essencial.
+        </p>
+
+        <h2>Dicas para interpretar os textos :</h2>
+        <hr class="line">
+
+        <p class="estrategias-text">Leitura diversificada: Ler uma variedade de textos em inglês ajuda a familiarizar-se
+        com as características de cada gênero. Sites, livros e artigos são ótimas fontes.</p>
+        <p class="estrategias-text">Análise crítica: Praticar a análise de textos, identificando suas partes e
+            estruturas.
+            Isso facilita a compreensão e a identificação de elementos-chave durante a prova.</p>
+        <p class="estrategias-text">Exercícios práticos: Resolver questões de provas anteriores que abordam diferentes
+            gêneros textuais pode ajudar a identificar padrões e a forma como as perguntas são
+            elaboradas.</p>
+        <p class="estrategias-text">Discussão em grupo: Participar de grupos de estudo pode promover debates sobre
+            os gêneros textuais, permitindo que os alunos troquem experiências e insights.</p>
+        <p class="estrategias-text">Simulados: Fazer simulados ajuda a criar um ambiente de prova, familiarizando os
+            estudantes com o estilo e a abordagem das questões do ENEM</p>
+            <article class="news-bibliographic-references">
+                <h3>MATERIAL DE APOIO</h3>
+                <a href="https://querobolsa.com.br/enem/redacao/generos-textuais" target="_blank" rel="noopener noreferrer">https://querobolsa.com.br/enem/redacao/generos-textuais</a>
+                <a href="https://www.todamateria.com.br/generos-textuais/" target="_blank" rel="noopener noreferrer">https://www.todamateria.com.br/generos-textuais/</a>
+            </article>
+    </section>
+    
+        <section class="container english-content" style="display: none;">
+        <article class="container-title">
+            <hr class="line-left">
+            <h1>ENGLISH TEXT GENRES - WHAT THEY ARE AND HOW TO STUDY THEM FOR THE ENEM</h1>
+            <hr class="line-right">
+        </article>
+
+        <article class="container-noticia">
+            <h3>NEWS 10</h3>
+        </article>
+
+        <p class="estrategias-text">Textual genres in English can vary greatly and include everything from narratives and dialogues to articles, emails, advertisements and essays. Each genre has specific characteristics that influence the way students should approach it.
+        </p>
+
+        <h2>The main textual genres that are included in the ENEM are as follows:</h2>
+        <hr class="line">
+
+        <p class="estrategias-text">1. Narrative: Tales and stories that tell of events. Students should focus on the sequence of events and the construction of characters.</p>
+        <p class="estrategias-text">2. Dialogue: Conversations between characters, often presented in plays or scripts. The focus should be on interactions and context.</p>
+        <p class="estrategias-text">3. Article: Expository texts that discuss a specific topic. Students need to identify the thesis and arguments presented.</p>
+        <p class="estrategias-text">4. E-mail: Written communications in an informal or formal format. Students should understand the typical structure and appropriate tone.</p>
+        <p class="estrategias-text">5. Advertisements: Short texts aimed at promoting products or services. Here analysis of persuasive vocabulary and the intention of the text is essential.</p>
+
+        <h2>Tips for interpreting the texts:</h2>
+        <hr class="line">
+
+        <p class="estrategias-text">Diverse reading: Reading a variety of texts in English helps to familiarize yourself with the characteristics of each genre. Websites, books and articles are great sources.</p>
+        <p class="estrategias-text">Critical analysis: Practice analyzing texts, identifying their parts and structures. This makes it easier to understand and identify key elements during the test.</p>
+        <p class="estrategias-text">Practical exercises: Solving questions from previous exams that deal with different genres can help you identify patterns and the way questions are elaborated.</p>
+        <p class="estrategias-text">Group discussion: Taking part in study groups can promote debates on textual genres, allowing students to exchange experiences and insights.</p>
+        <p class="estrategias-text">Simulations: Simulations help to create an exam environment, familiarizing students with the style and approach of the familiarize students with the style and approach of ENEM questions.</p>
+        
+        <article class="news-bibliographic-references">
+            <h3>SUPPORT MATERIAL</h3>
+            <a href="https://querobolsa.com.br/enem/redacao/generos-textuais" target="_blank" rel="noopener noreferrer">https://querobolsa.com.br/enem/redacao/generos-textuais</a>
+            <a href="https://www.todamateria.com.br/generos-textuais/" target="_blank" rel="noopener noreferrer">https://www.todamateria.com.br/generos-textuais/</a>
+        </article>
+        </section>
+
+        
+
+        <section class="divider_section">
+            <hr class="divider">
+        </section>
+        </section>
+    
+
+        <div class="div-button-scroll">
+            <a href="#sessao-destino" class="botao-vermelho"><img src="../img/seta1.png" alt="Seta"></a>
+        </div>
+
+    </section>
+
+    <footer>
+        <section class="social-media-container">
+            <section class="social-media">
+                <a href="#" class="social-icon"><img src="/img/facebook.png" alt="Facebook"></a>
+                <a href="#" class="social-icon"><img src="/img/Instagram.png" alt="Instagram"></a>
+                <a href="#" class="social-icon"><img src="/img/WhatsApp.png" alt="WhatsApp"></a>
+                <a href="#" class="social-icon"><img src="/img/Youtube.png" alt="YouTube"></a>
+                <a href="#" class="social-icon"><img src="/img/Linkedin.png" alt="LinkedIn"></a>
+            </section>
+        </section>
+        <section class="addresses">
+            <section class="address">
+                <h3>EDIFÍCIO REDE SENAI VALINHOS</h3>
+                <p>R. Artur Fernandes Querido, 55 - Vila Santo Antonio, Valinhos - SP, 13270-530</p>
+            </section>
+            <section class="divider"></section>
+            <section class="address">
+                <h3>EDIFÍCIO REDE SESI VALINHOS</h3>
+                <p>Rod. Flávio de Carvalho, 2787 - Jardim São Paulo, Valinhos - SP, 13273-450</p>
+            </section>
+        </section>
+        </section>
+    </footer>
+    
+    <script>
+        function toggleMenu() {
+            var menu = document.getElementById("matérias-menu");
+            menu.style.display = menu.style.display === "block" ? "none" : "block";
+        }
+    
+        function showEnglish() {
+            document.querySelector('.portuguese-content').style.display = 'none';
+            document.querySelector('.english-content').style.display = 'block';
+        }
+    
+        function showPortuguese() {
+            document.querySelector('.english-content').style.display = 'none';
+            document.querySelector('.portuguese-content').style.display = 'block';
+        }
+    </script>
+    </body>
+    </html>
+    
+    
+    <script>
+    function toggleMenu() {
+    var menu = document.getElementById("matérias-menu");
+    if (menu.style.display === "block") {
+        menu.style.display = "none";
+    } else {
+        menu.style.display = "block";
+    }
+    }
+    </script>

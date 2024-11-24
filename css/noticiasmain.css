@@ -216,6 +216,9 @@ a {
 }
 
 @media (max-width: 767px) {
+    .banner-site {
+        height: 200px;
+    }
     .title {
         margin: 2rem;
         gap: 1rem;

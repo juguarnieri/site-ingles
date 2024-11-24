@@ -423,6 +423,9 @@ b {
 }
 
 @media (max-width: 767px) {
+    .banner-site {
+        height: 200px;
+    }
     .container-title {
         gap: 1rem;
     }

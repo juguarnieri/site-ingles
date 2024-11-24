@@ -143,6 +143,9 @@ button:hover {
 /*responsividade*/
 
 @media (max-width: 768px) {
+    .banner-site {
+        height: 200px;
+    }
     .container {
         padding: 15px;
     }
