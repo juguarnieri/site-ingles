@@ -101,6 +101,9 @@ p {
 }
 
 @media (max-width: 768px) {
+    .banner-site {
+        height: 200px;
+    }
     .container {
         width: 100%;
         display: block;
@@ -139,6 +142,7 @@ p {
 @media (max-width: 480px) {
     h1 {
         font-size: 1.5em;
+        text-align: center;
     }
 
     p {

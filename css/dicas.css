@@ -400,6 +400,9 @@ body {
 }
 
 @media (max-width: 767px) {
+    .banner-site {
+        height: 200px;
+    }
     .container-principal {
         padding: 0 1rem;
     }

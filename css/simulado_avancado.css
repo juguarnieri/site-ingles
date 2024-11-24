@@ -97,6 +97,9 @@ button:hover {
 /*responsive*/
 
 @media (max-width: 768px) {
+    .banner-site {
+        height: 200px;
+    }
     .container {
         padding: 10px;
         margin-bottom: 2rem;

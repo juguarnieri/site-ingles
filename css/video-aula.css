@@ -335,6 +335,9 @@ iframe {
 }
 
 @media (max-width: 768px) { 
+    .banner-site {
+        height: 200px;
+    }
     .video-aula-title {
         font-size: 1.8rem;
     }
