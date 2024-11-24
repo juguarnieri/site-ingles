@@ -1,0 +1,223 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+body {
+
+    box-sizing: border-box;
+}
+.banner-site {
+    background-image: linear-gradient(to Left, rgba(0, 0, 0, 0.848), rgba(0, 0, 0, 0.634)),
+    url(https://blog.hexag.online/wp-content/uploads/2022/10/americana-britanica.jpeg);
+}
+
+
+h2 {
+    text-align: start;
+    font-weight: 900;
+    font-size: 2rem;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: flex-start;
+    margin: 1rem 0 0 9rem;
+    }
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    box-sizing: border-box;
+    color: #9A1915;
+}
+
+.p-1{
+    font-size: 1rem;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    margin-top: 2rem; 
+    margin-bottom: 3rem;
+}
+
+.imagem-lado-a-lado {
+    max-width: 100%; 
+    height: 80%; 
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+.line {
+    border: 0;
+    height: 0.25rem;
+    background-color: #9A1915;
+    margin: 1rem 9rem;
+    width: 28rem;
+    justify-content: flex-start;
+    border-radius: 1rem;
+}
+
+.description-text {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: row;
+    text-align: center;
+    margin: 5rem 8rem;
+    font-size: 20px;
+    gap: 1rem;
+}
+
+.contact-form-section {
+    display: flex;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem 1rem;
+}
+
+.banner-text p{
+    align-items: end;
+}
+
+.form-container {
+    background-color: rgb(235, 229, 229);
+    border-radius: 1rem;
+    box-sizing: border-box;
+    padding: 2rem;
+    margin-bottom: -1rem;
+    max-width: 900px;
+    width: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form label {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    display: block;
+    font-weight: bold;
+
+}
+h3 {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+.contact-form input{
+    width: 100%;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 0.5rem;
+    box-sizing: border-box;
+    font-size: 1rem;
+}
+
+.contact-form textarea {
+    width: 100%;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 0.5rem;
+    box-sizing: border-box;
+    font-size: 1rem;
+}
+
+.contact-form textarea {
+    resize: vertical;
+    height: 150px;
+}
+
+.submit-btn {
+    background-color: #9A1915;
+    color: white;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 0.5rem;
+    font-size: 1.1rem;
+    margin-top: 2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+
+.submit-btn:hover {
+    background-color: #7a1410;
+}
+@media (max-width: 900px) {
+    h2, h1 {
+        font-size: 1.5rem; 
+        text-align: center; 
+        justify-content: center;
+        margin: 1rem auto; 
+    }
+
+    .line {
+        width: 70%;
+        margin: 1rem auto; 
+    }
+
+    .description-text {
+        flex-direction: column; 
+        margin: 2rem 1rem; 
+        font-size: 18px; 
+    }
+
+    .form-container {
+        padding: 1.5rem; 
+        margin-top: 0; 
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+        padding: 0.8rem; 
+        font-size: 0.9rem; 
+    }
+
+    .submit-btn {
+        font-size: 1rem; 
+        padding: 0.8rem 1.5rem; 
+    }
+
+    .team-emails li {
+        font-size: 1rem; 
+        word-wrap: break-word;
+    }
+
+    .team-emails a {
+        font-size: 1rem; 
+    }
+}
+
+@media (max-width: 480px) {
+    h2, h1 {
+        font-size: 1.2rem; 
+    }
+
+    .line {
+        width: 50%; 
+    }
+
+    .description-text {
+        margin: 1.5rem 0.5rem; 
+        font-size: 16px; 
+    }
+
+    .form-container {
+        padding: 1rem; 
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+        font-size: 0.8rem; 
+        padding: 0.7rem; 
+    }
+
+    .submit-btn {
+        font-size: 0.9rem; 
+        padding: 0.7rem 1rem; 
+    }
+}

@@ -133,7 +133,6 @@ p {
     font-size: 1em;
     font-weight: 600;
     text-align: justify;
-    text-align-last: center;
 }
 
 a {
@@ -148,6 +147,7 @@ a {
     gap: 10px; /* Espaço entre as bandeiras */
     margin: 20px 0; /* Espaço acima e abaixo da seção */
 }
+
 
 .language-selector img {
     width: 70px; 
@@ -212,6 +212,8 @@ a {
     p {
         font-size: 0.95rem;
         font-weight: 600;
+        align-items: center;
+        justify-content: center;
     }
 }
 
