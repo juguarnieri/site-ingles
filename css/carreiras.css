@@ -67,7 +67,7 @@ p {
 
 .image-container {
     flex-shrink: 0;
-    margin-left: 30px;
+    margin-left: 110px;
     display: flex;
     justify-content: center;
 }
@@ -215,12 +215,21 @@ p {
         width: 100%;
         height: auto;
     }
+    .container_text {
+        max-width: 100%;
+        align-items: center;
+    }
+    .container_text h1 {
+        text-align: center;
+        font-size: 2em;
+    }
 }
 
 
 @media (max-width: 480px) {
     .container_text {
         max-width: 100%;
+        align-items: center;
     }
 
     .career-block {
@@ -266,5 +275,8 @@ p {
         justify-content: center;
         align-items: center;
         margin: 0 1rem;
+    }
+    .linha {
+        width: 10rem;
     }
 }
