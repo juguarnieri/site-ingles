@@ -532,11 +532,32 @@ body {
     }
 
     .dica-text-content img {
-        width: 8%;
+        width: 10%;
         margin: 1rem;
     }
 
     .example{
         font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 480px) { 
+    .dica-text-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 1rem; 
+        width: 100%; 
+        max-width: 14rem; 
+    }
+    
+    .dica-text-content img {
+        width: 10%; 
+        margin: 1rem 0; 
+    }
+    .graphic-caption a {
+        font-size: 10px;
+        text-align: justify;
+        margin: 2rem;
     }
 }
