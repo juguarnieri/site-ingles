@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="icon" href="../img/image.png" type="image/png">
+    <title>Potal Matérias</title>
+    <link rel="stylesheet" href="/css/global.css">
+    <link rel="stylesheet" href="/css/contato.css">
+    <script src="../js/script.js" defer></script>
+</head>
+
+<body>
+    <header class="site-header" id="sessao-destino">
+        <section class="container-logos">
+            <section class="logo-sesi">
+                <a href="sobre.html">
+                    <img src="/img/logo sesi1.png" alt="SESI">
+                </a>
+            </section>
+            <section class="logo-senai">
+                <a href="sobre.html">
+                    <img src="/img/logo senai 2.png" alt="SENAI">
+                </a>
+            </section>
+            <section class="vertical-line"></section>
+        </section>
+
+        <nav>
+            <a href="/index.html">HOME</a>
+            <a href="../pages_html/sobrenos.html">SOBRE-NÓS</a>
+            <a href="../pages_html/contato.html">CONTATO</a>
+
+            <div class="menu-icon" onclick="toggleMenu()">☰</div>
+
+            <div id="matérias-menu" class="menu-items" style="display: none;">
+                <h3>MATÉRIAS</h3>
+                <ul>
+                    <li><a href="materias.html#biologia">Biologia</a></li>
+                    <li><a href="materias.html#efisica-artes">E. Física e Artes</a></li>
+                    <li><a href="materias.html#filosofia">Filosofia</a></li>
+                    <li><a href="materias.html#fisica">Física</a></li>
+                    <li><a href="materias.html#geografia">Geografia</a></li>
+                    <li><a href="materias.html#historia">História</a></li>
+
+                    <li class="dropdown">
+                        <a href="materias.html#ingles" class="dropdown-toggle" onclick="toggleSubmenu(event)">Inglês ▼</a>
+                        <ul class="submenu" style="display: none;">
+                            <li><a href="/index.html">Home</a></li>
+                            <li><a href="sobrenos.html">Sobre Nós</a></li>
+                            <li><a href="contato.html">Contato</a></li>
+                            <li><a href="carreiras.html">Carreiras</a></li>
+                            <li><a href="dicas.html">Dicas</a></li>
+                            <li><a href="noticias.html">Notícias</a></li>
+                            <li><a href="/pages_html/video-aula.html">Entrevistas</a></li>
+                            <li><a href="simulado.html">Simulado</a></li>
+                        </ul>
+                    </li>
+
+                    <li><a href="materias.html#matematica">Matemática</a></li>
+                    <li><a href="materias.html#portugues">Português</a></li>
+                    <li><a href="materias.html#quimica">Química</a></li>
+                    <li><a href="materias.html#sociologia">Sociologia</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <section class="banner-site">
+
+        <section class="banner-text">
+            <p> CONTATO</p>
+            <p> LÍNGUA </p>
+            <p>INGLESA </p>
+        </section>
+
+    </section>
+
+    <section class="barra-opcoes">
+        <a href="/pages_html/carreiras.html">CARREIRAS</a>
+        <a href="/pages_html/dicas.html">DICAS</a>
+        <a href="/pages_html/noticias.html">NOTÍCIAS</a>
+        <a href="/pages_html/video-aula.html">ENTREVISTAS</a>
+        <a href="/pages_html/simulado.html">SIMULADOS</a>
+    </section>
+
+    <section class="divider_section">
+        <hr class="divider">
+    </section>
+    <h2>CONTATO</h2>
+    <hr class="line">
+
+    <section class="contact-form-section">
+        <div class="form-container">
+            <h1>Formulário de Contato</h1>
+                <p class="p-1">Tem alguma dúvida ou sugestão? Preencha o formulário abaixo e entraremos em contato.</p>
+            <section class="image-container">
+                <img src="/img/fotoContato1.jpg" alt="Imagem ilustrativa" class="imagem-lado-a-lado">
+            </section>
+            <form action="#" method="POST" class="contact-form">
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" required placeholder="Digite seu nome">
+
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required placeholder="Digite seu e-mail">
+
+                <label for="message">Mensagem:</label>
+                <textarea id="message" name="message" required placeholder="Escreva sua mensagem aqui"></textarea>
+                <div class="team-emails">
+                    <h3>Emails dos Integrantes:</h3>
+                    <ul>
+                        <li>Alejandra Barros - <a href="mailto:alejandra.barros@aluno.senai.br">alejandra.barros@aluno.senai.br</a></li>
+                        <li>Flavia Mendes - <a href="mailto:flavia.r.mendes@aluno.senai.br">flavia.r.mendes@aluno.senai.br</a></li>
+                        <li>Giovanna Alba - <a href="mailto:giovanna.a.gomes6@aluno.senai.br">giovanna.a.gomes6@aluno.senai.br</a></li> 
+                        <li>Júlia Guarnieri - <a href="mailto:julia.guarnieri@aluno.senai.br">julia.guarnieri@aluno.senai.br</a></li>
+                        <li>Luiz Gabriel - <a href="mailto:luiz.g.carvalho11@aluno.senai.br">luiz.g.carvalho11@aluno.senai.br</a></li>
+                    </ul>
+                </div>
+
+                <button type="submit" class="submit-btn">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+
+    <section class="divider_section">
+        <hr class="divider">
+    </section>
+
+    <div class="div-button-scroll">
+        <a href="#sessao-destino" class="botao-vermelho"><img src="../img/seta1.png" alt="Seta"></a>
+    </div>
+
+    <footer>
+        <div class="social-media-container">
+            <div class="social-media">
+                <a href="#" class="social-icon"><img src="/img/facebook.png" alt="Facebook"></a>
+                <a href="#" class="social-icon"><img src="/img/Instagram.png" alt="Instagram"></a>
+                <a href="#" class="social-icon"><img src="/img/WhatsApp.png" alt="WhatsApp"></a>
+                <a href="#" class="social-icon"><img src="/img/Youtube.png" alt="YouTube"></a>
+                <a href="#" class="social-icon"><img src="/img/Linkedin.png" alt="LinkedIn"></a>
+            </div>
+        </div>
+        <div class="addresses">
+            <div class="address">
+                <h3>EDIFÍCIO REDE SENAI VALINHOS</h3>
+                <p>R. Artur Fernandes Querido, 55 - Vila Santo Antonio, Valinhos - SP, 13270-530</p>
+            </div>
+            <div class="divider"></div>
+            <div class="address">
+                <h3>EDIFÍCIO REDE SESI VALINHOS</h3>
+                <p>Rod. Flávio de Carvalho, 2787 - Jardim São Paulo, Valinhos - SP, 13273-450</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
+
+<script>
+    function toggleMenu() {
+        var menu = document.getElementById("matérias-menu");
+        if (menu.style.display === "block") {
+            menu.style.display = "none";
+        } else {
+            menu.style.display = "block";
+        }
+    }
+</script>

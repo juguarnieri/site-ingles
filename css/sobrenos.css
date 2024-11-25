@@ -1,15 +1,8 @@
 * {
     font-family: 'Montserrat', sans-serif;
     margin: 0;
-    padding: 0px;
-    box-sizing: border-box;
 }
 
-body {
-    background-color: #ffffff;
-    margin: 0;
-    padding: 0px;
-}
 
 .container, .container-2 {
     max-width: 90%; 
@@ -32,6 +25,7 @@ p {
     font-weight: 400;
     /* Normal */
 }
+
 
 .imagem-arredondada {
     width: 100%;
@@ -154,8 +148,12 @@ p {
     }
 
     .containers-title {
-        font-size: 1.5em;
+        font-size: 1.2em;
         margin: 2rem ;
-        ;
+        text-align: center;
+        justify-content: center;
+    }
+    p{
+        font-size: 1rem;
     }
 }

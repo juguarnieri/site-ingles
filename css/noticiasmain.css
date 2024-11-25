@@ -133,7 +133,6 @@ p {
     font-size: 1em;
     font-weight: 600;
     text-align: justify;
-    text-align-last: center;
 }
 
 a {
@@ -148,6 +147,7 @@ a {
     gap: 10px; /* Espaço entre as bandeiras */
     margin: 20px 0; /* Espaço acima e abaixo da seção */
 }
+
 
 .language-selector img {
     width: 70px; 
@@ -212,6 +212,8 @@ a {
     p {
         font-size: 0.95rem;
         font-weight: 600;
+        align-items: center;
+        justify-content: center;
     }
 }
 
@@ -225,7 +227,7 @@ a {
     }
 
     .title h1 {
-        font-size: 1.5rem;
+        font-size: 1.2em;
     }
 
     .hr-left {
@@ -273,4 +275,10 @@ a {
         font-size: 1.05rem;
         font-weight: 550;
     }
+}
+
+@media (max-width: 767px) {
+.intro-text {
+    font-size: 1em;
+}
 }
