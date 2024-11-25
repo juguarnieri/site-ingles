@@ -148,8 +148,12 @@ p {
     }
 
     .containers-title {
-        font-size: 1.5em;
+        font-size: 1.2em;
         margin: 2rem ;
-        ;
+        text-align: center;
+        justify-content: center;
+    }
+    p{
+        font-size: 1rem;
     }
 }

@@ -431,7 +431,7 @@ b {
     }
 
     .container-title h1 {
-        font-size: 1.4rem;
+        font-size: 1.2em;
         text-align: center;
     }
 
@@ -602,4 +602,9 @@ b {
         margin: 0 2rem;
 
     }
+}
+@media (max-width: 767px) {
+.estrategias-text {
+    font-size: 1em;
+}
 }

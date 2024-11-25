@@ -227,7 +227,7 @@ a {
     }
 
     .title h1 {
-        font-size: 1.5rem;
+        font-size: 1.2em;
     }
 
     .hr-left {
@@ -275,4 +275,10 @@ a {
         font-size: 1.05rem;
         font-weight: 550;
     }
+}
+
+@media (max-width: 767px) {
+.intro-text {
+    font-size: 1em;
+}
 }

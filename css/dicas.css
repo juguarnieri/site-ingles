@@ -397,6 +397,9 @@ body {
     .example{
         font-size: 1.2rem;
     }
+    p{
+        font-size: 1em;
+    }
 }
 
 @media (max-width: 767px) {
@@ -507,7 +510,7 @@ body {
     }
 
     .dica-category-title {
-        font-size: 1.5rem;
+        font-size: 1.2em;
     }
 
     .dica-title-center {
@@ -523,7 +526,7 @@ body {
     }
 
     .dica-content-title {
-        font-size: 1.3rem;
+        font-size: 1.2em;
     }
 
     .dica-text-content {
@@ -559,5 +562,26 @@ body {
         font-size: 10px;
         text-align: justify;
         margin: 2rem;
+    }
+    .container-title{
+        font-size: 1.2em;
+    }
+    .dica-category{
+        font-size: 1.2em;
+    }
+    .dica-category-title {
+        font-size: 1.2em;
+    }
+    .intro-text{
+        font-size: 1em;
+    }
+    .dica-category-title {
+            font-size: 1.2em;
+        }
+    .dica-text {
+        font-size: 1rem;
+    }
+    .dica-text-text .text {
+        font-size: 1em;
     }
 }
