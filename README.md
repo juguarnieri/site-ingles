@@ -23,6 +23,9 @@ Nosso projeto consiste na criação de um portal de matérias, no qual o nosso s
 <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="23" align="center" he/> 
 
 ## Conheça a equipe! 🌐📌
+
 Por trás da criação temos seis integrantes que fizeram o site acontecer. Conheça eles!
-! [Alejandra-Desenvolveora](https://ibb.co/YDMqFz5)
+
+! [Alejandra-Desenvolveora](<a href="https://ibb.co/YDMqFz5"><img src="https://i.ibb.co/YDMqFz5/alejandra.jpg" alt="alejandra" border="0"></a>)
+
 O portal é um projeto interessante e educativo que auxilia estudantes de diferentes áreas acadêmicas a expandir horizontes e moldar seus próprios conhecimentos. Fazer parte da equipe de desenvolvimento do trabalho foi algo gratificante tendo em vista a evolução do time, tanto em código quanto em organização e comunicação interna. Sinto que o objetivo principal foi alcançado e isso é o mais importante.
