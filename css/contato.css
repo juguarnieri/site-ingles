@@ -34,6 +34,7 @@ h1 {
     font-size: 1rem;
     text-align: center;
     margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 .image-container {
@@ -226,3 +227,61 @@ h3 {
         height: 200px;
     }
 }
+
+.contact-cards-container {
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 20px; 
+    justify-content: center; 
+    padding: 10px; 
+}
+
+.contact-card {
+    display: flex;
+    flex-direction: row-reverse; 
+    align-items: center; 
+    width: 23.5%; 
+    height: 12rem;
+    background-color: #f9f9f9;
+    background-color: #9A1915;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 4px solid #ddd;
+    border-radius: 20px;
+    padding: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box; 
+    transition: transform 0.3s ease-in-out; 
+}
+
+.contact-card:hover {
+    transform: scale(1.1); 
+}
+
+.contact-photo img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%; 
+    object-fit: cover;
+    margin-right: 15px;
+}
+
+.contact-info {
+    flex: 1; 
+}
+
+.contact-info p {
+    margin: 5px 0;
+    color: rgb(235, 229, 229); 
+}
+
+.contact-info a {
+    color: rgb(235, 229, 229);
+    text-decoration: none; 
+}
+
+.contact-info a:hover {
+    text-decoration: underline; 
+}
+
