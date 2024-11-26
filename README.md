@@ -1,4 +1,4 @@
-<h1>PORTAL LÍNGUA INGLESA   <link rel="icon" href="../img/img-navegador1.png" type="image/png"></h1>
+<h1>PORTAL LÍNGUA INGLESA  <img src="../img/img-navegador1.png" height="30px"></h1>
 
 ## Conheça o projeto😎!
 Nosso projeto consiste na criação de um portal de matérias, no qual o nosso site foca na área da língua inglesa. O objetivo principal é auxíliar jovens estudantes que estão em época de vestibular e precisam de um reforço. 
@@ -22,3 +22,5 @@ Nosso projeto consiste na criação de um portal de matérias, no qual o nosso s
 • JAVASCRIPT: Criar funcionalidades no site 
 <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="23" align="center" he/> 
 
+## Conheça a equipe! 🌐📌
+Por trás da criação temos seis integrantes que fizeram o site acontecer. Conheça eles!
