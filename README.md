@@ -1,4 +1,4 @@
-<h1>PORTAL LÍNGUA INGLESA  <img src="../img/img-navegador1.png" height="30px"></h1>
+<h1>PORTAL LÍNGUA INGLESA  <img src="../img/img-navegador1.pnimg/img-navegador1.png" height="30px"></h1>
 
 ## Conheça o projeto😎!
 Nosso projeto consiste na criação de um portal de matérias, no qual o nosso site foca na área da língua inglesa. O objetivo principal é auxíliar jovens estudantes que estão em época de vestibular e precisam de um reforço. 
