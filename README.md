@@ -39,7 +39,7 @@ Este projeto foi uma experiência valiosa tanto no aspecto profissional quanto p
 ### Giovanna - Desenvolvedora
 <a href="https://ibb.co/fXbjDmp"><img src="https://i.ibb.co/fXbjDmp/giovanna.jpg" alt="giovanna" border="0"></a>
 
-No nosso site de inglês, você encontra tudo o que precisa para aprimorar suas habilidades em inglês e avançar na carreira. Oferecemos dicas práticas que tornam o aprendizado mais eficiente, abordando gramática, vocabulário, expressões idiomáticas e muito mais. Aqui, você também descobre oportunidades de carreira que exigem inglês. Nossos simulados ajudam a testar seus conhecimentos e aumentar sua confiança nos estudos. Além disso, trazemos entrevistas inspiradoras com profissionais que utilizam o inglês em suas carreiras, compartilhando desafios e dicas para o sucesso. Junte-se a nós e transforme seu aprendizado de inglês em uma jornada cheia de possibilidades!
+Nosso projeto teve um resultado muito satisfatório. Nós conseguimos alcançar nossos objetivos e encarar alguns desafios ao longo do trabalho. Acredito que tive uma grande evolução participando desse projeto, fiquei muito feliz com o resultado e com essa grande oportunidade.
 
 ### Júlia Guarnieri - Product Owner 
 <a href="https://ibb.co/0CD1LyD"><img src="https://i.ibb.co/0CD1LyD/guarnieri.jpg" alt="guarnieri" border="0"></a>
