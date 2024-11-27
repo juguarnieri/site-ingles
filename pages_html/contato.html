@@ -9,10 +9,11 @@
     <title>Potal Matérias</title>
     <link rel="stylesheet" href="/css/global.css">
     <link rel="stylesheet" href="/css/contato.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <script src="../js/script.js" defer></script>
 </head>
 
-<body>
+<>
     <header class="site-header" id="sessao-destino">
         <section class="container-logos">
             <section class="logo-sesi">
@@ -90,39 +91,107 @@
         <hr class="divider">
     </section>
     <h2>CONTATO</h2>
+<hr class="line">
+
+<section class="contact-form-section">
+    <div class="form-container">
+        <h1>Formulário de Contato</h1>
+        <p class="p-1">Tem alguma dúvida ou sugestão? Preencha o formulário abaixo e entraremos em contato.</p>
+        
+        <form action="#" method="POST" class="contact-form">
+            <label for="name"><i class="fas fa-user"></i> Nome:</label>
+            <input type="text" id="name" name="name" required placeholder="Digite seu nome">
+
+            <label for="email"><i class="fas fa-envelope"></i> E-mail:</label>
+            <input type="email" id="email" name="email" required placeholder="Digite seu e-mail">
+
+            <label for="message"><i class="fas fa-comment"></i> Mensagem:</label>
+            <textarea id="message" name="message" required placeholder="Escreva sua mensagem aqui"></textarea>
+
+            <button type="submit" class="submit-btn">Enviar</button>
+        </form>
+    </div>
+</section>
+
+
+<h2>CONTATO DOS INTEGRANTES</h2>
     <hr class="line">
 
-    <section class="contact-form-section">
-        <div class="form-container">
-            <h1>Formulário de Contato</h1>
-                <p class="p-1">Tem alguma dúvida ou sugestão? Preencha o formulário abaixo e entraremos em contato.</p>
-            <section class="image-container">
-                <img src="/img/fotoContato1.jpg" alt="Imagem ilustrativa" class="imagem-lado-a-lado">
-            </section>
-            <form action="#" method="POST" class="contact-form">
-                <label for="name">Nome:</label>
-                <input type="text" id="name" name="name" required placeholder="Digite seu nome">
+<div class="contact-cards-container">
 
-                <label for="email">E-mail:</label>
-                <input type="email" id="email" name="email" required placeholder="Digite seu e-mail">
-
-                <label for="message">Mensagem:</label>
-                <textarea id="message" name="message" required placeholder="Escreva sua mensagem aqui"></textarea>
-                <div class="team-emails">
-                    <h3>Emails dos Integrantes:</h3>
-                    <ul>
-                        <li>Alejandra Barros - <a href="mailto:alejandra.barros@aluno.senai.br">alejandra.barros@aluno.senai.br</a></li>
-                        <li>Flavia Mendes - <a href="mailto:flavia.r.mendes@aluno.senai.br">flavia.r.mendes@aluno.senai.br</a></li>
-                        <li>Giovanna Alba - <a href="mailto:giovanna.a.gomes6@aluno.senai.br">giovanna.a.gomes6@aluno.senai.br</a></li> 
-                        <li>Júlia Guarnieri - <a href="mailto:julia.guarnieri@aluno.senai.br">julia.guarnieri@aluno.senai.br</a></li>
-                        <li>Luiz Gabriel - <a href="mailto:luiz.g.carvalho11@aluno.senai.br">luiz.g.carvalho11@aluno.senai.br</a></li>
-                    </ul>
-                </div>
-
-                <button type="submit" class="submit-btn">Enviar</button>
-            </form>
+        <div class="contact-card">
+            <div class="contact-info">
+                <p><strong><i class="fas fa-user"></i> Nome:</strong> Alejandra Barros</p>
+                <p><strong><i class="fas fa-envelope"></i> Email:</strong> <a href="mailto:alejandra.barros@aluno.senai.br">alejandra.barros@aluno.senai.br</a></p>
+                <p><strong><i class="fab fa-instagram"></i> Instagram:</strong> <a href="https://www.instagram.com/4yo_b" target="_blank">@4yo_b</a></p>
+                <p><strong><i class="fab fa-linkedin"></i> LinkedIn:</strong> <a href="https://www.linkedin.com/in/alejandra-barros-787b222b1/" target="_blank">Alejandra Barros</a></p>
+                <p><strong><i class="fab fa-github"></i> GitHub:</strong> <a href="https://github.com/4yob" target="_blank">4yob</a></p>
+            </div>
+            <div class="contact-photo">
+                <img src="/img/alejandra.jpg" alt="Foto Alejandra Barros">
+            </div>
         </div>
-    </section>
+
+            <div class="contact-card">
+                <div class="contact-info">
+                    <p><strong><i class="fas fa-user"></i> Nome:</strong> Flavia Mendes</p>
+                    <p><strong><i class="fas fa-envelope"></i> Email:</strong> <a href="mailto:flavia.r.mendes@aluno.senai.br">flavia.r.mendes@aluno.senai.br</a></p>
+                    <p><strong><i class="fab fa-instagram"></i> Instagram:</strong> <a href="https://www.instagram.com/flaviaramendes" target="_blank">@flaviaramendes</a></p>
+                    <p><strong><i class="fab fa-linkedin"></i> LinkedIn:</strong> <a href="http://www.linkedin.com/in/flaviamendes17" target="_blank">Flavia Mendes</a></p>
+                    <p><strong><i class="fab fa-github"></i> GitHub:</strong> <a href="https://github.com/flaviamendes17" target="_blank">flaviamendes17</a></p>
+                </div>
+                <div class="contact-photo">
+                    <img src="/img/flavia.png" alt="Foto Flavia">
+                </div>
+            </div>
+            </div>
+
+            <div class="contact-cards-container">
+            
+                <div class="contact-card">
+                <div class="contact-info">
+                    <p><strong><i class="fas fa-user"></i> Nome:</strong> Giovanna Alba</p>
+                    <p><strong><i class="fas fa-envelope"></i> Email:</strong> <a href="mailto:giovanna.a.gomes6@aluno.senai.br">giovanna.a.gomes6@aluno.senai.br</a></p>
+                    <p><strong><i class="fab fa-instagram"></i> Instagram:</strong> <a href="https://www.instagram.com/_gialbag/" target="_blank">@_gialbag</a></p>
+                    <p><strong><i class="fab fa-linkedin"></i> LinkedIn:</strong> <a href="https://br.linkedin.com/in/giovanna-alba-gomes-b2bb252b1" target="_blank">Giovanna Alba Gomes</a></p>
+                    <p><strong><i class="fab fa-github"></i> GitHub:</strong> <a href="https://github.com/AlbaGomesG" target="_blank">AlbaGomesG</a></p>
+                </div>
+                <div class="contact-photo">
+                    <img src="/img/giovanna.png" alt="Foto Giovanna">
+                </div>
+            </div>
+            
+        
+            <div class="contact-card">
+                <div class="contact-info">
+                    <p><strong><i class="fas fa-user"></i> Nome:</strong> Júlia Guarnieri</p>
+                    <p><strong><i class="fas fa-envelope"></i> Email:</strong> <a href="mailto:julia.guarnieri@aluno.senai.br">julia.guarnieri@aluno.senai.br</a></p>
+                    <p><strong><i class="fab fa-instagram"></i> Instagram:</strong> <a href="https://www.instagram.com/julia_guar/" target="_blank">@julia_guar</a></p>
+                    <p><strong><i class="fab fa-linkedin"></i> LinkedIn:</strong> <a href="https://www.linkedin.com/in/julia-guarnieri-839912307/" target="_blank">Júlia Guarnieri</a></p>
+                    <p><strong><i class="fab fa-github"></i> GitHub:</strong> <a href="https://github.com/juguarnieri" target="_blank">juguarnieri</a></p>
+                </div>
+                <div class="contact-photo">
+                    <img src="/img/julia.png" alt="Foto Júlia">
+                </div>
+            </div>
+            </div>
+
+            <div class="contact-cards-container">
+            <div class="contact-card">
+                <div class="contact-info">
+                    <p><strong><i class="fas fa-user"></i> Nome:</strong> Luiz Gabriel</p>
+                    <p><strong><i class="fas fa-envelope"></i> Email:</strong> <a href="mailto:luiz.g.carvalho11@aluno.senai.br">luiz.g.carvalho11@aluno.senai.br</a></p>
+                    <p><strong><i class="fab fa-linkedin"></i> LinkedIn:</strong> <a href="https://www.linkedin.com/in/luiz-gabriel-lopes-carvalho-221b212b1/" target="_blank">Luiz Gabriel Lopes Carvalho</a></p>
+                    <p><strong><i class="fab fa-github"></i> GitHub:</strong> <a href="https://github.com/LuizGabrielLopes" target="_blank">LuizGabrielLopes</a></p>
+                </div>
+                <div class="contact-photo">
+                    <img src="/img/luiz.jpg" alt="Foto de Luiz">
+                </div>
+            </div>
+            </div>
+        
+</section>
+
 
 
     <section class="divider_section">
