@@ -264,7 +264,8 @@ p {
     }
 
     .imagem-lado-a-lado {
-        display: none;
+        width: 200px;
+        height: 200px;
     }
 
     .imagem-carreira {
