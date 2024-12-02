@@ -555,8 +555,9 @@ body {
     }
     
     .dica-text-content img {
-        width: 10%; 
-        margin: 1rem 0; 
+        width: 2rem;
+        height: auto; 
+        margin: 1rem; 
     }
     .graphic-caption a {
         font-size: 10px;
