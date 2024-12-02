@@ -24,7 +24,7 @@ Nosso projeto consiste na criação de um portal de matérias, no qual o nosso s
 
 ## Conheça a equipe! 🌐📌
 
-Por trás da criação temos seis integrantes que fizeram o site acontecer. Conheça eles!
+Por trás da criação temos cinco integrantes que fizeram o site acontecer. Conheça eles!
 
  ### Alejandra - Desenvolvedora
  <a href="https://ibb.co/YDMqFz5"><img src="https://i.ibb.co/YDMqFz5/alejandra.jpg" alt="alejandra" border="0"></a>
