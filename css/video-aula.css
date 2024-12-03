@@ -6,7 +6,7 @@
 
 .banner-site {
     background-image: linear-gradient(to Left, rgba(0, 0, 0, 0.848), rgba(0, 0, 0, 0.634)),
-    url(https://teachpedia.com.br/wp-content/uploads/2024/03/temas-para-aula-de-conversacao-em-ingles.jpg);
+        url(https://teachpedia.com.br/wp-content/uploads/2024/03/temas-para-aula-de-conversacao-em-ingles.jpg);
 }
 
 h2 {
@@ -16,14 +16,14 @@ h2 {
     display: flex;
     justify-content: flex-start;
     margin: 1rem 0 0 9rem;
-    }
+}
 
 h1 {
     color: #9A1915;
     font-size: 1.7rem;
 }
 
-p{
+p {
     font-size: 1.2rem;
 }
 
@@ -64,7 +64,7 @@ p{
     height: 350px;
     width: 350px;
     border-radius: 65%;
-    flex-shrink: 0; 
+    flex-shrink: 0;
 }
 
 .text-container {
@@ -75,11 +75,12 @@ p{
     hyphens: auto;
     align-items: center;
     word-spacing: 0.1em;
-    text-align-last: left;
+    text-align-last: center;
     flex-direction: column;
     gap: 2rem;
     line-height: 1.75rem;
 }
+
 .video-content {
     display: flex;
     flex-direction: row;
@@ -98,7 +99,7 @@ p{
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 2rem;   
+    font-size: 2rem;
 }
 
 .video-container {
@@ -135,8 +136,8 @@ p{
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;  
-    margin-bottom: 20px; 
+    flex-direction: column;
+    margin-bottom: 20px;
 }
 
 .carousel-button {
@@ -164,10 +165,11 @@ p{
 .carousel-button:hover {
     background-color: rgba(0, 0, 0, 0.8);
 }
+
 iframe {
     width: 100%;
     max-width: 800px;
-    height: 450px;  
+    height: 450px;
     border: none;
 }
 
@@ -203,8 +205,9 @@ iframe {
         font-size: 0.9rem;
     }
 
-    .video-content, .video-content1 {
-        flex-direction: column;
+    .video-content,
+    .video-content1 {
+        flex-direction: column-reverse;
         margin-left: 0;
     }
 
@@ -212,19 +215,19 @@ iframe {
         font-size: 1.5rem;
     }
 
-    h2{
+    h2 {
         margin: 2.5rem;
     }
 
-    .line{
+    .line {
         margin: 2.5rem;
     }
 
-    .title-video{
+    .title-video {
         margin: 1.5rem
     }
 
-    p{
+    p {
         margin: 1.5rem;
     }
 }
@@ -245,17 +248,20 @@ iframe {
         width: 100px;
     }
 
-    video{
+    video {
         width: 260px;
         height: 260px;
     }
+
     .teacher-image {
         height: 175px;
         width: 175px;
     }
+
     .text-container {
         font-size: 20px;
         gap: 1rem;
+
     }
 
     .text-container h1 {
@@ -264,25 +270,28 @@ iframe {
 }
 
 
-@media (max-width: 319px){
+@media (max-width: 319px) {
     .teacher-image {
         width: 100px;
         height: 100px;
     }
+
     .line {
         width: 50%;
         align-items: center;
     }
-    video{
+
+    video {
         width: 260px;
         height: 260px;
     }
-    
-    .video-aula-section h2{
+
+    .video-aula-section h2 {
         text-align: center;
         font-size: 1.2rem;
     }
-    h2{
+
+    h2 {
         font-size: 1.2rem;
         text-align: center;
     }
@@ -290,8 +299,8 @@ iframe {
 
 @media (max-width: 468px) {
     .line {
-        width: 60%; 
-        margin: 0 auto; 
+        width: 60%;
+        margin: 0 auto;
         align-items: center;
     }
 
@@ -300,17 +309,17 @@ iframe {
         text-align: center;
         justify-content: center;
     }
-    .divider-section{
+
+    .divider-section {
         align-items: center;
+    }
 }
-p {
-    font-size: 0.8em;
-    margin: 1.5rem;
-}
-}
-@media (min-width: 769px) and (max-width: 1024px){
-    .video-content, .video-content1 {
-        flex-direction: column;
+
+@media (min-width: 769px) and (max-width: 1024px) {
+
+    .video-content,
+    .video-content1 {
+        flex-direction: column-reverse;
         align-items: center;
     }
 
@@ -319,8 +328,7 @@ p {
         margin-bottom: 20px;
     }
 
-    .text-container {
-        text-align: center;
+    .text-container p {
         font-size: 1.2rem;
     }
 
@@ -334,7 +342,7 @@ p {
 }
 
 
-@media (max-width: 1024px) { 
+@media (max-width: 1024px) {
     .video-aula-title {
         font-size: 2rem;
     }
@@ -354,10 +362,11 @@ p {
     }
 }
 
-@media (max-width: 768px) { 
+@media (max-width: 768px) {
     .banner-site {
         height: 200px;
     }
+
     .video-aula-title {
         font-size: 1.8rem;
     }
@@ -377,7 +386,7 @@ p {
     }
 }
 
-@media (max-width: 480px) { 
+@media (max-width: 480px) {
     .video-aula-title {
         font-size: 1.5rem;
     }
@@ -395,7 +404,8 @@ p {
         font-size: 0.9rem;
         padding: 0.3rem 0.5rem;
     }
-    h2{
+
+    h2 {
         margin-bottom: 1rem;
     }
 }
