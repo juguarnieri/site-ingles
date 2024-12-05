@@ -97,7 +97,7 @@ p {
 }
 
 .banner-site{
-    background-image: linear-gradient(to Left, rgba(0, 0, 0, 0.848), rgba(0, 0, 0, 0.634)), url('/img/banner\ home-1.jpg');
+    background-image: linear-gradient(to Left, rgba(0, 0, 0, 0.848), rgba(0, 0, 0, 0.634)), url('/img/banner home-1.jpg');
 }
 
 @media (max-width: 768px) {
